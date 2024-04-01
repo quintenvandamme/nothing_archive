@@ -80,6 +80,7 @@ This repository contains firmware files for Nothing Phone 1, 2, and 2a. The firm
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
+|2.5.3|Pong-U2.5-240327-2140||[All regions from 2.5.2](https://archive.org/download/nothing-phone-2-firmware/2.5.3/20eda7e4eafbfe2900393c177a32c352607c2570.zip)||
 |2.5.2|Pong-U2.5-240116-1446||[All regions from 2.5.1A](https://archive.org/download/nothing-phone-2-firmware/2.5.2/d77ffb26d8f29e851f6452dcdbc335749b2d60c8.zip)<br>[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.2/0526100de0ea7ed9c11d114d4105b029fb290f38.zip)||
 |2.5.1A|Pong-U2.5-231228-1342||[All regions from 2.5.1](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/88f8c09ad5275c83182cc441c1b6806619947832.zip)||
 |2.5.1|Pong-U2.5-231024-2214||[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.1/f3f0db09cdde9dcd118da68821a445af7b0963cc.zip)<br>[All regions from 2.5 open beta 2](https://archive.org/download/nothing-phone-2-firmware/2.5.1/5d50d240dc073eeefeb6e37fdba0fdae4e0bd5a3.zip)||
