@@ -1,12 +1,22 @@
 # Nothing Archive
 This repository contains firmware files for Nothing Phone 1, 2, and 2a. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org.
 
+Here is a list of all the firmware files available for download:
+
+| Product | OTA | BOOT | Fastboot |
+|-------|-----|------|----------|
+| Phone 1 | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Phone 2 | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| Phone 2a | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+
 ## Table of Contents
 -   [Phone 1](#phone-1)
     -   [Android 14](#android-14)
     -   [Android 14 Developer Preview](#android-14-developer-preview)
     -   [Android 13](#android-13)
     -   [Android 12](#android-12)
+    -   [BOOT Firmware](#boot-firmware)
+    -   [Fastboot Firmware](#fastboot-firmware)
 -   [Phone 2](#phone-2)
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
@@ -73,6 +83,65 @@ This repository contains firmware files for Nothing Phone 1, 2, and 2a. The firm
 |1.1.2|Spacewar-S1.1-220728-0051|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.2/GLOBAL/a244285dfb5aef198999463c2d55f353ed0e7b1b.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.1.2/EEA/0f77244380edcc46a4d60397f5c22ea911352bfe.zip)|[GLOBAL from GLOBAL 1.1.0](https://archive.org/download/nothing-phone-1-firmware/1.1.2/GLOBAL/a85e848885537f271ed8e13cbb9d929e8a76463b.zip)<br>[EEA from EEA 1.1.0](https://archive.org/download/nothing-phone-1-firmware/1.1.2/EEA/449a23b112bfd5dcfe59a231500e732663cc3f3d.zip)|
 |1.1.0|Spacewar-S1.1-220716-0150|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/e4c58031ffcd430294bd99cfb7df45a2645bef21.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.1.0/EEA/c9d6795361da9d8364c7a7fefd26ccebbc529fdf.zip)|[GLOBAL from GLOBAL 1.0.2](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/88765a64183594df6f06d23b57ef75107d38c9e2.zip)<br>[EEA from EEA 1.0.2](https://archive.org/download/nothing-phone-1-firmware/1.1.0/EEA/3b2975594ff4e5935d54a4f0b3125306af933d6c.zip)|
 |1.0.2|Spacewar-S1.0-220705-2027|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.0.2/GLOBAL/fad5d83167989dd71ef9adbb4243a8baa02956e6.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.0.2/EEA/09a261dea24fa76050bf9b03fff232dbab9b3a28.zip)||
+
+### BOOT Firmware
+
+|Version|Boot file (Stock)|Boot file (Magisk Patched)|
+|-------|-----------------|--------------------------|
+|2.5.3A|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/2.5.3a_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Magisk-Patched_2.5.3a_Boot.img)|
+|2.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/2.5.3_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img)|
+|2.5.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/2.5.2.HOTFIX_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Magisk-Patched_2.5.2.HOTFIX_Boot.img)|
+|2.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2/2.5.2_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2/Magisk-Patched_2.5.2_Boot.img)|
+|2.5.1 open beta 2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/2.5.1.OB2_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/Magisk-Patched_2.5.1.OB2_Boot.img)|
+|2.5.1 open beta 1|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/2.5.1.OB1_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/Magisk-Patched_2.5.1.OB1_Boot.img)|
+|2.0.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.5/2.0.5_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.5/Magisk-Patched_2.0.5_Boot.img)|
+|2.0.4|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.4/2.0.4_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.4/Magisk-Patched_2.0.4_Boot.img)|
+|2.0.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/2.0.2.HOTFIX_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/Magisk-Patched_2.0.2.HOTFIX_Boot.img)|
+|2.0.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2/2.0.2_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2/Magisk-Patched_2.0.2_Boot.img)|
+|1.5.6|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.6/1.5.6_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.6/Magisk-Patched_1.5.6_Boot.img)|
+|1.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.5/1.5.5_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.5/Magisk-Patched_1.5.5_Boot.img)|
+|1.5.4|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.4/1.5.4_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.4/Magisk-Patched_1.5.4_Boot.img)|
+|1.5.3 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/1.5.3.HOTFIX_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/Magisk-Patched_1.5.3.HOTFIX_Boot.img)|
+|1.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3/1.5.3_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3/Magisk-Patched_1.5.3_Boot.img)|
+|1.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.2/1.5.2_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.2/Magisk-Patched_1.5.2_Boot.img)|
+|1.5.1 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/1.5.1.OB2.HOTFIX_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/Magisk-Patched_1.5.1.OB2.HOTFIX_Boot.img)|
+|1.5.1 open beta 2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1/1.5.1.OB2_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1/Magisk-Patched_1.5.1.OB2_Boot.img)|
+|1.5.1 open beta 1|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1/1.5.1.OB1_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1/Magisk-Patched_1.5.1.OB1_Boot.img)|
+|1.1.7|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/1.1.7_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/Magisk-Patched_1.1.7_GLOBAL_Boot.img)|
+|1.1.6|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/1.1.6_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/Magisk-Patched_1.1.6_GLOBAL_Boot.img)|
+|1.1.5|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/1.1.5_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/Magisk-Patched_1.1.5_GLOBAL_Boot.img)|
+|1.1.4|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/1.1.4_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/Magisk-Patched_1.1.4_GLOBAL_Boot.img)|
+|1.1.3|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/1.1.3_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/Magisk-Patched_1.1.3_GLOBAL_Boot.img)|
+|1.1.2|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.2/GLOBAL/1.1.2_GLOBAL_Boot.img)||
+|1.1.0|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/1.1.0_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Magisk-Patched_1.1.0_GLOBAL_Boot.img)|
+
+### FASTBOOT Firmware
+
+|Version|Fastboot file|
+|-------|-------------|
+|2.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/Spacewar_FastbootROM_v2.5.3.7z)|
+|2.5.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Spacewar_FastbootROM_v2.5.2.HOTFIX.7z)|
+|2.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2/Spacewar_FastbootROM_v2.5.2.7z)|
+|2.5.1 open beta 1|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/Spacewar_FastbootROM_v2.5.1_OB1.7z)|
+|2.0.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.5/Spacewar_FastbootROM_v2.0.5.7z)|
+|2.0.4|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.4/Spacewar_FastbootROM_v2.0.4.7z)|
+|2.0.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/Spacewar_FastbootROM_v2.0.2.HOTFIX.7z)|
+|2.0.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2/Spacewar_FastbootROM_v2.0.2.7z)|
+|1.5.6|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.6/Spacewar_FastbootROM_v1.5.6.7z)|
+|1.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.5/Spacewar_FastbootROM_v1.5.5.7z)|
+|1.5.4|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.4/Spacewar_FastbootROM_v1.5.4.7z)|
+|1.5.3 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/Spacewar_FastbootROM_v1.5.3.HOTFIX.7z)|
+|1.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3/Spacewar_FastbootROM_v1.5.3.7z)|
+|1.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.2/Spacewar_FastbootROM_v1.5.2.7z)|
+|1.5.1 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/Spacewar_FastbootROM_v1.5.1_OB2.HOTFIX.7z)|
+|1.5.1 open beta 2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1/Spacewar_FastbootROM_v1.5.1_OB2.7z)|
+|1.5.1 open beta 1|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/Spacewar_FastbootROM_v1.5.0_OB1_Global.7z)|
+|1.1.7|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/Spacewar_FastbootROM_v1.1.7_Global.7z)|
+|1.1.6|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/Spacewar_FastbootROM_v1.1.6_Global.7z)|
+|1.1.5|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/Spacewar_FastbootROM_v1.1.5_Global.7z)|
+|1.1.4|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/Spacewar_FastbootROM_v1.1.4_Global.7z)|
+|1.1.3|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/Spacewar_FastbootROM_v1.1.3_Global.7z)|
+|1.1.0|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Spacewar_FastbootROM_v1.1.0_Global.7z)|
 
 ## Phone 2
 
