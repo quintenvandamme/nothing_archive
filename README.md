@@ -157,11 +157,6 @@ This is the OTA update app for the Nothing phone 1. It is used to update the pho
 
 ## Phone 2
 
-dfe935ebb68be6b68d2570b10a96120d27ed05b5 2.5.3  full
-5624a3cc45b8ee5b7ac2ab07d436562cc03dbded 2.5.2  full
-fe9e458dd629b8f14d50110305ed4a175b63660a 2.5.1A full
-9385155b5c2e0ad219d165299b7164eeb0274766 2.5.1  full
-
 ### Android 14
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
