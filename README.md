@@ -1,12 +1,12 @@
 # Nothing Archive
-This repository contains firmware files for Nothing Phone 1, 2, and 2a. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org.
+This repository contains firmware files for Nothing Phone 1, 2, and 2a. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
 
 Here is a list of all the firmware files available for download:
 
 | Product | OTA | BOOT | Fastboot |
 |-------|-----|------|----------|
 | Phone 1 | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
-| Phone 2 | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| Phone 2 | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> |
 | Phone 2a | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 
 ## Table of Contents
@@ -15,13 +15,18 @@ Here is a list of all the firmware files available for download:
     -   [Android 14 Developer Preview](#android-14-developer-preview)
     -   [Android 13](#android-13)
     -   [Android 12](#android-12)
-    -   [BOOT Firmware](#boot-firmware)
+    -   [Boot Firmware](#boot-firmware)
     -   [Fastboot Firmware](#fastboot-firmware)
+    -   [Extra](#extra)
 -   [Phone 2](#phone-2)
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
+    -   [Boot Firmware](#boot-firmware-1)
+    -   [Extra](#extra-1)
 -   [Phone 2a](#phone-2a)
     -   [Android 14](#android-14-2)
+-   [Kernel and device tree sources](#kernel-and-device-tree-sources)
+-   [Glyph Developer Kit](#glyph-developer-kit)
 
 -  [Credits](#credits)
 -  [License](#license)
@@ -84,7 +89,7 @@ Here is a list of all the firmware files available for download:
 |1.1.0|Spacewar-S1.1-220716-0150|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/e4c58031ffcd430294bd99cfb7df45a2645bef21.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.1.0/EEA/c9d6795361da9d8364c7a7fefd26ccebbc529fdf.zip)|[GLOBAL from GLOBAL 1.0.2](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/88765a64183594df6f06d23b57ef75107d38c9e2.zip)<br>[EEA from EEA 1.0.2](https://archive.org/download/nothing-phone-1-firmware/1.1.0/EEA/3b2975594ff4e5935d54a4f0b3125306af933d6c.zip)|
 |1.0.2|Spacewar-S1.0-220705-2027|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.0.2/GLOBAL/fad5d83167989dd71ef9adbb4243a8baa02956e6.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.0.2/EEA/09a261dea24fa76050bf9b03fff232dbab9b3a28.zip)||
 
-### BOOT Firmware
+### Boot Firmware
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
@@ -119,6 +124,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Fastboot file|
 |-------|-------------|
+|2.5.3A|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Spacewar_FastbootROM_v2.5.3A.7z)|
 |2.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/Spacewar_FastbootROM_v2.5.3.7z)|
 |2.5.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Spacewar_FastbootROM_v2.5.2.HOTFIX.7z)|
 |2.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2/Spacewar_FastbootROM_v2.5.2.7z)|
@@ -143,18 +149,29 @@ Here is a list of all the firmware files available for download:
 |1.1.3|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/Spacewar_FastbootROM_v1.1.3_Global.7z)|
 |1.1.0|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Spacewar_FastbootROM_v1.1.0_Global.7z)|
 
+### Extra
+
+This is the OTA update app for the Nothing phone 1. It is used to update the phone to the latest version. It should only be used to update to 2.5 betas.
+
+[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)
+
 ## Phone 2
+
+dfe935ebb68be6b68d2570b10a96120d27ed05b5 2.5.3  full
+5624a3cc45b8ee5b7ac2ab07d436562cc03dbded 2.5.2  full
+fe9e458dd629b8f14d50110305ed4a175b63660a 2.5.1A full
+9385155b5c2e0ad219d165299b7164eeb0274766 2.5.1  full
 
 ### Android 14
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|2.5.3|Pong-U2.5-240327-2140||[All regions from 2.5.2](https://archive.org/download/nothing-phone-2-firmware/2.5.3/20eda7e4eafbfe2900393c177a32c352607c2570.zip)||
-|2.5.2|Pong-U2.5-240116-1446||[All regions from 2.5.1A](https://archive.org/download/nothing-phone-2-firmware/2.5.2/d77ffb26d8f29e851f6452dcdbc335749b2d60c8.zip)<br>[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.2/0526100de0ea7ed9c11d114d4105b029fb290f38.zip)||
-|2.5.1A|Pong-U2.5-231228-1342||[All regions from 2.5.1](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/88f8c09ad5275c83182cc441c1b6806619947832.zip)||
-|2.5.1|Pong-U2.5-231024-2214||[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.1/f3f0db09cdde9dcd118da68821a445af7b0963cc.zip)<br>[All regions from 2.5 open beta 2](https://archive.org/download/nothing-phone-2-firmware/2.5.1/5d50d240dc073eeefeb6e37fdba0fdae4e0bd5a3.zip)||
-|2.5 open beta 2||[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/merged-qssi-Pong-otafull-20231102_120116.zip)|[All regions from 2.5 open beta 1](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/39e4ea7e0f69a0f202692660dc9ba794ceb8b58c.zip)|[All regions to 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/ota_diff_20231102_120116_20231024_221453.zip)|
-|2.5 open beta 1||[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/merged-qssi-Pong-otafull-20231007_210212.zip)||[All regions to 2.0.3](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/ota_diff_20231007_210212_20230906_193329.zip)|
+|2.5.3|Pong-U2.5-240327-2140|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/dfe935ebb68be6b68d2570b10a96120d27ed05b5.zip)|[All regions from 2.5.2](https://archive.org/download/nothing-phone-2-firmware/2.5.3/20eda7e4eafbfe2900393c177a32c352607c2570.zip)||
+|2.5.2|Pong-U2.5-240116-1446|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.2/5624a3cc45b8ee5b7ac2ab07d436562cc03dbded.zip)|[All regions from 2.5.1A](https://archive.org/download/nothing-phone-2-firmware/2.5.2/d77ffb26d8f29e851f6452dcdbc335749b2d60c8.zip)<br>[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.2/0526100de0ea7ed9c11d114d4105b029fb290f38.zip)||
+|2.5.1A|Pong-U2.5-231228-1342|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/fe9e458dd629b8f14d50110305ed4a175b63660a.zip)|[All regions from 2.5.1](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/88f8c09ad5275c83182cc441c1b6806619947832.zip)||
+|2.5.1|Pong-U2.5-231208-2206|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1/9385155b5c2e0ad219d165299b7164eeb0274766.zip)|[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.1/f3f0db09cdde9dcd118da68821a445af7b0963cc.zip)<br>[All regions from 2.5 open beta 2](https://archive.org/download/nothing-phone-2-firmware/2.5.1/5d50d240dc073eeefeb6e37fdba0fdae4e0bd5a3.zip)||
+|2.5 open beta 2|Pong-U2.5-231102-1201|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/merged-qssi-Pong-otafull-20231102_120116.zip)|[All regions from 2.5 open beta 1](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/39e4ea7e0f69a0f202692660dc9ba794ceb8b58c.zip)|[All regions to 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/ota_diff_20231102_120116_20231024_221453.zip)|
+|2.5 open beta 1|Pong-U2.5-231007-2101|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/merged-qssi-Pong-otafull-20231007_210212.zip)||[All regions to 2.0.3](https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/ota_diff_20231007_210212_20230906_193329.zip)|
 
 ### Android 13
 
@@ -167,6 +184,24 @@ Here is a list of all the firmware files available for download:
 |2.0.1A|Pong-T2.0-230719-1458||[All regions from 2.0.1](https://archive.org/download/nothing-phone-2-firmware/2.0.1A/d0f3e3e897154d513c91634ad225da1b724c9455.zip)|
 |2.0.1|Pong-T2.0-230709-2003|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.1/7becde0f47753b99a7cc37ff27713ba8a48ef51a.zip")|[All regions from 2.0.0](https://archive.org/download/nothing-phone-2-firmware/2.0.1/524b39c0ea034b887a3486548be19f2105af3e75.zip)|
 
+### Boot Firmware
+|Version|Boot file (Stock)|Boot file (Magisk Patched)|
+|-------|-----------------|--------------------------|
+|2.5.3|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/2.5.3_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img)|
+|2.5.2|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.2/2.5.2_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.2/Magisk-Patched_2.5.2_Boot.img)|
+|2.5.1A|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/2.5.1a_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/Magisk-Patched_2.5.1a_Boot.img)|
+|2.5.1|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1/2.5.1_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1/Magisk-Patched_2.5.1_Boot.img)|
+|2.0.4|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.4/2.0.4_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.4/Magisk-Patched_2.0.4_Boot.img)|
+|2.0.3|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.3/2.0.3_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.3/Magisk-Patched_2.0.3_Boot.img)|
+|2.0.2A|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2A/2.0.2a_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2A/Magisk-Patched_2.0.2a_Boot.img)|
+|2.0.2|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2/2.0.2_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2/Magisk-Patched_2.0.2_Boot.img)|
+
+### Extra
+
+This is the OTA update app for the Nothing phone 2. It is used to update the phone to the latest version. It should only be used to update to 2.5 betas.
+
+[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)
+
 ## Phone 2a
 
 ### Android 14
@@ -175,6 +210,17 @@ Here is a list of all the firmware files available for download:
 |-------|------------|--------|---------------|
 |2.5.4A|Pacman-U2.5-240322-1016||[ALL REGIONS from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
 |2.5.4|Pacman-U2.5-240315-0035|[ALL REGIONS](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/721fde9515d33672e2dc50cf0840a5db58e7413a.zip)|[ALL REGIONS from 2.5.3](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/a7015287ca2fdd383d4edfd4f2cef8e7a3c64dd0.zip)|
+
+## Kernel and device tree sources
+
+| Product | Kernel | Device Tree | Kernel Modules |
+|---------|--------|-------------|----------------|
+| Phone 1 |[kernel](https://github.com/NothingOSS/android_kernel_msm-5.4_nothing_sm7325)|[device tree](https://github.com/NothingOSS/android_kernel_devicetree_nothing_sm7325)||
+| Phone 2 |[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|
+| Phone 2a|[kernel](https://github.com/NothingOSS/android_kernel_5.15_nothing_mt6886)||[kernel modules](https://github.com/NothingOSS/android_kernel_modules_nothing_mt6886)|
+
+## Glyph Developer Kit
+The Glyph Developer Kit SDK can be found [here](https://github.com/Nothing-Developer-Programme/Glyph-Developer-Kit)
 
 ## Credits
 This project is made possible thanks to the following people and sources:
