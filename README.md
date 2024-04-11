@@ -78,7 +78,7 @@ Here is a list of all the firmware files available for download:
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
 |1.1.8|Spacewar-S1.1-230112-1613||[GLOBAL from GLOBAL 1.1.7](https://archive.org/download/nothing-phone-1-firmware/1.1.8/GLOBAL/deeb8830c86e0f9b89ae3170ada164b64de02c2c.zip)<br>[EEA from EEA 1.1.7](https://archive.org/download/nothing-phone-1-firmware/1.1.8/GLOBAL/deeb8830c86e0f9b89ae3170ada164b64de02c2c.zip)|
-|1.1.7 hotfix|Spacewar-S1.1-221129-1525-EEA||[EEA from EEA 1.1.7](https://archive.org/download/nothing-phone-1-firmware/1.1.7%20hotfix/EEA/5a8a872c8fa2071424af6272bd78806f55d4aeda.zip)|
+|1.1.7 hotfix|Spacewar-S1.1-221129-1525||[EEA from EEA 1.1.7](https://archive.org/download/nothing-phone-1-firmware/1.1.7%20hotfix/EEA/5a8a872c8fa2071424af6272bd78806f55d4aeda.zip)|
 |1.1.7|Spacewar-S1.1-221121-2306|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/254815bb72cdbddd5c9dd7cde6d10c95becc6542.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.1.7/EEA/0e6855d19dbcdf328449e4d06386a6257bb1aadd.zip)|[GLOBAL from GLOBAL 1.1.6](https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/6d5f9ec32b7c80e07859cdf74daaefd612ac652f.zip)<br>[EEA from EEA 1.1.6](https://archive.org/download/nothing-phone-1-firmware/1.1.7/EEA/9c41fd92080af076c6e3abddbaefc7eac75c3edc.zip)|
 |1.1.6|Spacewar-S1.1-221022-1221|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/99a4c814632616b365017129fa9f7e9e0080fb59.zip)<br>[EEA](https://archive.org/download/nothing-phone-1-firmware/1.1.6/EEA/7b1f5e3f47f40fa11d92ad17203d6b68884582ae.zip)|[GLOBAL from GLOBAL 1.1.5](https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/f63f3cc420a5a4af639dec4d25adcb865a9a235d.zip)<br>[EEA from EEA 1.1.4 hotfix](https://archive.org/download/nothing-phone-1-firmware/1.1.6/EEA/10fefd93aaed7b4d478ebfcea69d789121ee859b.zip)|
 |1.1.5|Spacewar-S1.1-221008-1815||[GLOBAL from GLOBAL 1.1.4 hotfix](https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/97d10eb70f173b7ce5a223a8d1f6d6fd42cfed5c.zip)|
@@ -172,8 +172,8 @@ This is the OTA update app for the Nothing phone 1. It is used to update the pho
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.0.4|Pong-T2.0-231024-2214||[All regions from 2.0.3](https://archive.org/download/nothing-phone-2-firmware/2.0.4/e6d937f462c864b3ca25ada7f83a7905f82df6ed.zip)|
-|2.0.3|Pong-T2.0-230906-1933||[All regions from 2.0.2A](https://archive.org/download/nothing-phone-2-firmware/2.0.3/8ba0e8f6c57cd50a63104ca3ba8afdd10c292c78.zip)|
+|2.0.4|Pong-T2.0-231024-2214|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.4/e9b414228a245ed88c20bc779077a4efb549345c.zip)|[All regions from 2.0.3](https://archive.org/download/nothing-phone-2-firmware/2.0.4/e6d937f462c864b3ca25ada7f83a7905f82df6ed.zip)|
+|2.0.3|Pong-T2.0-230906-1933|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.3/2bd9205b6b5821d8213235c1027c138ef627e662.zip)|[All regions from 2.0.2A](https://archive.org/download/nothing-phone-2-firmware/2.0.3/8ba0e8f6c57cd50a63104ca3ba8afdd10c292c78.zip)|
 |2.0.2A|Pong-T2.0-230818-1943||[All regions from 2.0.2](https://archive.org/download/nothing-phone-2-firmware/2.0.2A/6d60ccd4ca081be661beb675c29a41c10fc765c4.zip)|
 |2.0.2|Pong-T2.0-230801-1740||[All regions from 2.0.1A](https://archive.org/download/nothing-phone-2-firmware/2.0.2/35989af612c8ac3ed916257ab5f32ee2d90d16a0.zip)|
 |2.0.1A|Pong-T2.0-230719-1458||[All regions from 2.0.1](https://archive.org/download/nothing-phone-2-firmware/2.0.1A/d0f3e3e897154d513c91634ad225da1b724c9455.zip)|
@@ -203,7 +203,7 @@ This is the OTA update app for the Nothing phone 2. It is used to update the pho
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.5.4A|Pacman-U2.5-240322-1016||[ALL REGIONS from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
+|2.5.4A|Pacman-U2.5-240322-1016|[ALL REGIONS](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/7f7a4f4a5aff2386089f72a054aa09e5ae55a67b.zip)|[ALL REGIONS from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
 |2.5.4|Pacman-U2.5-240315-0035|[ALL REGIONS](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/721fde9515d33672e2dc50cf0840a5db58e7413a.zip)|[ALL REGIONS from 2.5.3](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/a7015287ca2fdd383d4edfd4f2cef8e7a3c64dd0.zip)|
 
 ## Kernel and device tree sources
