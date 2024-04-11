@@ -5,9 +5,9 @@ Here is a list of all the firmware files available for download:
 
 | Product | OTA | BOOT | Fastboot |
 |-------|-----|------|----------|
-| Phone 1 | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
-| Phone 2 | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> |
-| Phone 2a | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| Phone 1 | ✅ | ✅ | ✅ |
+| Phone 2 | ✅ | ✅ | ❌ |
+| Phone 2a | ❌ | ❌ | ❌ |
 
 ## Table of Contents
 -   [Phone 1](#phone-1)
