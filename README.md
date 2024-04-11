@@ -203,8 +203,9 @@ This is the OTA update app for the Nothing phone 2. It is used to update the pho
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.5.4A|Pacman-U2.5-240322-1016|[ALL REGIONS](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/7f7a4f4a5aff2386089f72a054aa09e5ae55a67b.zip)|[ALL REGIONS from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
-|2.5.4|Pacman-U2.5-240315-0035|[ALL REGIONS](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/721fde9515d33672e2dc50cf0840a5db58e7413a.zip)|[ALL REGIONS from 2.5.3](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/a7015287ca2fdd383d4edfd4f2cef8e7a3c64dd0.zip)|
+|2.5.4A|Pacman-U2.5-240322-1016|[All regions](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/7f7a4f4a5aff2386089f72a054aa09e5ae55a67b.zip)|[All regions from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
+|2.5.4|Pacman-U2.5-240315-0035|[All regions](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/721fde9515d33672e2dc50cf0840a5db58e7413a.zip)|[All regions from 2.5.3](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/a7015287ca2fdd383d4edfd4f2cef8e7a3c64dd0.zip)|
+|Pre release|Pacman-U2.5-240301-2206|[All regions](https://archive.org/download/nothing-phone-2a-firmware/pre%20release/73ec7a5c9a29b5cb65d8b3e0bf9b29a13475ab03.zip)||
 
 ## Kernel and device tree sources
 
@@ -218,12 +219,16 @@ This is the OTA update app for the Nothing phone 2. It is used to update the pho
 The Glyph Developer Kit SDK can be found [here](https://github.com/Nothing-Developer-Programme/Glyph-Developer-Kit)
 
 ## Credits
-This project is made possible thanks to the following people and sources:
-- [Nothing Phone (1) Repo on XDA](https://xdaforums.com/t/nothing-phone-1-rom-ota-nothing-os-repo-of-nothing-os.4464039/)  
-- [spike0en](https://github.com/spike0en)
+This project is made possible thanks to the following sources:
+- [Nothing Phone (1) Repo on XDA](https://xdaforums.com/t/nothing-phone-1-rom-ota-nothing-os-repo-of-nothing-os.4464039/)
+- [Nothing Phone (1) update tracker on XDA](https://www.xda-developers.com/nothing-os-update-tracker/)
+- [Nothing Phone (2) Firmware Repo on XDA](https://xdaforums.com/t/nothing-phone-2-official-ota-zip-full-incremental.4604803/)
+- [Nothing Phone (2a) Firmware Repo on XDA](https://xdaforums.com/t/pacman-archive-stock-ota-images-full-ota-update-packages.4660853/)
 - [reindex-ot](https://reindex-ot.github.io/)
-- [Nothing Phone OS update tracker XDA](https://www.xda-developers.com/nothing-os-update-tracker/)
-- [Nothing Phone 2 Firmware Repo on XDA](https://xdaforums.com/t/nothing-phone-2-official-ota-zip-full-incremental.4604803/)
+
+And people:
+- [spike0en](https://github.com/spike0en)
+- [Re*Index. (ot_inc)](https://github.com/reindex-ot)
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) for details.
