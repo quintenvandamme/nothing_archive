@@ -6,7 +6,7 @@ Here is a list of all the firmware files available for download:
 | Product | OTA | BOOT | Fastboot |
 |-------|-----|------|----------|
 | Phone 1 | ✅ | ✅ | ✅ |
-| Phone 2 | ✅ | ✅ | ❌ |
+| Phone 2 | ✅ | ✅ | ✅ |
 | Phone 2a | ✅ | ❌ | ❌ |
 
 ## Table of Contents
@@ -22,6 +22,7 @@ Here is a list of all the firmware files available for download:
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
     -   [Boot Firmware](#boot-firmware-1)
+    -   [Fastboot Firmware](#fastboot-firmware-1)
     -   [Extra](#extra-1)
 -   [Phone 2a](#phone-2a)
     -   [Android 14](#android-14-2)
@@ -120,7 +121,7 @@ Here is a list of all the firmware files available for download:
 |1.1.2|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.2/GLOBAL/1.1.2_GLOBAL_Boot.img)||
 |1.1.0|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/1.1.0_GLOBAL_Boot.img)|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Magisk-Patched_1.1.0_GLOBAL_Boot.img)|
 
-### FASTBOOT Firmware
+### Fastboot Firmware
 
 |Version|Fastboot file|
 |-------|-------------|
@@ -180,6 +181,7 @@ This is the OTA update app for the Nothing phone 1. It is used to update the pho
 |2.0.1|Pong-T2.0-230709-2003|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.1/7becde0f47753b99a7cc37ff27713ba8a48ef51a.zip")|[All regions from 2.0.0](https://archive.org/download/nothing-phone-2-firmware/2.0.1/524b39c0ea034b887a3486548be19f2105af3e75.zip)|
 
 ### Boot Firmware
+
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
 |2.5.3|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/2.5.3_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img)|
@@ -190,6 +192,17 @@ This is the OTA update app for the Nothing phone 1. It is used to update the pho
 |2.0.3|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.3/2.0.3_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.3/Magisk-Patched_2.0.3_Boot.img)|
 |2.0.2A|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2A/2.0.2a_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2A/Magisk-Patched_2.0.2a_Boot.img)|
 |2.0.2|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2/2.0.2_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.0.2/Magisk-Patched_2.0.2_Boot.img)|
+
+### Fastboot Firmware
+
+|Version|Fastboot file|
+|-------|-------------|
+|2.5.3|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Pong_FastbootROM_v2.5.3.7z)|
+|2.5.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.2/Pong_FastbootROM_v2.5.2.7z)|
+|2.5.1A|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/Pong_FastbootROM_v2.5.1A.7z)|
+|2.5.1|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.1/Pong_FastbootROM_v2.5.1.7z)|
+|2.0.4|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.4/Pong_FastbootROM_v2.0.4.7z)|
+|2.0.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.2/Pong_FastbootROM_v2.0.2.7z)|
 
 ### Extra
 
