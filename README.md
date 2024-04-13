@@ -7,7 +7,7 @@ Here is a list of all the firmware files available for download:
 |-------|-----|------|----------|
 | Phone 1 | ✅ | ✅ | ✅ |
 | Phone 2 | ✅ | ✅ | ❌ |
-| Phone 2a | ❌ | ❌ | ❌ |
+| Phone 2a | ✅ | ❌ | ❌ |
 
 ## Table of Contents
 -   [Phone 1](#phone-1)
