@@ -3,11 +3,11 @@ This repository contains firmware files for Nothing Phone 1, 2, and 2a. And also
 
 Here is a list of all the firmware files available for download:
 
-| Product | OTA | BOOT | Fastboot |
-|-------|-----|------|----------|
-| Phone 1 | ✅ | ✅ | ✅ |
-| Phone 2 | ✅ | ✅ | ✅ |
-| Phone 2a | ✅ | ❌ | ❌ |
+| Product | OTA | BOOT | Fastboot | Torrent |
+|---------|-----|------|----------|---------|
+| Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
+| Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
+| Phone 2a | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
 
 ## Table of Contents
 -   [Phone 1](#phone-1)
