@@ -162,6 +162,8 @@ This is the OTA update app for the Nothing phone 1. It is used to update the pho
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
+|2.5.5 hotfix|Pong-U2.5-240418-1248||[All regions from 2.5.3](https://archive.org/download/nothing-phone-2-firmware/2.5.5%20hotfix/93383c8b9c42fc40f89df861159c6b52408bc6e6.zip)||
+|2.5.5|Pong-U2.5-240410-1247|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/c5bc61d93d995c42ec58cf7f7592e42aae190825.zip)|||
 |2.5.3|Pong-U2.5-240327-2140|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/dfe935ebb68be6b68d2570b10a96120d27ed05b5.zip)|[All regions from 2.5.2](https://archive.org/download/nothing-phone-2-firmware/2.5.3/20eda7e4eafbfe2900393c177a32c352607c2570.zip)||
 |2.5.2|Pong-U2.5-240116-1446|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.2/5624a3cc45b8ee5b7ac2ab07d436562cc03dbded.zip)|[All regions from 2.5.1A](https://archive.org/download/nothing-phone-2-firmware/2.5.2/d77ffb26d8f29e851f6452dcdbc335749b2d60c8.zip)<br>[All regions from 2.0.4](https://archive.org/download/nothing-phone-2-firmware/2.5.2/0526100de0ea7ed9c11d114d4105b029fb290f38.zip)||
 |2.5.1A|Pong-U2.5-231228-1342|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/fe9e458dd629b8f14d50110305ed4a175b63660a.zip)|[All regions from 2.5.1](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/88f8c09ad5275c83182cc441c1b6806619947832.zip)||
