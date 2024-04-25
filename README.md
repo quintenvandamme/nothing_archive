@@ -17,18 +17,17 @@ Here is a list of all the firmware files available for download:
     -   [Android 12](#android-12)
     -   [Boot Firmware](#boot-firmware)
     -   [Fastboot Firmware](#fastboot-firmware)
-    -   [Extra](#extra)
 -   [Phone 2](#phone-2)
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
     -   [Boot Firmware](#boot-firmware-1)
     -   [Fastboot Firmware](#fastboot-firmware-1)
-    -   [Extra](#extra-1)
 -   [Phone 2a](#phone-2a)
     -   [Android 14](#android-14-2)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
 -   [Glyph Developer Kit](#glyph-developer-kit)
-
+-   [Nothing Offline Ota Update Tool](#nothing-offline-ota-update-tool)
+-   [Sideload Firmware](#sideload-firmware)
 -  [Credits](#credits)
 -  [License](#license)
 
@@ -38,6 +37,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
+|2.5.5|Spacewar-U2.5-240419-1617||[EEA/GLOBAL from 2.5.3A](https://archive.org/download/nothing-phone-1-firmware/2.5.5/1b6de06002f9cbb4e62a1ec4267e72910e705c78.zip)||
 |2.5.3A|Spacewar-U2.5-240317-2245|[EEA/GLOBAL](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/af8523121e2e73f564bb78ceb3074deec7222c6b.zip)|[EEA/GLOBAL from 2.5.3](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/176fffc72ad05488556821215d3e10ffc939ff35.zip)<br>[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/158f65d4c44323ac9ea4c0c64e97b0a37d9aac74.zip)||
 |2.5.3|Spacewar-U2.5-240301-1852||[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.3/993ef2c61a5d996015d7ff07f955cc8dbb6344c4.zip)||
 |2.5.2 hotfix|Spacewar-U2.5-240207-1031|[EEA/GLOBAL](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/80dec3051c16eb22f456e8682917f0849b749ba8.zip)|[EEA/GLOBAL from 2.5.2](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/8360e08fd1591985d36398a2e0549a93bae0d191.zip)<br>[EEA/GLOBAL from 2.0.5](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/11d4669cdf0b425d4f8e237f71edc849062365da.zip)||
@@ -94,6 +94,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|2.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.5/2.5.5_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img)|
 |2.5.3A|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/2.5.3a_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Magisk-Patched_2.5.3a_Boot.img)|
 |2.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/2.5.3_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img)|
 |2.5.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/2.5.2.HOTFIX_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Magisk-Patched_2.5.2.HOTFIX_Boot.img)|
@@ -150,12 +151,6 @@ Here is a list of all the firmware files available for download:
 |1.1.3|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/Spacewar_FastbootROM_v1.1.3_Global.7z)|
 |1.1.0|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Spacewar_FastbootROM_v1.1.0_Global.7z)|
 
-### Extra
-
-This is the OTA update app for the Nothing phone 1. It is used to update the phone to the latest version. It should only be used to update to 2.5 betas.
-
-[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)
-
 ## Phone 2
 
 ### Android 14
@@ -206,12 +201,6 @@ This is the OTA update app for the Nothing phone 1. It is used to update the pho
 |2.0.4|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.4/Pong_FastbootROM_v2.0.4.7z)|
 |2.0.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.2/Pong_FastbootROM_v2.0.2.7z)|
 
-### Extra
-
-This is the OTA update app for the Nothing phone 2. It is used to update the phone to the latest version. It should only be used to update to 2.5 betas.
-
-[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)
-
 ## Phone 2a
 
 ### Android 14
@@ -234,6 +223,46 @@ This is the OTA update app for the Nothing phone 2. It is used to update the pho
 ## Glyph Developer Kit
 The Glyph Developer Kit SDK can be found [here](https://github.com/Nothing-Developer-Programme/Glyph-Developer-Kit)
 
+## Nothing Offline Ota Update Tool
+
+The Offline OTA updater app for the Nothing OS is used to update the phone to the latest version. These versions **should only be used to update to 2.5 open beta 1**. 2.5.2 and above come pre-installed with the new OTA updater app and support updating to beta versions and sideloading firmware.
+
+| Product | APK |
+|---------|-----|
+|Phone 1|[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)|
+|Phone 2|[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)|
+
+## Sideload Firmware
+
+Here are the steps to sideload firmware on Nothing devices:
+
+1. Download the firmware zip file from the links above.
+2. Create a folder named “ota” in your device’s internal storage directory.
+3. Move the downloaded firmware zip file to the “ota” folder.
+4. Open the phone app and dial `*#*#682#*#*`. This will open `NOTHING BETA OTA UPDATE` on phones running nothing os 2.5 and above. On older versions, it will open the `Nothing Offline OTA Update` app.
+
+<img src="img/dialer.webp" height="700" />
+
+### 2.0.x or older
+
+5. The local update tool will now open. In the drop-down list that appears, select the upgrade package you just copied.
+
+<img src="img/2.0/ota_app_start.webp" height="700" />
+
+6. Tap the “Directly apply OTA from selection” button to start updating.
+
+<img src="img/2.0/ota_app_select.webp" height="700" />
+ 
+### 2.5 and above
+
+5. Tap on Import file and choose your ota file.
+
+<img src="img/2.5/ota_app_start.png" height="700" />
+
+6. Tap the “Update” button.
+
+<img src="img/2.5/ota_app_select.png" height="700" />
+
 ## Credits
 This project is made possible thanks to the following sources:
 - [Nothing Phone (1) Repo on XDA](https://xdaforums.com/t/nothing-phone-1-rom-ota-nothing-os-repo-of-nothing-os.4464039/)
@@ -241,9 +270,10 @@ This project is made possible thanks to the following sources:
 - [Nothing Phone (2) Firmware Repo on XDA](https://xdaforums.com/t/nothing-phone-2-official-ota-zip-full-incremental.4604803/)
 - [Nothing Phone (2a) Firmware Repo on XDA](https://xdaforums.com/t/pacman-archive-stock-ota-images-full-ota-update-packages.4660853/)
 - [reindex-ot](https://reindex-ot.github.io/)
+- [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3) for use of their screenshots.
 
 And people:
-- [spike0en](https://github.com/spike0en)
+- [spike0en](https://github.com/spike0en-reborn)
 - [Re*Index. (ot_inc)](https://github.com/reindex-ot)
 
 ## License
