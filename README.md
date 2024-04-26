@@ -207,6 +207,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.5.5A|Pacman-U2.5-240419-2235||[All regions from 2.5.5](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/0f96a78ccd851e6c91abbb7d64ad1fc2691617ea.zip)|
 |2.5.5|Pacman-U2.5-240410-1238||[All regions from 2.5.4A](https://archive.org/download/nothing-phone-2a-firmware/2.5.5/cba47167162f5940362699d12bc16d4ef3f5beef.zip)|
 |2.5.4A|Pacman-U2.5-240322-1016|[All regions](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/7f7a4f4a5aff2386089f72a054aa09e5ae55a67b.zip)|[All regions from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
 |2.5.4|Pacman-U2.5-240315-0035|[All regions](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/721fde9515d33672e2dc50cf0840a5db58e7413a.zip)|[All regions from 2.5.3](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/a7015287ca2fdd383d4edfd4f2cef8e7a3c64dd0.zip)|
