@@ -126,6 +126,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Fastboot file|
 |-------|-------------|
+|2.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.5/Spacewar_FastbootROM_v2.5.5.7z)|
 |2.5.3A|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Spacewar_FastbootROM_v2.5.3A.7z)|
 |2.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/Spacewar_FastbootROM_v2.5.3.7z)|
 |2.5.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Spacewar_FastbootROM_v2.5.2.HOTFIX.7z)|
