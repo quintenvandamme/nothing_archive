@@ -23,6 +23,7 @@ Here is a list of all the firmware files available for download:
     -   [Boot Firmware](#boot-firmware-1)
     -   [Fastboot Firmware](#fastboot-firmware-1)
 -   [Phone 2a](#phone-2a)
+    -   [Android 15 Developer Preview](#android-15-developer-preview)
     -   [Android 14](#android-14-2)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
 -   [Glyph Developer Kit](#glyph-developer-kit)
@@ -205,6 +206,12 @@ Here is a list of all the firmware files available for download:
 |2.0.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.2/Pong_FastbootROM_v2.0.2.7z)|
 
 ## Phone 2a
+
+### Android 15 Developer Preview
+
+|Version|build number|Incremental OTA|Rollback|
+|-------|------------|---------------|--------|
+|BETA 1|Pacman-U2.5-240502-1215|[All regions from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[All regions to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 
 ### Android 14
 
