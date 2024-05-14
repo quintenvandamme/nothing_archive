@@ -211,7 +211,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|BETA 1|Pacman-U2.5-240502-1215|[All regions from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[All regions to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
+|BETA 1|AP31.240322.016 release keys|[All regions from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[All regions to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 
 ### Android 14
 
