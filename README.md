@@ -284,7 +284,7 @@ This project is made possible thanks to the following sources:
 - [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3) for use of their screenshots.
 
 And people:
-- [spike0en](https://github.com/spike0en-reborn)
+- [spike0en](https://github.com/spike0en)
 - [Re*Index. (ot_inc)](https://github.com/reindex-ot)
 
 ## License
