@@ -166,6 +166,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
+|2.5.6|Pong-U2.5-240606-1801||[All regions from 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/2.5.6/5ea6aefb7bca17c9b477ec7ac17d6412c0f90f3b.zip)<br>[All regions from Pong-U2.5-240419-0138](https://archive.org/download/nothing-phone-2-firmware/2.5.6/4d850df66992c4b79ce4d714a27216518ca541e4.zip)||
 ||Pong-U2.5-240419-0138|||
 |2.5.5 hotfix|Pong-U2.5-240418-1248||[All regions from 2.5.5](https://archive.org/download/nothing-phone-2-firmware/2.5.5%20hotfix/04163fecbb7a8617636e9d1773c86ae9f1caf30b.zip)<br>[All regions from 2.5.3](https://archive.org/download/nothing-phone-2-firmware/2.5.5%20hotfix/93383c8b9c42fc40f89df861159c6b52408bc6e6.zip)||
 |2.5.5|Pong-U2.5-240410-1247|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/c5bc61d93d995c42ec58cf7f7592e42aae190825.zip)|[All regions from 2.5.3](https://archive.org/download/nothing-phone-2-firmware/2.5.5/44a00fa0a6226aa51f54ee5e5418e0935275d542.zip)||
