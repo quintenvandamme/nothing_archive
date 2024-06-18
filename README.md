@@ -192,6 +192,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|2.5.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/2.5.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img)|
 |2.5.5|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/2.5.5_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img)|
 |2.5.3|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/2.5.3_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img)|
 |2.5.2|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.2/2.5.2_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.2/Magisk-Patched_2.5.2_Boot.img)|
@@ -206,6 +207,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Fastboot file|
 |-------|-------------|
+|2.5.6|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.6/Pong_FastbootROM_v2.5.6.7z)|
 |2.5.5|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.5/Pong_FastbootROM_v2.5.5.7z)|
 |2.5.3|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Pong_FastbootROM_v2.5.3.7z)|
 |2.5.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.2/Pong_FastbootROM_v2.5.2.7z)|
