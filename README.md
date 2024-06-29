@@ -128,34 +128,8 @@ Here is a list of all the firmware files available for download:
 
 ### Fastboot Firmware
 
-|Version|Fastboot file|
-|-------|-------------|
-|2.5.6|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.6/Spacewar_FastbootROM_v2.5.6.7z)|
-|2.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.5/Spacewar_FastbootROM_v2.5.5.7z)|
-|2.5.3A|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Spacewar_FastbootROM_v2.5.3A.7z)|
-|2.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3/Spacewar_FastbootROM_v2.5.3.7z)|
-|2.5.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Spacewar_FastbootROM_v2.5.2.HOTFIX.7z)|
-|2.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.2/Spacewar_FastbootROM_v2.5.2.7z)|
-|2.5.1 open beta 1|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/Spacewar_FastbootROM_v2.5.1_OB1.7z)|
-|2.0.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.5/Spacewar_FastbootROM_v2.0.5.7z)|
-|2.0.4|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.4/Spacewar_FastbootROM_v2.0.4.7z)|
-|2.0.2 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/Spacewar_FastbootROM_v2.0.2.HOTFIX.7z)|
-|2.0.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.0.2/Spacewar_FastbootROM_v2.0.2.7z)|
-|1.5.6|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.6/Spacewar_FastbootROM_v1.5.6.7z)|
-|1.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.5/Spacewar_FastbootROM_v1.5.5.7z)|
-|1.5.4|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.4/Spacewar_FastbootROM_v1.5.4.7z)|
-|1.5.3 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/Spacewar_FastbootROM_v1.5.3.HOTFIX.7z)|
-|1.5.3|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.3/Spacewar_FastbootROM_v1.5.3.7z)|
-|1.5.2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.2/Spacewar_FastbootROM_v1.5.2.7z)|
-|1.5.1 hotfix|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/Spacewar_FastbootROM_v1.5.1_OB2.HOTFIX.7z)|
-|1.5.1 open beta 2|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.1/Spacewar_FastbootROM_v1.5.1_OB2.7z)|
-|1.5.1 open beta 1|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/Spacewar_FastbootROM_v1.5.0_OB1_Global.7z)|
-|1.1.7|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/Spacewar_FastbootROM_v1.1.7_Global.7z)|
-|1.1.6|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/Spacewar_FastbootROM_v1.1.6_Global.7z)|
-|1.1.5|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/Spacewar_FastbootROM_v1.1.5_Global.7z)|
-|1.1.4|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/Spacewar_FastbootROM_v1.1.4_Global.7z)|
-|1.1.3|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/Spacewar_FastbootROM_v1.1.3_Global.7z)|
-|1.1.0|[GLOBAL](https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Spacewar_FastbootROM_v1.1.0_Global.7z)|
+> [!NOTE]  
+> For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Spacewar_Archive#fastboot-flashing).
 
 ## Phone 2
 
@@ -163,6 +137,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
+|BETA 2|Pong_AP31.240426.022 release-keys|[All regions from 2.5.6](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240606_180135_20240625_123844.zip)<br>[All regions from ADP 15 BETA 1](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_165558_20240625_123844.zip)|[All regions to 2.5.6](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_123844_20240606_180135.zip)|
 |BETA 1||[All regions from 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240418_124821_20240522_165558.zip)<br>[All regions from Pong-U2.5-240419-0138](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_013855_20240522_165558.zip)|[All regions to 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240522_165558_20240521_181628.zip)|
 
 ### Android 14
@@ -208,16 +183,8 @@ Here is a list of all the firmware files available for download:
 
 ### Fastboot Firmware
 
-|Version|Fastboot file|
-|-------|-------------|
-|2.5.6|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.6/Pong_FastbootROM_v2.5.6.7z)|
-|2.5.5|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.5/Pong_FastbootROM_v2.5.5.7z)|
-|2.5.3|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Pong_FastbootROM_v2.5.3.7z)|
-|2.5.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.2/Pong_FastbootROM_v2.5.2.7z)|
-|2.5.1A|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.1A/Pong_FastbootROM_v2.5.1A.7z)|
-|2.5.1|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.5.1/Pong_FastbootROM_v2.5.1.7z)|
-|2.0.4|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.4/Pong_FastbootROM_v2.0.4.7z)|
-|2.0.2|[GLOBAL](https://archive.org/download/nothing-phone-2-firmware/2.0.2/Pong_FastbootROM_v2.0.2.7z)|
+> [!NOTE]  
+> For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Pong_Archive#fastboot-flashing).
 
 ## Phone 2a
 
@@ -225,13 +192,14 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|BETA 1|AP31.240322.016 release keys|[Black / White / Milk from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[Black / White / Milk to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
+|BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk / Special Edetion from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip)||
+|BETA 1|Pacman_AP31.240322.016 release keys|[Black / White / Milk from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[Black / White / Milk to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 
 ### Android 14
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.5.6|Pacman-U2.5-240522-1818||[All regions from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
+|2.5.6|Pacman-U2.5-240522-1818||[Black / White / Milk / Special Edetion from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
 |2.5.5B|Pacman-U2.5-240425-1549|||
 |2.5.5A|Pacman-U2.5-240419-2235||[Black / White / Milk from 2.5.5](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/0f96a78ccd851e6c91abbb7d64ad1fc2691617ea.zip)|
 |2.5.5|Pacman-U2.5-240410-1238||[Black / White / Milk from 2.5.4A](https://archive.org/download/nothing-phone-2a-firmware/2.5.5/cba47167162f5940362699d12bc16d4ef3f5beef.zip)|
