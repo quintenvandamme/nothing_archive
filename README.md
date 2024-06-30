@@ -192,7 +192,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip)||
+|BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip)|[Black / White / Milk / Special Edition to 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 |BETA 1|Pacman_AP31.240322.016 release keys|[Black / White / Milk from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[Black / White / Milk to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 
 ### Android 14
