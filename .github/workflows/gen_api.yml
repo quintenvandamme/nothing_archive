@@ -1,0 +1,28 @@
+name: Generate API
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  Generate_API:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        check-latest: true
+
+    - name: build json file
+      run: python tools/gen_api.py
+
+    - name: Commit changes
+    - uses: stefanzweifel/git-auto-commit-action@v5

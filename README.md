@@ -5,25 +5,25 @@ Here is a list of all the firmware files available for download:
 
 | Product | OTA | BOOT | Fastboot | Torrent |
 |---------|-----|------|----------|---------|
-| Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
-| Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
-| Phone 2a | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
+| Nothing Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
+| Nothing Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
+| Nothing Phone 2a | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
 
 ## Table of Contents
--   [Phone 1](#phone-1)
+-   [Phone 1](#nothing-phone-1)
     -   [Android 14](#android-14)
     -   [Android 14 Developer Preview](#android-14-developer-preview)
     -   [Android 13](#android-13)
     -   [Android 12](#android-12)
     -   [Boot Firmware](#boot-firmware)
     -   [Fastboot Firmware](#fastboot-firmware)
--   [Phone 2](#phone-2)
+-   [Phone 2](#nothing-phone-2)
     -   [Android 15 Developer Preview](#android-15-developer-preview)
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
     -   [Boot Firmware](#boot-firmware-1)
     -   [Fastboot Firmware](#fastboot-firmware-1)
--   [Phone 2a](#phone-2a)
+-   [Phone 2a](#nothing-phone-2a)
     -   [Android 15 Developer Preview](#android-15-developer-preview-1)
     -   [Android 14](#android-14-2)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
@@ -33,13 +33,13 @@ Here is a list of all the firmware files available for download:
 -  [Credits](#credits)
 -  [License](#license)
 
-## Phone 1
+## Nothing Phone 1
 
 ### Android 14
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|2.5.6|Spacewar-U2.5-240612-2149||[EEA/GLOBAL from 2.5.5](https://archive.org/download/nothing-phone-1-firmware/2.5.5/54c1298c0fbeae5b9f2454762183beb074d883b5.zip)||
+|2.5.6|Spacewar-U2.5-240612-2149||[EEA/GLOBAL from 2.5.5](https://archive.org/download/nothing-phone-1-firmware/2.5.6/54c1298c0fbeae5b9f2454762183beb074d883b5.zip)||
 |2.5.5|Spacewar-U2.5-240419-1617||[EEA/GLOBAL from 2.5.3A](https://archive.org/download/nothing-phone-1-firmware/2.5.5/1b6de06002f9cbb4e62a1ec4267e72910e705c78.zip)<br>[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.5/d464235c4b9920d93d662b21e9713632731a203a.zip)||
 |2.5.3A|Spacewar-U2.5-240317-2245|[EEA/GLOBAL](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/af8523121e2e73f564bb78ceb3074deec7222c6b.zip)|[EEA/GLOBAL from 2.5.3](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/176fffc72ad05488556821215d3e10ffc939ff35.zip)<br>[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/158f65d4c44323ac9ea4c0c64e97b0a37d9aac74.zip)||
 |2.5.3|Spacewar-U2.5-240301-1852||[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.3/993ef2c61a5d996015d7ff07f955cc8dbb6344c4.zip)||
@@ -55,8 +55,8 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|BETA 3|UpsideDownCake-230719-1535|[GLOBAL/EEA from 1.5.6](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA3/ota_diff_20230706_194202_20230719_153500.zip)|[GLOBAL/EEA to 1.5.6](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA3/ota_diff_20230719_153500_20230706_194202.zip)|
-|BETA 1|UpsideDownCake-230321-2229|[GLOBAL/EEA from 1.5.4](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA1/ota_diff_20230428_201717_20230428_222944.zip)|[GLOBAL/EEA to 1.5.4](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA1/ota_diff_20230428_222944_20230428_201717.zip)|
+|ADP 14 BETA 3|UpsideDownCake-230719-1535|[GLOBAL/EEA from 1.5.6](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA3/ota_diff_20230706_194202_20230719_153500.zip)|[GLOBAL/EEA to 1.5.6](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA3/ota_diff_20230719_153500_20230706_194202.zip)|
+|ADP 14 BETA 1|UpsideDownCake-230321-2229|[GLOBAL/EEA from 1.5.4](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA1/ota_diff_20230428_201717_20230428_222944.zip)|[GLOBAL/EEA to 1.5.4](https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA1/ota_diff_20230428_222944_20230428_201717.zip)|
 
 ### Android 13
 
@@ -131,14 +131,14 @@ Here is a list of all the firmware files available for download:
 > [!NOTE]  
 > For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Spacewar_Archive#fastboot-flashing).
 
-## Phone 2
+## Nothing Phone 2
 
 ### Android 15 Developer Preview
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|BETA 2|Pong_AP31.240426.022 release-keys|[All regions from 2.5.6](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240606_180135_20240625_123844.zip)<br>[All regions from ADP 15 BETA 1](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_165558_20240625_123844.zip)|[All regions to 2.5.6](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_123844_20240606_180135.zip)|
-|BETA 1||[All regions from 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240418_124821_20240522_165558.zip)<br>[All regions from Pong-U2.5-240419-0138](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_013855_20240522_165558.zip)|[All regions to 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240522_165558_20240521_181628.zip)|
+|ADP 15 BETA 2|Pong_AP31.240426.022 release-keys|[All regions from 2.5.6](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240606_180135_20240625_123844.zip)<br>[All regions from ADP 15 BETA 1](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_165558_20240625_123844.zip)|[All regions to 2.5.6](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_123844_20240606_180135.zip)|
+|ADP 15 BETA 1||[All regions from 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240418_124821_20240522_165558.zip)<br>[All regions from Pong-U2.5-240419-0138](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_013855_20240522_165558.zip)|[All regions to 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240522_165558_20240521_181628.zip)|
 
 ### Android 14
 
@@ -186,14 +186,14 @@ Here is a list of all the firmware files available for download:
 > [!NOTE]  
 > For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Pong_Archive#fastboot-flashing).
 
-## Phone 2a
+## Nothing Phone 2a
 
 ### Android 15 Developer Preview
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip)|[Black / White / Milk / Special Edition to 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
-|BETA 1|Pacman_AP31.240322.016 release keys|[Black / White / Milk from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[Black / White / Milk to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
+|ADP 15 BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip)|[Black / White / Milk / Special Edition to 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
+|ADP 15 BETA 1|Pacman_AP31.240322.016 release keys|[Black / White / Milk from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[Black / White / Milk to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 
 ### Android 14
 
