@@ -1,4 +1,3 @@
-import os
 import json
 
 def open_file(filename):
@@ -126,7 +125,7 @@ def convert_table_to_json(table):
 
                         for ota in otas:
                             try:
-                                region = ota.split("[")[1].split(" ")[0].lower().replace(" ", "").split("/")
+                                region = ota.split("[")[1].split("from")[0].lower().replace(" ", "").split("/")
                                 from_version = ota.split("from")[1].split("]")[0].replace(" ", "")
                                 url = ota.split("](")[1].split(")")[0]
 
@@ -156,7 +155,7 @@ def convert_table_to_json(table):
 
                         for ota in otas:
                             try:
-                                region = ota.split("[")[1].split(" ")[0].lower().replace(" ", "").split("/")
+                                region = ota.split("[")[1].split("to")[0].lower().replace(" ", "").split("/")
                                 to_version = ota.split("to")[1].split("]")[0].replace(" ", "")
 
                                 url = ota.split("](")[1].split(")")[0]

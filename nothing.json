@@ -261,7 +261,7 @@
                         "type": "incremental",
                         "region": [
                             "global",
-                            "eea"
+                            "eeaincremental"
                         ],
                         "post_version": "2.5.1 closed beta 1 hotfix 2",
                         "pre_version": "2.5.1closedbeta1hotfix",
@@ -1267,7 +1267,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "ADP 15 BETA 2",
                         "pre_version": "2.5.6",
@@ -1276,7 +1276,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "ADP 15 BETA 2",
                         "pre_version": "ADP15BETA1",
@@ -1285,7 +1285,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "ADP 15 BETA 2",
@@ -1299,7 +1299,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "ADP 15 BETA 1",
                         "pre_version": "2.5.5hotfix",
@@ -1308,7 +1308,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "ADP 15 BETA 1",
                         "pre_version": "Pong-U2.5-240419-0138",
@@ -1317,7 +1317,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.5hotfix",
                         "pre_version": "ADP 15 BETA 1",
@@ -1331,7 +1331,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "2.5.5hotfix",
@@ -1340,7 +1340,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "Pong-U2.5-240419-0138",
@@ -1367,7 +1367,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.5 hotfix",
                         "pre_version": "2.5.5",
@@ -1376,7 +1376,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.5 hotfix",
                         "pre_version": "2.5.3",
@@ -1398,7 +1398,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.5",
                         "pre_version": "2.5.3",
@@ -1430,7 +1430,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.3",
                         "pre_version": "2.5.2",
@@ -1462,7 +1462,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.2",
                         "pre_version": "2.5.1A",
@@ -1471,7 +1471,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.2",
                         "pre_version": "2.0.4",
@@ -1503,7 +1503,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.1A",
                         "pre_version": "2.5.1",
@@ -1535,7 +1535,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.1",
                         "pre_version": "2.0.4",
@@ -1544,7 +1544,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5.1",
                         "pre_version": "2.5openbeta2",
@@ -1553,7 +1553,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.4",
                         "pre_version": "2.5.1",
@@ -1585,7 +1585,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.5 open beta 2",
                         "pre_version": "2.5openbeta1",
@@ -1594,7 +1594,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.3",
                         "pre_version": "2.5 open beta 2",
@@ -1629,7 +1629,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.4",
                         "pre_version": "2.0.3",
@@ -1661,7 +1661,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.3",
                         "pre_version": "2.0.2A",
@@ -1685,7 +1685,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.2A",
                         "pre_version": "2.0.2",
@@ -1709,7 +1709,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.2",
                         "pre_version": "2.0.1A",
@@ -1733,7 +1733,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.1A",
                         "pre_version": "2.0.1",
@@ -1755,7 +1755,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "all"
+                            "allregions"
                         ],
                         "post_version": "2.0.1",
                         "pre_version": "2.0.0",
@@ -1773,7 +1773,10 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk",
+                            "specialedition"
                         ],
                         "post_version": "ADP 15 BETA 2",
                         "pre_version": "2.5.6",
@@ -1782,7 +1785,10 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk",
+                            "specialedetion"
                         ],
                         "post_version": "ADP 15 BETA 2",
                         "pre_version": "Pacman-U2.5-240530_1906",
@@ -1791,7 +1797,10 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk",
+                            "specialedition"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "ADP 15 BETA 2",
@@ -1805,7 +1814,9 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk"
                         ],
                         "post_version": "ADP 15 BETA 1",
                         "pre_version": "2.5.5A",
@@ -1814,7 +1825,9 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk"
                         ],
                         "post_version": "2.5.5A",
                         "pre_version": "ADP 15 BETA 1",
@@ -1828,7 +1841,10 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk",
+                            "specialedition"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "2.5.5A",
@@ -1845,7 +1861,9 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk"
                         ],
                         "post_version": "2.5.5A",
                         "pre_version": "2.5.5",
@@ -1859,7 +1877,9 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk"
                         ],
                         "post_version": "2.5.5",
                         "pre_version": "2.5.4A",
@@ -1883,7 +1903,9 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk"
                         ],
                         "post_version": "2.5.4A",
                         "pre_version": "2.5.4",
@@ -1907,7 +1929,9 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "black"
+                            "black",
+                            "white",
+                            "milk"
                         ],
                         "post_version": "2.5.4",
                         "pre_version": "2.5.3",
