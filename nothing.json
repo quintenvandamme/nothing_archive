@@ -1329,6 +1329,14 @@
                 "build_number": "Pong-U2.5-240606-1801",
                 "ota": [
                     {
+                        "type": "full",
+                        "region": [
+                            "allregions"
+                        ],
+                        "post_version": "2.5.6",
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.6/b473172f5883eda33e38e2fd2be785f1a8f08fe2.zip"
+                    },
+                    {
                         "type": "incremental",
                         "region": [
                             "allregions"
