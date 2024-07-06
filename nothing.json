@@ -850,11 +850,11 @@
                 "boot": [
                     {
                         "type": "stock",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/1.5.0.OB1_Boot.img"
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/1.5.0.OB1_Boot.img"
                     },
                     {
                         "type": "magisk patched",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/Magisk-Patched_1.5.0.OB1_Boot.img"
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/Magisk-Patched_1.5.0.OB1_Boot.img"
                     }
                 ]
             },
