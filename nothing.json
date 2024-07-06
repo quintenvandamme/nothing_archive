@@ -788,6 +788,16 @@
                         "pre_version": "1.5.1openbeta2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/0266138566534b1728271c1412fa152409bcc751.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/1.5.1.OB2.HOTFIX_Boot.img"
+                    },
+                    {
+                        "type": "magisk patched",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/Magisk-Patched_1.5.1.OB2.HOTFIX_Boot.img"
+                    }
                 ]
             },
             "1.5.1 open beta 2": {
@@ -835,6 +845,16 @@
                         "post_version": "1.5.0 open beta 1",
                         "pre_version": "EEA1.1.7",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/EEA/66a78cc6105fb8182a3a07383756862655700192.zip"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/1.5.0.OB1_Boot.img"
+                    },
+                    {
+                        "type": "magisk patched",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/Magisk-Patched_1.5.0.OB1_Boot.img"
                     }
                 ]
             },
@@ -1230,30 +1250,6 @@
                         ],
                         "post_version": "1.0.2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.0.2/EEA/09a261dea24fa76050bf9b03fff232dbab9b3a28.zip"
-                    }
-                ]
-            },
-            "1.5.1 hotfix": {
-                "boot": [
-                    {
-                        "type": "stock",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/1.5.1.OB2.HOTFIX_Boot.img"
-                    },
-                    {
-                        "type": "magisk patched",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/Magisk-Patched_1.5.1.OB2.HOTFIX_Boot.img"
-                    }
-                ]
-            },
-            "1.5.1 open beta 1": {
-                "boot": [
-                    {
-                        "type": "stock",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1/1.5.1.OB1_Boot.img"
-                    },
-                    {
-                        "type": "magisk patched",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1/Magisk-Patched_1.5.1.OB1_Boot.img"
                     }
                 ]
             }
