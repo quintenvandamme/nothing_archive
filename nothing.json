@@ -1233,19 +1233,6 @@
                     }
                 ]
             },
-            "1.0.1": {
-                "build_number": "Spacewar-S1.0-22",
-                "ota": [
-                    {
-                        "type": "full",
-                        "region": [
-                            "eea"
-                        ],
-                        "post_version": "1.0.1",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.0.1/EEA/af8523121e2e73f564bb78ceb3074deec7222c6b.zip"
-                    }
-                ]
-            },
             "1.5.1 hotfix": {
                 "boot": [
                     {
