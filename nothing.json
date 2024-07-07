@@ -1303,7 +1303,7 @@
                 ]
             },
             "ADP 15 BETA 1": {
-                "build_number": "",
+                "build_number": "Pong_AP31.240322.016 release keys",
                 "ota": [
                     {
                         "type": "incremental",
