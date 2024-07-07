@@ -1809,7 +1809,19 @@
                         ],
                         "post_version": "ADP 15 BETA 2",
                         "pre_version": "Pacman-U2.5-240530_1906",
-                        "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip"
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "black",
+                            "white",
+                            "milk",
+                            "specialedetion"
+                        ],
+                        "post_version": "ADP 15 BETA 2",
+                        "pre_version": "ADP15BETA1",
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip"
                     },
                     {
                         "type": "rollback",
@@ -1821,7 +1833,7 @@
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "ADP 15 BETA 2",
-                        "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip"
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip"
                     }
                 ]
             },
