@@ -1,3 +1,7 @@
+<a href="/">
+  <img align="Left" height="130" alt="MIT License" src="img/nothing_archive_logo" />
+</a>
+
 # Nothing Archive
 This repository contains firmware files for Nothing Phone 1, 2, and 2a. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
 
@@ -273,6 +277,7 @@ This project is made possible thanks to the following sources:
 - [Nothing Phone (2a) Firmware Repo on XDA](https://xdaforums.com/t/pacman-archive-stock-ota-images-full-ota-update-packages.4660853/)
 - [reindex-ot](https://reindex-ot.github.io/)
 - [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3) for use of their screenshots.
+- [CMF by Nothing](https://cmf.tech/cdn/shop/files/Android_5fd59bbe-2e8c-48aa-b9ce-f66b664f038c_1920x.png?v=1720164813) for their ndot android logo.
 
 And people:
 - [spike0en](https://github.com/spike0en)
