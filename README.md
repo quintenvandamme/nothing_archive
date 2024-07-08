@@ -1,5 +1,5 @@
 <a href="/">
-  <img align="Left" height="130" alt="MIT License" src="img/nothing_archive_logo" />
+  <img align="Left" height="130" alt="MIT License" src="img/nothing_archive_logo.png" />
 </a>
 
 # Nothing Archive
