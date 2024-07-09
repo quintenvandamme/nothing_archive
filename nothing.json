@@ -5,6 +5,15 @@
                 "build_number": "Spacewar-U2.5-240612-2149",
                 "ota": [
                     {
+                        "type": "full",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "post_version": "2.5.6",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.6/merged-qssi-Spacewar-otafull-20240612_214905.zip"
+                    },
+                    {
                         "type": "incremental",
                         "region": [
                             "eea",
