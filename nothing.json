@@ -2024,5 +2024,23 @@
                 ]
             }
         }
+    },
+    {
+        "cmf phone 1": {
+            "2.6 hotfix": {
+                "build_number": "Tetris-U2.6-240702-2200",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "allregions"
+                        ],
+                        "post_version": "2.6 hotfix",
+                        "pre_version": "2.6",
+                        "url": "https://archive.org/download/cmf-phone-1/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip"
+                    }
+                ]
+            }
+        }
     }
 ]
