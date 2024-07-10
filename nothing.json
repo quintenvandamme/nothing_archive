@@ -2037,9 +2037,12 @@
                         ],
                         "post_version": "2.6 hotfix",
                         "pre_version": "2.6",
-                        "url": "https://archive.org/download/cmf-phone-1/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip"
                     }
                 ]
+            },
+            "2.6": {
+                "build_number": "Tetris-U2.6-240606-1805"
             }
         }
     }
