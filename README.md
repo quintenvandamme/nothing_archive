@@ -12,25 +12,28 @@ Here is a list of all the firmware files available for download:
 | Nothing Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
 | Nothing Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
 | Nothing Phone 2a | ✅ | ❌ | ✅ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
+| CMF Phone 1 | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/cmf-phone-1/cmf-phone-1_archive.torrent) |
 
 ## Table of Contents
--   [Phone 1](#nothing-phone-1)
+-   [Nothing Phone 1](#nothing-phone-1)
     -   [Android 14](#android-14)
     -   [Android 14 Developer Preview](#android-14-developer-preview)
     -   [Android 13](#android-13)
     -   [Android 12](#android-12)
     -   [Boot Firmware](#boot-firmware)
     -   [Fastboot Firmware](#fastboot-firmware)
--   [Phone 2](#nothing-phone-2)
+-   [Nothing Phone 2](#nothing-phone-2)
     -   [Android 15 Developer Preview](#android-15-developer-preview)
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
     -   [Boot Firmware](#boot-firmware-1)
     -   [Fastboot Firmware](#fastboot-firmware-1)
--   [Phone 2a](#nothing-phone-2a)
+-   [Nothing Phone 2a](#nothing-phone-2a)
     -   [Android 15 Developer Preview](#android-15-developer-preview-1)
     -   [Android 14](#android-14-2)
     -   [Fastboot Firmware](#fastboot-firmware-2)
+-   [CMF Phone 1](#cmf-phone-1)
+    -   [Android 14](#android-14-3)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
 -   [Glyph Developer Kit](#glyph-developer-kit)
 -   [Nothing Offline Ota Update Tool](#nothing-offline-ota-update-tool)
@@ -219,6 +222,14 @@ Here is a list of all the firmware files available for download:
 
 > [!NOTE]  
 > For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Pacman_Archive#fastboot-flashing).
+
+## CMF Phone 1
+
+### Android 14
+
+|Version|build number|Full OTA|Incremental OTA|
+|-------|------------|--------|---------------|
+|2.6 hotfix|Tetris-U2.6-240702-2200||[All regions from 2.6](https://archive.org/download/cmf-phone-1/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip)|
 
 ## Kernel and device tree sources
 
