@@ -3,7 +3,7 @@
 </a>
 
 # Nothing Archive
-This repository contains firmware files for Nothing Phone 1, 2, and 2a. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
+This repository contains firmware files for Nothing Phone 1, 2, 2a and CMF Phone 1. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
 
 Here is a list of all the firmware files available for download:
 
