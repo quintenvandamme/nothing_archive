@@ -236,9 +236,9 @@ Here is a list of all the firmware files available for download:
 
 | Product | Kernel | Device Tree | Kernel Modules |
 |---------|--------|-------------|----------------|
-| Phone 1 |[kernel](https://github.com/NothingOSS/android_kernel_msm-5.4_nothing_sm7325)|[device tree](https://github.com/NothingOSS/android_kernel_devicetree_nothing_sm7325)||
-| Phone 2 |[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|
-| Phone 2a|[kernel](https://github.com/NothingOSS/android_kernel_5.15_nothing_mt6886)||[kernel modules](https://github.com/NothingOSS/android_kernel_modules_nothing_mt6886)|
+| Nothing Phone 1 |[kernel](https://github.com/NothingOSS/android_kernel_msm-5.4_nothing_sm7325)|[device tree](https://github.com/NothingOSS/android_kernel_devicetree_nothing_sm7325)||
+| Nothing Phone 2 |[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|
+| Nothing Phone 2a |[kernel](https://github.com/NothingOSS/android_kernel_5.15_nothing_mt6886)||[kernel modules](https://github.com/NothingOSS/android_kernel_modules_nothing_mt6886)|
 
 ## Glyph Developer Kit
 The Glyph Developer Kit SDK can be found [here](https://github.com/Nothing-Developer-Programme/Glyph-Developer-Kit)
@@ -249,8 +249,8 @@ The Offline OTA updater app for the Nothing OS is used to update the phone to th
 
 | Product | APK |
 |---------|-----|
-|Phone 1|[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)|
-|Phone 2|[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)|
+| Nothing Phone 1 |[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)|
+| Nothing Phone 2 |[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)|
 
 ## Sideload Firmware
 
