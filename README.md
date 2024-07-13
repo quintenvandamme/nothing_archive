@@ -11,7 +11,7 @@ Here is a list of all the firmware files available for download:
 |---------|-----|------|----------|---------|
 | Nothing Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
 | Nothing Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
-| Nothing Phone 2a | ✅ | ❌ | ✅ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
+| Nothing Phone 2a | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
 | CMF Phone 1 | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
 
 ## Table of Contents
@@ -31,6 +31,7 @@ Here is a list of all the firmware files available for download:
 -   [Nothing Phone 2a](#nothing-phone-2a)
     -   [Android 15 Developer Preview](#android-15-developer-preview-1)
     -   [Android 14](#android-14-2)
+    -   [Boot Firmware](#boot-firmware-2)
     -   [Fastboot Firmware](#fastboot-firmware-2)
 -   [CMF Phone 1](#cmf-phone-1)
     -   [Android 14](#android-14-3)
@@ -180,6 +181,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|2.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6/2.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6/Magisk-Patched_2.6_Boot.img)|
 |2.5.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/2.5.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img)|
 |2.5.5|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/2.5.5_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img)|
 |2.5.3|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/2.5.3_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img)|
@@ -217,6 +219,14 @@ Here is a list of all the firmware files available for download:
 |2.5.4A|Pacman-U2.5-240322-1016|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/7f7a4f4a5aff2386089f72a054aa09e5ae55a67b.zip)|[Black / White / Milk from 2.5.4](https://archive.org/download/nothing-phone-2a-firmware/2.5.4A/f74365b716d33205381ed0f959a3ea4bc7d8e206.zip)|
 |2.5.4|Pacman-U2.5-240315-0035|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/721fde9515d33672e2dc50cf0840a5db58e7413a.zip)|[Black / White / Milk from 2.5.3](https://archive.org/download/nothing-phone-2a-firmware/2.5.4/a7015287ca2fdd383d4edfd4f2cef8e7a3c64dd0.zip)|
 |Pre release|Pacman-U2.5-240301-2206|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/pre%20release/73ec7a5c9a29b5cb65d8b3e0bf9b29a13475ab03.zip)||
+
+### Boot Firmware
+
+|Version|Boot file (Stock)|Boot file (Magisk Patched)|
+|-------|-----------------|--------------------------|
+|2.6|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6/2.6_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6/Magisk-Patched_2.6_Init_Boot.img)|
+|2.5.6|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/2.5.6_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/Magisk-Patched_2.5.6_Init_Boot.img)|
+|2.5.5A|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/2.5.5a_Init_Boot.img)|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/Magisk-Patched_2.5.5a_Init_Boot.img)|
 
 ### Fastboot Firmware
 
