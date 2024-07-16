@@ -2079,6 +2079,12 @@
                         "pre_version": "2.6hotfix",
                         "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix2/24c251bfc97dbe9a32777af2677e979e38bfcef2.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix2/2.6.HOTFIX2_Init_Boot.img"
+                    }
                 ]
             },
             "2.6 hotfix": {
