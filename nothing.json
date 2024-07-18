@@ -14,6 +14,16 @@
                         "pre_version": "2.5.6",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.6/879c1c1c8fc99eb43a6378d716ae8704a78924b3.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.6/2.6_Boot.img"
+                    },
+                    {
+                        "type": "magisk patched",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.6/Magisk-Patched_2.6_Boot.img"
+                    }
                 ]
             },
             "2.5.6": {
