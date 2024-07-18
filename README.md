@@ -109,6 +109,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|2.6|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.6/2.6_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.6/Magisk-Patched_2.6_Boot.img)|
 |2.5.6|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.6/2.5.6_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img)|
 |2.5.5|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.5/2.5.5_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img)|
 |2.5.3A|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/2.5.3a_Boot.img)|[GLOBAL/EEA](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Magisk-Patched_2.5.3a_Boot.img)|
