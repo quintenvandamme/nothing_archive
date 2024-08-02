@@ -242,6 +242,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.6 hotfix 3|Tetris-U2.6-240729-1047||[All regions from 2.6 hotfix 2](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix3/7c6b902a8168be0c3345b3b19d46c3ea0de92dfe.zip)|
 |2.6 hotfix 2|Tetris-U2.6-240713-1955||[All regions from 2.6 hotfix](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix2/24c251bfc97dbe9a32777af2677e979e38bfcef2.zip)|
 |2.6 hotfix|Tetris-U2.6-240702-2200||[All regions from 2.6](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip)|
 |2.6|Tetris-U2.6-240606-1805|||
