@@ -3,7 +3,7 @@
 </a>
 
 # Nothing Archive
-This repository contains firmware files for Nothing Phone 1, 2, 2a and CMF Phone 1. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
+This repository contains firmware files for Nothing Phone 1, 2, 2a, 2a plus and CMF Phone 1. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
 
 Here is a list of all the firmware files available for download:
 
@@ -12,6 +12,7 @@ Here is a list of all the firmware files available for download:
 | Nothing Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
 | Nothing Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
 | Nothing Phone 2a | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
+| Nothing Phone 2a plus | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
 | CMF Phone 1 | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
 
 ## Table of Contents
@@ -33,8 +34,10 @@ Here is a list of all the firmware files available for download:
     -   [Android 14](#android-14-2)
     -   [Boot Firmware](#boot-firmware-2)
     -   [Fastboot Firmware](#fastboot-firmware-2)
--   [CMF Phone 1](#cmf-phone-1)
+-   [Nothing Phone 2a plus](#nothing-phone-2a-plus)
     -   [Android 14](#android-14-3)
+-   [CMF Phone 1](#cmf-phone-1)
+    -   [Android 14](#android-14-4)
     -   [Boot Firmware](#boot-firmware-3)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
 -   [Glyph Developer Kit](#glyph-developer-kit)
@@ -235,6 +238,14 @@ Here is a list of all the firmware files available for download:
 
 > [!NOTE]  
 > For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Pacman_Archive#fastboot-flashing).
+
+## Nothing Phone 2a plus
+
+### Android 14
+
+|Version|build number|Full OTA|Incremental OTA|
+|-------|------------|--------|---------------|
+|2.6|PacmanPro-U2.6-240723-1102|||
 
 ## CMF Phone 1
 
