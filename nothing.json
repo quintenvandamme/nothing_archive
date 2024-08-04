@@ -2091,6 +2091,13 @@
         }
     },
     {
+        "nothing phone 2a plus": {
+            "2.6": {
+                "build_number": "PacmanPro-U2.6-240723-1102"
+            }
+        }
+    },
+    {
         "cmf phone 1": {
             "2.6 hotfix 3": {
                 "build_number": "Tetris-U2.6-240729-1047",
