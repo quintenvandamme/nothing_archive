@@ -165,6 +165,38 @@
                 ]
             },
             "2.5.2_hotfix": {
+                "build_number": "Spacewar-U2.5-240207-1031",
+                "ota": [
+                    {
+                        "type": "full",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "post_version": "2.5.2_hotfix",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/80dec3051c16eb22f456e8682917f0849b749ba8.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "post_version": "2.5.2_hotfix",
+                        "pre_version": "2.5.2",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/8360e08fd1591985d36398a2e0549a93bae0d191.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "post_version": "2.5.2_hotfix",
+                        "pre_version": "2.0.5",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/11d4669cdf0b425d4f8e237f71edc849062365da.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -222,6 +254,29 @@
                 ]
             },
             "2.5.1_open_beta_2": {
+                "build_number": "Spacewar-U2.5-240106-2238",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "post_version": "2.5.1_open_beta_2",
+                        "pre_version": "2.5.1_closed_beta_1_hotfix_2",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/238c2558175aca6ae8423b86e9753bb1c21b547c.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "post_version": "2.5.1_open_beta_2",
+                        "pre_version": "2.5.1_open_beta_1",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/893848a68e13391107fd0790a6b95719146900ff.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -259,6 +314,19 @@
                 ]
             },
             "2.5.1_open_beta_1": {
+                "build_number": "Spacewar-U2.5-231215-2256",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "2.5.1_open_beta_1",
+                        "pre_version": "2.0.5",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/ota_diff_20231110_173157_20231215_225600.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -430,6 +498,38 @@
                 ]
             },
             "2.0.2_hotfix": {
+                "build_number": "Spacewar-T2.0-230901-1652",
+                "ota": [
+                    {
+                        "type": "full",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "2.0.2_hotfix",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/6da1e9319f3aa4443175dd1d4d9a10cdbbac6dbe.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "2.0.2_hotfix",
+                        "pre_version": "2.0.2",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/1adc1351b0bd9a7a75efe40b3aa8baa7c6eb054f.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "2.0.2_hotfix",
+                        "pre_version": "1.5.6",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/90c0ffe26ea5149fef44cc506781b004553a273a.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -606,6 +706,28 @@
                 ]
             },
             "1.5.3_hotfix": {
+                "build_number": "Spacewar-T1.5-230317-2039",
+                "ota": [
+                    {
+                        "type": "full",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "1.5.3_hotfix",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/dd360e97f8ed9167905e8dfe9b24d0d68844b7f1.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "1.5.3_hotfix",
+                        "pre_version": "1.5.3",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/364c55148c84d22efab1c58953d807e40da040a9.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -688,6 +810,19 @@
                 ]
             },
             "1.5.1_open_beta_2_hotfix": {
+                "build_number": "Spacewar-T1.5-230114-2357",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "1.5.1_open_beta_2_hotfix",
+                        "pre_version": "1.5.1_open_beta_2",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/0266138566534b1728271c1412fa152409bcc751.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -700,6 +835,19 @@
                 ]
             },
             "1.5.1_open_beta_2": {
+                "build_number": "Spacewar-T1.5-230111-0014",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "post_version": "1.5.1_open_beta_2",
+                        "pre_version": "1.5.0_open_beta_1",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1/e27879949aee0ad565b8e4790ec58a42a3b30303.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -712,6 +860,27 @@
                 ]
             },
             "1.5.0_open_beta_1": {
+                "build_number": "Spacewar-T1.5-221215-1313",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "global"
+                        ],
+                        "post_version": "1.5.0_open_beta_1",
+                        "pre_version": "GLOBAL_1.1.7",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/f23d049819ca42c0c455d1c36716cfa3bb386448.zip"
+                    },
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea"
+                        ],
+                        "post_version": "1.5.0_open_beta_1",
+                        "pre_version": "EEA_1.1.7",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/EEA/66a78cc6105fb8182a3a07383756862655700192.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -1141,7 +1310,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "ADP_15_BETA_2",
                         "pre_version": "2.5.6",
@@ -1150,7 +1319,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "ADP_15_BETA_2",
                         "pre_version": "ADP_15_BETA_1",
@@ -1159,7 +1328,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "ADP_15_BETA_2",
@@ -1173,7 +1342,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "ADP_15_BETA_1",
                         "pre_version": "2.5.5_hotfix",
@@ -1182,7 +1351,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "ADP_15_BETA_1",
                         "pre_version": "Pong-U2.5-240419-0138",
@@ -1191,7 +1360,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.5hotfix",
                         "pre_version": "ADP_15_BETA_1",
@@ -1205,7 +1374,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.6",
                         "pre_version": "2.5.6",
@@ -1229,7 +1398,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.6",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.6/b473172f5883eda33e38e2fd2be785f1a8f08fe2.zip"
@@ -1237,7 +1406,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "2.5.5_hotfix",
@@ -1246,7 +1415,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.6",
                         "pre_version": "Pong-U2.5-240419-0138",
@@ -1273,7 +1442,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.5_hotfix",
                         "pre_version": "2.5.5",
@@ -1282,7 +1451,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.5_hotfix",
                         "pre_version": "2.5.3",
@@ -1296,7 +1465,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.5",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.5/c5bc61d93d995c42ec58cf7f7592e42aae190825.zip"
@@ -1304,7 +1473,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.5",
                         "pre_version": "2.5.3",
@@ -1328,7 +1497,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.3",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.3/dfe935ebb68be6b68d2570b10a96120d27ed05b5.zip"
@@ -1336,7 +1505,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.3",
                         "pre_version": "2.5.2",
@@ -1360,7 +1529,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.2",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.2/5624a3cc45b8ee5b7ac2ab07d436562cc03dbded.zip"
@@ -1368,7 +1537,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.2",
                         "pre_version": "2.5.1A",
@@ -1377,7 +1546,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.2",
                         "pre_version": "2.0.4",
@@ -1401,7 +1570,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.1A",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1A/fe9e458dd629b8f14d50110305ed4a175b63660a.zip"
@@ -1409,7 +1578,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.1A",
                         "pre_version": "2.5.1",
@@ -1433,7 +1602,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1/9385155b5c2e0ad219d165299b7164eeb0274766.zip"
@@ -1441,7 +1610,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.1",
                         "pre_version": "2.0.4",
@@ -1450,7 +1619,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5.1",
                         "pre_version": "2.5_open_beta_2",
@@ -1459,7 +1628,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.4",
                         "pre_version": "2.5.1",
@@ -1483,7 +1652,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5_open_beta_2",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/merged-qssi-Pong-otafull-20231102_120116.zip"
@@ -1491,7 +1660,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5_open_beta_2",
                         "pre_version": "2.5_open_beta_1",
@@ -1500,7 +1669,7 @@
                     {
                         "type": "rollback",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.3",
                         "pre_version": "2.5_open_beta_2",
@@ -1514,7 +1683,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.5_open_beta_1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/merged-qssi-Pong-otafull-20231007_210212.zip"
@@ -1527,7 +1696,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.4",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.4/e9b414228a245ed88c20bc779077a4efb549345c.zip"
@@ -1535,7 +1704,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.4",
                         "pre_version": "2.0.3",
@@ -1559,7 +1728,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.3",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.3/2bd9205b6b5821d8213235c1027c138ef627e662.zip"
@@ -1567,7 +1736,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.3",
                         "pre_version": "2.0.2A",
@@ -1591,7 +1760,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.2A",
                         "pre_version": "2.0.2",
@@ -1615,7 +1784,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.2",
                         "pre_version": "2.0.1A",
@@ -1639,7 +1808,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.1A",
                         "pre_version": "2.0.1",
@@ -1653,7 +1822,7 @@
                     {
                         "type": "full",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.1/7becde0f47753b99a7cc37ff27713ba8a48ef51a.zip\""
@@ -1661,7 +1830,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.0.1",
                         "pre_version": "2.0.0",
@@ -1936,7 +2105,7 @@
                     {
                         "type": "incremental",
                         "region": [
-                            "allregions"
+                            "all"
                         ],
                         "post_version": "2.6_hotfix_3",
                         "pre_version": "2.6_hotfix_2",
@@ -1945,6 +2114,18 @@
                 ]
             },
             "2.6_hotfix_2": {
+                "build_number": "Tetris-U2.6-240713-1955",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "all"
+                        ],
+                        "post_version": "2.6_hotfix_2",
+                        "pre_version": "2.6_hotfix",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix2/24c251bfc97dbe9a32777af2677e979e38bfcef2.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
@@ -1953,6 +2134,18 @@
                 ]
             },
             "2.6_hotfix": {
+                "build_number": "Tetris-U2.6-240702-2200",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "all"
+                        ],
+                        "post_version": "2.6_hotfix",
+                        "pre_version": "2.6",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip"
+                    }
+                ],
                 "boot": [
                     {
                         "type": "stock",
