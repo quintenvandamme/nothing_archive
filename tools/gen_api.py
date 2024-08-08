@@ -55,6 +55,10 @@ def parse_tabledata(data):
             row = row[1:-1]
 
             for i, cell in enumerate(row.split('|')):
+                # check if the cell has the header "version"
+                if list(parsedTabel.keys())[i] == "version":
+                    cell = cell.replace(" ", "_")
+
                 parsedTabel[list(parsedTabel.keys())[i]].append(cell)
 
         
@@ -77,21 +81,21 @@ def convert_table_to_json(table):
                 version = phoneTable["build number"][row]
 
             if version not in json[model]:
-                json[model][version.replace(" ", "_")] = {}
+                json[model][version] = {}
             
             # check if there is a key "build number" in the table
             if "build number" in keys:
                 if row < len(phoneTable["build number"]):
                     build_number = phoneTable["build number"][row]
-                    if build_number not in json[model][version.replace(" ", "_")]:
-                        json[model][version.replace(" ", "_")]["build_number"] = build_number
+                    if build_number not in json[model][version]:
+                        json[model][version]["build_number"] = build_number
             
             # check if there is a key "full ota" in the table
 
             if "full ota" in keys:
                 if row < len(phoneTable["full ota"]):
                     full_ota = phoneTable["full ota"][row]
-                    if full_ota not in json[model][version.replace(" ", "_")]:
+                    if full_ota not in json[model][version]:
                         otas = full_ota.split("<br>")
 
                         try:
@@ -100,19 +104,22 @@ def convert_table_to_json(table):
                                 region = region.lower().replace(" ", "").split("/")
                                 url = ota.split("](")[1].split(")")[0]
 
+                                if region[0] == "allregions" or region[0] == "allregions":
+                                    region[0] = "all"
+
                                 data = {
                                     "type": "full",
                                     "region": region,
-                                    "post_version": version.replace(" ", "_"),
+                                    "post_version": version,
                                     "url": url
                                 }
 
                                 # append the data to the json
-                                if "ota" not in json[model][version.replace(" ", "_")]:
-                                    json[model][version.replace(" ", "_")]["ota"] = []
+                                if "ota" not in json[model][version]:
+                                    json[model][version]["ota"] = []
 
-                                json[model][version.replace(" ", "_")]["ota"].append(data)
-                        except:
+                                json[model][version]["ota"].append(data)
+                        except Exception as e:
                             pass
 
             # check if there is a key "incremental ota" in the table
@@ -120,7 +127,7 @@ def convert_table_to_json(table):
             if "incremental ota" in keys:
                 if row < len(phoneTable["incremental ota"]):
                     incremental_ota = phoneTable["incremental ota"][row]
-                    if incremental_ota not in json[model][version.replace(" ", "_")]:
+                    if incremental_ota not in json[model][version]:
                         otas = incremental_ota.split("<br>")
 
                         for ota in otas:
@@ -131,21 +138,26 @@ def convert_table_to_json(table):
                                 if (from_version.startswith(" ")):
                                     from_version = from_version[1:]
 
+                                from_version = from_version.replace(" ", "_")
+
                                 url = ota.split("](")[1].split(")")[0]
+
+                                if region[0] == "allregions" or region[0] == "allregions":
+                                    region[0] = "all"
 
                                 data = {
                                     "type": "incremental",
                                     "region": region,
-                                    "post_version": version.replace(" ", "_"),
-                                    "pre_version": from_version.replace(" ", "_"),
+                                    "post_version": version,
+                                    "pre_version": from_version,
                                     "url": url
                                 }
 
                                 # append the data to the json
-                                if "ota" not in json[model][version.replace(" ", "_")]:
-                                    json[model][version.replace(" ", "_")]["ota"] = []
+                                if "ota" not in json[model][version]:
+                                    json[model][version]["ota"] = []
 
-                                json[model][version.replace(" ", "_")]["ota"].append(data)
+                                json[model][version]["ota"].append(data)
                             except:
                                 pass
             
@@ -154,7 +166,7 @@ def convert_table_to_json(table):
             if "rollback" in keys:
                 if row < len(phoneTable["rollback"]):
                     rollback = phoneTable["rollback"][row]
-                    if rollback not in json[model][version.replace(" ", "_")]:
+                    if rollback not in json[model][version]:
                         otas = rollback.split("<br>")
 
                         for ota in otas:
@@ -164,26 +176,29 @@ def convert_table_to_json(table):
 
                                 url = ota.split("](")[1].split(")")[0]
 
+                                if region[0] == "allregions" or region[0] == "allregions":
+                                    region[0] = "all"
+
                                 data = {
                                     "type": "rollback",
                                     "region": region,
-                                    "post_version": to_version.replace(" ", "_"),
-                                    "pre_version": version.replace(" ", "_"),
+                                    "post_version": to_version,
+                                    "pre_version": version,
                                     "url": url
                                 }
 
                                 # append the data to the json
-                                if "ota" not in json[model][version.replace(" ", "_")]:
-                                    json[model][version.replace(" ", "_")]["ota"] = []
+                                if "ota" not in json[model][version]:
+                                    json[model][version]["ota"] = []
 
-                                json[model][version.replace(" ", "_")]["ota"].append(data)
+                                json[model][version]["ota"].append(data)
                             except:
                                 pass
 
             if "boot file (stock)" in keys:
                 if row < len(phoneTable["boot file (stock)"]):
                     boot_file = phoneTable["boot file (stock)"][row]           
-                    if boot_file not in json[model][version.replace(" ", "_")]:
+                    if boot_file not in json[model][version]:
                         try:
                             url = boot_file.split("](")[1].split(")")[0]
 
@@ -192,17 +207,17 @@ def convert_table_to_json(table):
                                 "url": url
                             }
 
-                            if "boot" not in json[model][version.replace(" ", "_")]:
-                                json[model][version.replace(" ", "_")]["boot"] = []
+                            if "boot" not in json[model][version]:
+                                json[model][version]["boot"] = []
 
-                            json[model][version.replace(" ", "_")]["boot"].append(data)
+                            json[model][version]["boot"].append(data)
                         except:
                             pass
 
             if "boot file (magisk patched)" in keys:
                 if row < len(phoneTable["boot file (magisk patched)"]):
                     boot_file = phoneTable["boot file (magisk patched)"][row]           
-                    if boot_file not in json[model][version.replace(" ", "_")]:
+                    if boot_file not in json[model][version]:
                         try:
                             url = boot_file.split("](")[1].split(")")[0]
 
@@ -211,10 +226,10 @@ def convert_table_to_json(table):
                                 "url": url
                             }
 
-                            if "boot" not in json[model][version.replace(" ", "_")]:
-                                json[model][version.replace(" ", "_")]["boot"] = []
+                            if "boot" not in json[model][version]:
+                                json[model][version]["boot"] = []
 
-                            json[model][version.replace(" ", "_")]["boot"].append(data)
+                            json[model][version]["boot"].append(data)
                         except:
                             pass
     

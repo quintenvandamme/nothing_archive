@@ -1,6 +1,6 @@
 [
     {
-        "nothing phone 1": {
+        "nothing_phone_1": {
             "2.6": {
                 "build_number": "Spacewar-U2.6-240705-1617",
                 "ota": [
@@ -21,7 +21,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.6/2.6_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.6/Magisk-Patched_2.6_Boot.img"
                     }
                 ]
@@ -55,7 +55,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.6/2.5.6_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img"
                     }
                 ]
@@ -80,7 +80,7 @@
                             "global"
                         ],
                         "post_version": "2.5.5",
-                        "pre_version": "2.5.2hotfix",
+                        "pre_version": "2.5.2_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.5/d464235c4b9920d93d662b21e9713632731a203a.zip"
                     }
                 ],
@@ -90,7 +90,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.5/2.5.5_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img"
                     }
                 ]
@@ -124,7 +124,7 @@
                             "global"
                         ],
                         "post_version": "2.5.3A",
-                        "pre_version": "2.5.2hotfix",
+                        "pre_version": "2.5.2_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.3A/158f65d4c44323ac9ea4c0c64e97b0a37d9aac74.zip"
                     }
                 ],
@@ -134,7 +134,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.3A/2.5.3a_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.3A/Magisk-Patched_2.5.3a_Boot.img"
                     }
                 ]
@@ -149,7 +149,7 @@
                             "global"
                         ],
                         "post_version": "2.5.3",
-                        "pre_version": "2.5.2hotfix",
+                        "pre_version": "2.5.2_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.3/993ef2c61a5d996015d7ff07f955cc8dbb6344c4.zip"
                     }
                 ],
@@ -159,51 +159,19 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.3/2.5.3_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img"
                     }
                 ]
             },
-            "2.5.2 hotfix": {
-                "build_number": "Spacewar-U2.5-240207-1031",
-                "ota": [
-                    {
-                        "type": "full",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "post_version": "2.5.2 hotfix",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/80dec3051c16eb22f456e8682917f0849b749ba8.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "post_version": "2.5.2 hotfix",
-                        "pre_version": "2.5.2",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/8360e08fd1591985d36398a2e0549a93bae0d191.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "post_version": "2.5.2 hotfix",
-                        "pre_version": "2.0.5",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/11d4669cdf0b425d4f8e237f71edc849062365da.zip"
-                    }
-                ],
+            "2.5.2_hotfix": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/2.5.2.HOTFIX_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2%20hotfix/Magisk-Patched_2.5.2.HOTFIX_Boot.img"
                     }
                 ]
@@ -218,7 +186,7 @@
                             "global"
                         ],
                         "post_version": "2.5.2",
-                        "pre_version": "2.5.1openbeta2",
+                        "pre_version": "2.5.1_open_beta_2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2/6dfc76a6c3f009d12c2f81955e4424e93f6293ec.zip"
                     },
                     {
@@ -248,47 +216,24 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2/2.5.2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2/Magisk-Patched_2.5.2_Boot.img"
                     }
                 ]
             },
-            "2.5.1 open beta 2": {
-                "build_number": "Spacewar-U2.5-240106-2238",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "post_version": "2.5.1 open beta 2",
-                        "pre_version": "2.5.1closedbeta1hotfix2",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/238c2558175aca6ae8423b86e9753bb1c21b547c.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "post_version": "2.5.1 open beta 2",
-                        "pre_version": "2.5.1openbeta1",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/893848a68e13391107fd0790a6b95719146900ff.zip"
-                    }
-                ],
+            "2.5.1_open_beta_2": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/2.5.1.OB2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/Magisk-Patched_2.5.1.OB2_Boot.img"
                     }
                 ]
             },
-            "2.5.1 closed beta 1 hotfix 2": {
+            "2.5.1_closed_beta_1_hotfix_2": {
                 "build_number": "Spacewar-U2.5-231005-0836",
                 "ota": [
                     {
@@ -297,8 +242,8 @@
                             "global",
                             "eeaincremental"
                         ],
-                        "post_version": "2.5.1 closed beta 1 hotfix 2",
-                        "pre_version": "2.5.1closedbeta1hotfix",
+                        "post_version": "2.5.1_closed_beta_1_hotfix_2",
+                        "pre_version": "2.5.1_closed_beta_1_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/946762fa268bb0898509de8578814741542c5311.zip"
                     },
                     {
@@ -308,37 +253,24 @@
                             "eea"
                         ],
                         "post_version": "2.0.5",
-                        "pre_version": "2.5.1 closed beta 1 hotfix 2",
+                        "pre_version": "2.5.1_closed_beta_1_hotfix_2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/ota_diff_20231215_225600_20231110_173157.zip"
                     }
                 ]
             },
-            "2.5.1 open beta 1": {
-                "build_number": "Spacewar-U2.5-231215-2256",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "2.5.1 open beta 1",
-                        "pre_version": "2.0.5",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/ota_diff_20231110_173157_20231215_225600.zip"
-                    }
-                ],
+            "2.5.1_open_beta_1": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/2.5.1.OB1_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/Magisk-Patched_2.5.1.OB1_Boot.img"
                     }
                 ]
             },
-            "2.5.1 closed beta 1 hotfix": {
+            "2.5.1_closed_beta_1_hotfix": {
                 "build_number": "Spacewar-U2.5-231005-1147",
                 "ota": [
                     {
@@ -347,13 +279,13 @@
                             "global",
                             "eea"
                         ],
-                        "post_version": "2.5.1 closed beta 1 hotfix",
-                        "pre_version": "2.5.1closedbeta1",
+                        "post_version": "2.5.1_closed_beta_1_hotfix",
+                        "pre_version": "2.5.1_closed_beta_1",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/closed%20beta1%20hotfix/36fe7c14ca535ec865d63c28ca7973798e43efda.zip"
                     }
                 ]
             },
-            "2.5.1 closed beta 1": {
+            "2.5.1_closed_beta_1": {
                 "build_number": "Spacewar-U2.5-231005-0153",
                 "ota": [
                     {
@@ -362,13 +294,13 @@
                             "global",
                             "eea"
                         ],
-                        "post_version": "2.5.1 closed beta 1",
+                        "post_version": "2.5.1_closed_beta_1",
                         "pre_version": "2.0.5",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/closed%20beta1/288576a3468f6c6adaf40f749c408f6a63e1b1c1.zip"
                     }
                 ]
             },
-            "ADP 14 BETA 3": {
+            "ADP_14_BETA_3": {
                 "build_number": "UpsideDownCake-230719-1535",
                 "ota": [
                     {
@@ -377,7 +309,7 @@
                             "global",
                             "eea"
                         ],
-                        "post_version": "ADP 14 BETA 3",
+                        "post_version": "ADP_14_BETA_3",
                         "pre_version": "1.5.6",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA3/ota_diff_20230706_194202_20230719_153500.zip"
                     },
@@ -388,12 +320,12 @@
                             "eea"
                         ],
                         "post_version": "1.5.6",
-                        "pre_version": "ADP 14 BETA 3",
+                        "pre_version": "ADP_14_BETA_3",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA3/ota_diff_20230719_153500_20230706_194202.zip"
                     }
                 ]
             },
-            "ADP 14 BETA 1": {
+            "ADP_14_BETA_1": {
                 "build_number": "UpsideDownCake-230321-2229",
                 "ota": [
                     {
@@ -402,7 +334,7 @@
                             "global",
                             "eea"
                         ],
-                        "post_version": "ADP 14 BETA 1",
+                        "post_version": "ADP_14_BETA_1",
                         "pre_version": "1.5.4",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA1/ota_diff_20230428_201717_20230428_222944.zip"
                     },
@@ -413,7 +345,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.4",
-                        "pre_version": "ADP 14 BETA 1",
+                        "pre_version": "ADP_14_BETA_1",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/Android%2014%20Developer%20Preview/BETA1/ota_diff_20230428_222944_20230428_201717.zip"
                     }
                 ]
@@ -467,7 +399,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.5/2.0.5_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.5/Magisk-Patched_2.0.5_Boot.img"
                     }
                 ]
@@ -482,7 +414,7 @@
                             "eea"
                         ],
                         "post_version": "2.0.4",
-                        "pre_version": "2.0.2hotfix",
+                        "pre_version": "2.0.2_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.4/c7d1f41953dcf87dd7201ac4c11906bf0e8e3858.zip"
                     }
                 ],
@@ -492,51 +424,19 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.4/2.0.4_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.4/Magisk-Patched_2.0.4_Boot.img"
                     }
                 ]
             },
-            "2.0.2 hotfix": {
-                "build_number": "Spacewar-T2.0-230901-1652",
-                "ota": [
-                    {
-                        "type": "full",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "2.0.2 hotfix",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/6da1e9319f3aa4443175dd1d4d9a10cdbbac6dbe.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "2.0.2 hotfix",
-                        "pre_version": "2.0.2",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/1adc1351b0bd9a7a75efe40b3aa8baa7c6eb054f.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "2.0.2 hotfix",
-                        "pre_version": "1.5.6",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/90c0ffe26ea5149fef44cc506781b004553a273a.zip"
-                    }
-                ],
+            "2.0.2_hotfix": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/2.0.2.HOTFIX_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20hotfix/Magisk-Patched_2.0.2.HOTFIX_Boot.img"
                     }
                 ]
@@ -551,7 +451,7 @@
                             "eea"
                         ],
                         "post_version": "2.0.2",
-                        "pre_version": "2.0.2closedbeta",
+                        "pre_version": "2.0.2_closed_beta",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2/3000f38fcc6276e73e754e3540b22eb7777dc29d.zip"
                     },
                     {
@@ -571,12 +471,12 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2/2.0.2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2/Magisk-Patched_2.0.2_Boot.img"
                     }
                 ]
             },
-            "2.0.2 closed beta": {
+            "2.0.2_closed_beta": {
                 "build_number": "Spacewar-T2.0-230817-0030",
                 "ota": [
                     {
@@ -585,7 +485,7 @@
                             "global",
                             "eea"
                         ],
-                        "post_version": "2.0.2 closed beta",
+                        "post_version": "2.0.2_closed_beta",
                         "pre_version": "1.5.6",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.0.2%20leaked/4e0529a5087e0ac662d2eed9cba8da4bfcaaa6f8.zip"
                     }
@@ -611,7 +511,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.6",
-                        "pre_version": "EEA1.1.8",
+                        "pre_version": "EEA_1.1.8",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.6/603a222f6d0d93eb66a0aa996ed272c69739e86e.zip"
                     }
                 ],
@@ -621,7 +521,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.6/1.5.6_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.6/Magisk-Patched_1.5.6_Boot.img"
                     }
                 ]
@@ -655,7 +555,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.5/1.5.5_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.5/Magisk-Patched_1.5.5_Boot.img"
                     }
                 ]
@@ -670,7 +570,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.4",
-                        "pre_version": "1.5.3hotfix",
+                        "pre_version": "1.5.3_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.4/da75a517b2ab113621a45c01fad5f8867caea71c.zip"
                     },
                     {
@@ -690,7 +590,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.4",
-                        "pre_version": "GLOBAL1.1.8",
+                        "pre_version": "GLOBAL_1.1.8",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.4/2c17b815911108fdacee1c6124ef67b45538c298.zip"
                     }
                 ],
@@ -700,41 +600,19 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.4/1.5.4_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.4/Magisk-Patched_1.5.4_Boot.img"
                     }
                 ]
             },
-            "1.5.3 hotfix": {
-                "build_number": "Spacewar-T1.5-230317-2039",
-                "ota": [
-                    {
-                        "type": "full",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "1.5.3 hotfix",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/dd360e97f8ed9167905e8dfe9b24d0d68844b7f1.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "1.5.3 hotfix",
-                        "pre_version": "1.5.3",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/364c55148c84d22efab1c58953d807e40da040a9.zip"
-                    }
-                ],
+            "1.5.3_hotfix": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/1.5.3.HOTFIX_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3%20hotfix/Magisk-Patched_1.5.3.HOTFIX_Boot.img"
                     }
                 ]
@@ -759,7 +637,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3/1.5.3_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.3/Magisk-Patched_1.5.3_Boot.img"
                     }
                 ]
@@ -774,7 +652,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.2",
-                        "pre_version": "GLOBAL1.1.8",
+                        "pre_version": "GLOBAL_1.1.8",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.2/ae6c43b3022f2d554bd7a15e3dffb363e6b89000.zip"
                     },
                     {
@@ -784,7 +662,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.2",
-                        "pre_version": "EEA1.1.8",
+                        "pre_version": "EEA_1.1.8",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.2/6718db370773ad0191b970df545f54c4163a014e.zip"
                     },
                     {
@@ -794,7 +672,7 @@
                             "eea"
                         ],
                         "post_version": "1.5.2",
-                        "pre_version": "1.5.1openbeta2hotfix",
+                        "pre_version": "1.5.1_open_beta_2_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.2/e77cd22198a67cbed75b059470797a5dd66a3d5e.zip"
                     }
                 ],
@@ -804,90 +682,43 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.2/1.5.2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.2/Magisk-Patched_1.5.2_Boot.img"
                     }
                 ]
             },
-            "1.5.1 open beta 2 hotfix": {
-                "build_number": "Spacewar-T1.5-230114-2357",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "1.5.1 open beta 2 hotfix",
-                        "pre_version": "1.5.1openbeta2",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/0266138566534b1728271c1412fa152409bcc751.zip"
-                    }
-                ],
+            "1.5.1_open_beta_2_hotfix": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/1.5.1.OB2.HOTFIX_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1%20hotfix/Magisk-Patched_1.5.1.OB2.HOTFIX_Boot.img"
                     }
                 ]
             },
-            "1.5.1 open beta 2": {
-                "build_number": "Spacewar-T1.5-230111-0014",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "post_version": "1.5.1 open beta 2",
-                        "pre_version": "1.5.0openbeta1",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1/e27879949aee0ad565b8e4790ec58a42a3b30303.zip"
-                    }
-                ],
+            "1.5.1_open_beta_2": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1/1.5.1.OB2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.1/Magisk-Patched_1.5.1.OB2_Boot.img"
                     }
                 ]
             },
-            "1.5.0 open beta 1": {
-                "build_number": "Spacewar-T1.5-221215-1313",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "global"
-                        ],
-                        "post_version": "1.5.0 open beta 1",
-                        "pre_version": "GLOBAL1.1.7",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/f23d049819ca42c0c455d1c36716cfa3bb386448.zip"
-                    },
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "eea"
-                        ],
-                        "post_version": "1.5.0 open beta 1",
-                        "pre_version": "EEA1.1.7",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/EEA/66a78cc6105fb8182a3a07383756862655700192.zip"
-                    }
-                ],
+            "1.5.0_open_beta_1": {
                 "boot": [
                     {
                         "type": "stock",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/1.5.0.OB1_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.5.0/GLOBAL/Magisk-Patched_1.5.0.OB1_Boot.img"
                     }
                 ]
@@ -901,7 +732,7 @@
                             "global"
                         ],
                         "post_version": "1.1.8",
-                        "pre_version": "GLOBAL1.1.7",
+                        "pre_version": "GLOBAL_1.1.7",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.8/GLOBAL/deeb8830c86e0f9b89ae3170ada164b64de02c2c.zip"
                     },
                     {
@@ -910,12 +741,12 @@
                             "eea"
                         ],
                         "post_version": "1.1.8",
-                        "pre_version": "EEA1.1.7",
+                        "pre_version": "EEA_1.1.7",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.8/GLOBAL/deeb8830c86e0f9b89ae3170ada164b64de02c2c.zip"
                     }
                 ]
             },
-            "1.1.7 hotfix": {
+            "1.1.7_hotfix": {
                 "build_number": "Spacewar-S1.1-221129-1525",
                 "ota": [
                     {
@@ -923,8 +754,8 @@
                         "region": [
                             "eea"
                         ],
-                        "post_version": "1.1.7 hotfix",
-                        "pre_version": "EEA1.1.7",
+                        "post_version": "1.1.7_hotfix",
+                        "pre_version": "EEA_1.1.7",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.7%20hotfix/EEA/5a8a872c8fa2071424af6272bd78806f55d4aeda.zip"
                     }
                 ]
@@ -954,7 +785,7 @@
                             "global"
                         ],
                         "post_version": "1.1.7",
-                        "pre_version": "GLOBAL1.1.6",
+                        "pre_version": "GLOBAL_1.1.6",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/6d5f9ec32b7c80e07859cdf74daaefd612ac652f.zip"
                     },
                     {
@@ -963,7 +794,7 @@
                             "eea"
                         ],
                         "post_version": "1.1.7",
-                        "pre_version": "EEA1.1.6",
+                        "pre_version": "EEA_1.1.6",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.7/EEA/9c41fd92080af076c6e3abddbaefc7eac75c3edc.zip"
                     }
                 ],
@@ -973,7 +804,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/1.1.7_GLOBAL_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.7/GLOBAL/Magisk-Patched_1.1.7_GLOBAL_Boot.img"
                     }
                 ]
@@ -1003,7 +834,7 @@
                             "global"
                         ],
                         "post_version": "1.1.6",
-                        "pre_version": "GLOBAL1.1.5",
+                        "pre_version": "GLOBAL_1.1.5",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/f63f3cc420a5a4af639dec4d25adcb865a9a235d.zip"
                     },
                     {
@@ -1012,7 +843,7 @@
                             "eea"
                         ],
                         "post_version": "1.1.6",
-                        "pre_version": "EEA1.1.4hotfix",
+                        "pre_version": "EEA_1.1.4_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.6/EEA/10fefd93aaed7b4d478ebfcea69d789121ee859b.zip"
                     }
                 ],
@@ -1022,7 +853,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/1.1.6_GLOBAL_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.6/GLOBAL/Magisk-Patched_1.1.6_GLOBAL_Boot.img"
                     }
                 ]
@@ -1036,7 +867,7 @@
                             "global"
                         ],
                         "post_version": "1.1.5",
-                        "pre_version": "GLOBAL1.1.4hotfix",
+                        "pre_version": "GLOBAL_1.1.4_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/97d10eb70f173b7ce5a223a8d1f6d6fd42cfed5c.zip"
                     }
                 ],
@@ -1046,12 +877,12 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/1.1.5_GLOBAL_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.5/GLOBAL/Magisk-Patched_1.1.5_GLOBAL_Boot.img"
                     }
                 ]
             },
-            "1.1.4 hotfix": {
+            "1.1.4_hotfix": {
                 "build_number": "Spacewar-S1.1-220921-2238",
                 "ota": [
                     {
@@ -1059,7 +890,7 @@
                         "region": [
                             "global"
                         ],
-                        "post_version": "1.1.4 hotfix",
+                        "post_version": "1.1.4_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4%20hotfix/GLOBAL/54b8dbd1c303be00ef156c602b756c76d8d9b6e1.zip"
                     },
                     {
@@ -1067,7 +898,7 @@
                         "region": [
                             "eea"
                         ],
-                        "post_version": "1.1.4 hotfix",
+                        "post_version": "1.1.4_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4%20hotfix/EEA/4c0e18215e374ff95f733dedbd2ebc3f1824e1c8.zip"
                     },
                     {
@@ -1075,8 +906,8 @@
                         "region": [
                             "global"
                         ],
-                        "post_version": "1.1.4 hotfix",
-                        "pre_version": "GLOBAL1.1.4",
+                        "post_version": "1.1.4_hotfix",
+                        "pre_version": "GLOBAL_1.1.4",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4%20hotfix/GLOBAL/6cf1147321de57c159e26a0531760042d23c20ad.zip"
                     },
                     {
@@ -1084,8 +915,8 @@
                         "region": [
                             "eea"
                         ],
-                        "post_version": "1.1.4 hotfix",
-                        "pre_version": "EEA1.1.4",
+                        "post_version": "1.1.4_hotfix",
+                        "pre_version": "EEA_1.1.4",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4%20hotfix/EEA/288523074fe4af0c0680beee17b2df5a5dd84f7c.zip"
                     }
                 ]
@@ -1099,7 +930,7 @@
                             "global"
                         ],
                         "post_version": "1.1.4",
-                        "pre_version": "GLOBAL1.1.3",
+                        "pre_version": "GLOBAL_1.1.3",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/82ab3ed9150c788615767667c35568032bd81e66.zip"
                     },
                     {
@@ -1108,7 +939,7 @@
                             "eea"
                         ],
                         "post_version": "1.1.4",
-                        "pre_version": "EEA1.1.3",
+                        "pre_version": "EEA_1.1.3",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4/EEA/8841b46d4ec2df9c4c110a6af2e85a34460bba01.zip"
                     }
                 ],
@@ -1118,7 +949,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/1.1.4_GLOBAL_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.4/GLOBAL/Magisk-Patched_1.1.4_GLOBAL_Boot.img"
                     }
                 ]
@@ -1148,7 +979,7 @@
                             "global"
                         ],
                         "post_version": "1.1.3",
-                        "pre_version": "GLOBAL1.1.2",
+                        "pre_version": "GLOBAL_1.1.2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/d2e43b858fd93f46d136a424f3756ae2d5decbc3.zip"
                     },
                     {
@@ -1157,7 +988,7 @@
                             "eea"
                         ],
                         "post_version": "1.1.3",
-                        "pre_version": "EEA1.1.2",
+                        "pre_version": "EEA_1.1.2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.3/EEA/9441a6b477bf0a5ac205fa93ae37a341181b1341.zip"
                     }
                 ],
@@ -1167,7 +998,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/1.1.3_GLOBAL_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.3/GLOBAL/Magisk-Patched_1.1.3_GLOBAL_Boot.img"
                     }
                 ]
@@ -1197,7 +1028,7 @@
                             "global"
                         ],
                         "post_version": "1.1.2",
-                        "pre_version": "GLOBAL1.1.0",
+                        "pre_version": "GLOBAL_1.1.0",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.2/GLOBAL/a85e848885537f271ed8e13cbb9d929e8a76463b.zip"
                     },
                     {
@@ -1206,7 +1037,7 @@
                             "eea"
                         ],
                         "post_version": "1.1.2",
-                        "pre_version": "EEA1.1.0",
+                        "pre_version": "EEA_1.1.0",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.2/EEA/449a23b112bfd5dcfe59a231500e732663cc3f3d.zip"
                     }
                 ],
@@ -1242,7 +1073,7 @@
                             "global"
                         ],
                         "post_version": "1.1.0",
-                        "pre_version": "GLOBAL1.0.2",
+                        "pre_version": "GLOBAL_1.0.2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/88765a64183594df6f06d23b57ef75107d38c9e2.zip"
                     },
                     {
@@ -1251,7 +1082,7 @@
                             "eea"
                         ],
                         "post_version": "1.1.0",
-                        "pre_version": "EEA1.0.2",
+                        "pre_version": "EEA_1.0.2",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.0/EEA/3b2975594ff4e5935d54a4f0b3125306af933d6c.zip"
                     }
                 ],
@@ -1261,7 +1092,7 @@
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/1.1.0_GLOBAL_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/1.1.0/GLOBAL/Magisk-Patched_1.1.0_GLOBAL_Boot.img"
                     }
                 ]
@@ -1303,8 +1134,8 @@
         }
     },
     {
-        "nothing phone 2": {
-            "ADP 15 BETA 2": {
+        "nothing_phone_2": {
+            "ADP_15_BETA_2": {
                 "build_number": "Pong_AP31.240426.022 release-keys",
                 "ota": [
                     {
@@ -1312,7 +1143,7 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "ADP 15 BETA 2",
+                        "post_version": "ADP_15_BETA_2",
                         "pre_version": "2.5.6",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240606_180135_20240625_123844.zip"
                     },
@@ -1321,8 +1152,8 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "ADP 15 BETA 2",
-                        "pre_version": "ADP15BETA1",
+                        "post_version": "ADP_15_BETA_2",
+                        "pre_version": "ADP_15_BETA_1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_165558_20240625_123844.zip"
                     },
                     {
@@ -1331,12 +1162,12 @@
                             "allregions"
                         ],
                         "post_version": "2.5.6",
-                        "pre_version": "ADP 15 BETA 2",
+                        "pre_version": "ADP_15_BETA_2",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_123844_20240606_180135.zip"
                     }
                 ]
             },
-            "ADP 15 BETA 1": {
+            "ADP_15_BETA_1": {
                 "build_number": "Pong_AP31.240322.016 release keys",
                 "ota": [
                     {
@@ -1344,8 +1175,8 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "ADP 15 BETA 1",
-                        "pre_version": "2.5.5hotfix",
+                        "post_version": "ADP_15_BETA_1",
+                        "pre_version": "2.5.5_hotfix",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240418_124821_20240522_165558.zip"
                     },
                     {
@@ -1353,7 +1184,7 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "ADP 15 BETA 1",
+                        "post_version": "ADP_15_BETA_1",
                         "pre_version": "Pong-U2.5-240419-0138",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_013855_20240522_165558.zip"
                     },
@@ -1363,7 +1194,7 @@
                             "allregions"
                         ],
                         "post_version": "2.5.5hotfix",
-                        "pre_version": "ADP 15 BETA 1",
+                        "pre_version": "ADP_15_BETA_1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240522_165558_20240521_181628.zip"
                     }
                 ]
@@ -1387,7 +1218,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.6/2.6_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.6/Magisk-Patched_2.6_Boot.img"
                     }
                 ]
@@ -1409,7 +1240,7 @@
                             "allregions"
                         ],
                         "post_version": "2.5.6",
-                        "pre_version": "2.5.5hotfix",
+                        "pre_version": "2.5.5_hotfix",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.6/5ea6aefb7bca17c9b477ec7ac17d6412c0f90f3b.zip"
                     },
                     {
@@ -1428,7 +1259,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.6/2.5.6_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img"
                     }
                 ]
@@ -1436,7 +1267,7 @@
             "Pong-U2.5-240419-0138": {
                 "build_number": "Pong-U2.5-240419-0138"
             },
-            "2.5.5 hotfix": {
+            "2.5.5_hotfix": {
                 "build_number": "Pong-U2.5-240418-1248",
                 "ota": [
                     {
@@ -1444,7 +1275,7 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "2.5.5 hotfix",
+                        "post_version": "2.5.5_hotfix",
                         "pre_version": "2.5.5",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.5%20hotfix/04163fecbb7a8617636e9d1773c86ae9f1caf30b.zip"
                     },
@@ -1453,7 +1284,7 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "2.5.5 hotfix",
+                        "post_version": "2.5.5_hotfix",
                         "pre_version": "2.5.3",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.5%20hotfix/93383c8b9c42fc40f89df861159c6b52408bc6e6.zip"
                     }
@@ -1486,7 +1317,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.5/2.5.5_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img"
                     }
                 ]
@@ -1518,7 +1349,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.3/2.5.3_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.3/Magisk-Patched_2.5.3_Boot.img"
                     }
                 ]
@@ -1559,7 +1390,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.2/2.5.2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.2/Magisk-Patched_2.5.2_Boot.img"
                     }
                 ]
@@ -1591,7 +1422,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1A/2.5.1a_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1A/Magisk-Patched_2.5.1a_Boot.img"
                     }
                 ]
@@ -1622,7 +1453,7 @@
                             "allregions"
                         ],
                         "post_version": "2.5.1",
-                        "pre_version": "2.5openbeta2",
+                        "pre_version": "2.5_open_beta_2",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1/5d50d240dc073eeefeb6e37fdba0fdae4e0bd5a3.zip"
                     },
                     {
@@ -1641,12 +1472,12 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1/2.5.1_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1/Magisk-Patched_2.5.1_Boot.img"
                     }
                 ]
             },
-            "2.5 open beta 2": {
+            "2.5_open_beta_2": {
                 "build_number": "Pong-U2.5-231102-1201",
                 "ota": [
                     {
@@ -1654,7 +1485,7 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "2.5 open beta 2",
+                        "post_version": "2.5_open_beta_2",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/merged-qssi-Pong-otafull-20231102_120116.zip"
                     },
                     {
@@ -1662,8 +1493,8 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "2.5 open beta 2",
-                        "pre_version": "2.5openbeta1",
+                        "post_version": "2.5_open_beta_2",
+                        "pre_version": "2.5_open_beta_1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/39e4ea7e0f69a0f202692660dc9ba794ceb8b58c.zip"
                     },
                     {
@@ -1672,12 +1503,12 @@
                             "allregions"
                         ],
                         "post_version": "2.0.3",
-                        "pre_version": "2.5 open beta 2",
+                        "pre_version": "2.5_open_beta_2",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/ota_diff_20231007_210212_20230906_193329.zip"
                     }
                 ]
             },
-            "2.5 open beta 1": {
+            "2.5_open_beta_1": {
                 "build_number": "Pong-U2.5-231007-2101",
                 "ota": [
                     {
@@ -1685,7 +1516,7 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "2.5 open beta 1",
+                        "post_version": "2.5_open_beta_1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/merged-qssi-Pong-otafull-20231007_210212.zip"
                     }
                 ]
@@ -1717,7 +1548,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.4/2.0.4_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.4/Magisk-Patched_2.0.4_Boot.img"
                     }
                 ]
@@ -1749,7 +1580,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.3/2.0.3_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.3/Magisk-Patched_2.0.3_Boot.img"
                     }
                 ]
@@ -1773,7 +1604,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.2A/2.0.2a_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.2A/Magisk-Patched_2.0.2a_Boot.img"
                     }
                 ]
@@ -1797,7 +1628,7 @@
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.2/2.0.2_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.0.2/Magisk-Patched_2.0.2_Boot.img"
                     }
                 ]
@@ -1841,8 +1672,8 @@
         }
     },
     {
-        "nothing phone 2a": {
-            "ADP 15 BETA 2": {
+        "nothing_phone_2a": {
+            "ADP_15_BETA_2": {
                 "build_number": "Pacman_AP31.240426.022 release-keys",
                 "ota": [
                     {
@@ -1853,7 +1684,7 @@
                             "milk",
                             "specialedition"
                         ],
-                        "post_version": "ADP 15 BETA 2",
+                        "post_version": "ADP_15_BETA_2",
                         "pre_version": "2.5.6",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip"
                     },
@@ -1865,7 +1696,7 @@
                             "milk",
                             "specialedetion"
                         ],
-                        "post_version": "ADP 15 BETA 2",
+                        "post_version": "ADP_15_BETA_2",
                         "pre_version": "Pacman-U2.5-240530_1906",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip"
                     },
@@ -1877,8 +1708,8 @@
                             "milk",
                             "specialedetion"
                         ],
-                        "post_version": "ADP 15 BETA 2",
-                        "pre_version": "ADP15BETA1",
+                        "post_version": "ADP_15_BETA_2",
+                        "pre_version": "ADP_15_BETA_1",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip"
                     },
                     {
@@ -1890,12 +1721,12 @@
                             "specialedition"
                         ],
                         "post_version": "2.5.6",
-                        "pre_version": "ADP 15 BETA 2",
+                        "pre_version": "ADP_15_BETA_2",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip"
                     }
                 ]
             },
-            "ADP 15 BETA 1": {
+            "ADP_15_BETA_1": {
                 "build_number": "Pacman_AP31.240322.016 release keys",
                 "ota": [
                     {
@@ -1905,7 +1736,7 @@
                             "white",
                             "milk"
                         ],
-                        "post_version": "ADP 15 BETA 1",
+                        "post_version": "ADP_15_BETA_1",
                         "pre_version": "2.5.5A",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip"
                     },
@@ -1917,7 +1748,7 @@
                             "milk"
                         ],
                         "post_version": "2.5.5A",
-                        "pre_version": "ADP 15 BETA 1",
+                        "pre_version": "ADP_15_BETA_1",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip"
                     }
                 ]
@@ -1944,7 +1775,7 @@
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.6/2.6_Init_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.6/Magisk-Patched_2.6_Init_Boot.img"
                     }
                 ]
@@ -1971,7 +1802,7 @@
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.5.6/2.5.6_Init_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.5.6/Magisk-Patched_2.5.6_Init_Boot.img"
                     }
                 ]
@@ -2000,7 +1831,7 @@
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/2.5.5a_Init_Boot.img"
                     },
                     {
-                        "type": "magisk patched",
+                        "type": "magisk_patched",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/Magisk-Patched_2.5.5a_Init_Boot.img"
                     }
                 ]
@@ -2073,7 +1904,7 @@
                     }
                 ]
             },
-            "Pre release": {
+            "Pre_release": {
                 "build_number": "Pacman-U2.5-240301-2206",
                 "ota": [
                     {
@@ -2083,7 +1914,7 @@
                             "white",
                             "milk"
                         ],
-                        "post_version": "Pre release",
+                        "post_version": "Pre_release",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/pre%20release/73ec7a5c9a29b5cb65d8b3e0bf9b29a13475ab03.zip"
                     }
                 ]
@@ -2091,15 +1922,15 @@
         }
     },
     {
-        "nothing phone 2a plus": {
+        "nothing_phone_2a_plus": {
             "2.6": {
                 "build_number": "PacmanPro-U2.6-240723-1102"
             }
         }
     },
     {
-        "cmf phone 1": {
-            "2.6 hotfix 3": {
+        "cmf_phone_1": {
+            "2.6_hotfix_3": {
                 "build_number": "Tetris-U2.6-240729-1047",
                 "ota": [
                     {
@@ -2107,25 +1938,13 @@
                         "region": [
                             "allregions"
                         ],
-                        "post_version": "2.6 hotfix 3",
-                        "pre_version": "2.6hotfix2",
+                        "post_version": "2.6_hotfix_3",
+                        "pre_version": "2.6_hotfix_2",
                         "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix3/7c6b902a8168be0c3345b3b19d46c3ea0de92dfe.zip"
                     }
                 ]
             },
-            "2.6 hotfix 2": {
-                "build_number": "Tetris-U2.6-240713-1955",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "allregions"
-                        ],
-                        "post_version": "2.6 hotfix 2",
-                        "pre_version": "2.6hotfix",
-                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix2/24c251bfc97dbe9a32777af2677e979e38bfcef2.zip"
-                    }
-                ],
+            "2.6_hotfix_2": {
                 "boot": [
                     {
                         "type": "stock",
@@ -2133,19 +1952,7 @@
                     }
                 ]
             },
-            "2.6 hotfix": {
-                "build_number": "Tetris-U2.6-240702-2200",
-                "ota": [
-                    {
-                        "type": "incremental",
-                        "region": [
-                            "allregions"
-                        ],
-                        "post_version": "2.6 hotfix",
-                        "pre_version": "2.6",
-                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix/8a34de4737ca5166ab609267c059eb1bf4b475ae.zip"
-                    }
-                ],
+            "2.6_hotfix": {
                 "boot": [
                     {
                         "type": "stock",
