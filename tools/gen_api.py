@@ -83,6 +83,10 @@ def convert_table_to_json(table):
             if version not in json[model]:
                 json[model][version] = {}
             
+            # generate a clear version name
+            if "name" not in keys:
+                json[model][version]["name"] = version.replace("_", " ")
+
             # check if there is a key "build number" in the table
             if "build number" in keys:
                 if row < len(phoneTable["build number"]):
@@ -100,16 +104,26 @@ def convert_table_to_json(table):
 
                         try:
                             for ota in otas:
+                                variant = []
+                                regions = []
                                 region = ota.split("[")[1].split("]")[0]
                                 region = region.lower().replace(" ", "").split("/")
                                 url = ota.split("](")[1].split(")")[0]
 
                                 if region[0] == "allregions" or region[0] == "allregions":
-                                    region[0] = "all"
+                                    region[0] = "eea"
+                                    region.append("global")
 
-                                data = {
+                                for r in region:
+                                    if r != "all" and r != "eea" and r != "global":
+                                        variant.append(r)
+                                    else:
+                                        regions.append(r)
+
+                                    data = {
                                     "type": "full",
-                                    "region": region,
+                                    "region": regions,
+                                    "variant": variant,
                                     "post_version": version,
                                     "url": url
                                 }
@@ -132,6 +146,8 @@ def convert_table_to_json(table):
 
                         for ota in otas:
                             try:
+                                variant = []
+                                regions = []
                                 region = ota.split("[")[1].split("from")[0].lower().replace(" ", "").split("/")
                                 from_version = ota.split("from")[1].split("]")[0]
 
@@ -143,11 +159,20 @@ def convert_table_to_json(table):
                                 url = ota.split("](")[1].split(")")[0]
 
                                 if region[0] == "allregions" or region[0] == "allregions":
-                                    region[0] = "all"
+                                    region[0] = "eea"
+                                    region.append("global")
+                   
+                                for r in region:
+                                    if r != "all" and r != "eea" and r != "global":
+                                        variant.append(r)
+                                    else:
+                                        regions.append(r)
+
 
                                 data = {
                                     "type": "incremental",
-                                    "region": region,
+                                    "region": regions,
+                                    "variant": variant,
                                     "post_version": version,
                                     "pre_version": from_version,
                                     "url": url
@@ -171,17 +196,27 @@ def convert_table_to_json(table):
 
                         for ota in otas:
                             try:
+                                variant = []
+                                regions = []
                                 region = ota.split("[")[1].split("to")[0].lower().replace(" ", "").split("/")
                                 to_version = ota.split("to")[1].split("]")[0].replace(" ", "")
 
                                 url = ota.split("](")[1].split(")")[0]
 
                                 if region[0] == "allregions" or region[0] == "allregions":
-                                    region[0] = "all"
+                                    region[0] = "eea"
+                                    region.append("global")
+
+                                for r in region:
+                                    if r != "all" and r != "eea" and r != "global":
+                                        variant.append(r)
+                                    else:
+                                        regions.append(r)
 
                                 data = {
                                     "type": "rollback",
-                                    "region": region,
+                                    "region": regions,
+                                    "variant": variant,
                                     "post_version": to_version,
                                     "pre_version": version,
                                     "url": url

@@ -7,13 +7,13 @@ This repository contains firmware files for Nothing Phone 1, 2, 2a, 2a plus and 
 
 Here is a list of all the firmware files available for download:
 
-| Product | OTA | BOOT | Fastboot | Torrent |
-|---------|-----|------|----------|---------|
-| Nothing Phone 1 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
-| Nothing Phone 2 | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
-| Nothing Phone 2a | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
-| Nothing Phone 2a plus | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
-| CMF Phone 1 | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
+| Product | OTA | BOOT | Fastboot | Changelog | Torrent |
+|---------|-----|------|----------|-----------|---------|
+| Nothing Phone 1 | ✅ | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
+| Nothing Phone 2 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
+| Nothing Phone 2a | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
+| Nothing Phone 2a plus | ❌ | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
+| CMF Phone 1 | ✅ | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
 
 ## Table of Contents
 -   [Nothing Phone 1](#nothing-phone-1)
@@ -50,10 +50,10 @@ Here is a list of all the firmware files available for download:
 
 ### Android 14
 
-|Version|build number|Full OTA|Incremental OTA|Rollback|
-|-------|------------|--------|---------------|--------|
-|2.6|Spacewar-U2.6-240705-1617||[EEA/GLOBAL from 2.5.6](https://archive.org/download/nothing-phone-1-firmware/2.6/879c1c1c8fc99eb43a6378d716ae8704a78924b3.zip)|
-|2.5.6|Spacewar-U2.5-240612-2149|[EEA/GLOBAL](https://archive.org/download/nothing-phone-1-firmware/2.5.6/merged-qssi-Spacewar-otafull-20240612_214905.zip)|[EEA/GLOBAL from 2.5.5](https://archive.org/download/nothing-phone-1-firmware/2.5.6/54c1298c0fbeae5b9f2454762183beb074d883b5.zip)||
+|Version|build number|Full OTA|Incremental OTA|Rollback|Changelog|
+|-------|------------|--------|---------------|--------|---------|
+|2.6|Spacewar-U2.6-240705-1617||[EEA/GLOBAL from 2.5.6](https://archive.org/download/nothing-phone-1-firmware/2.6/879c1c1c8fc99eb43a6378d716ae8704a78924b3.zip)||<details><summary>changelog</summary>What’s new in this update<br>New features & experience improvements<br>🖼️ Added 4 new wallpapers.<br>🌄 Added support for deleting wallpaper history in Wallpaper Studio.<br>🛡️ Updated security patch to July 2024<br>Game Mode enhancements<br>🎮 Tap the left Game Sidebar for quick access to Game Dashboard during games.<br>📲 Incoming calls during games can now be displayed in a pop-up view.<br>🚫 Added support to reject third-party app calls during gameplay.<br>📞 Support for one-tap callback after rejecting a regular call.<br>🔔 Optimised light notifications to show more information during games in landscape mode.<br>🛑 Support for blocking notifications during gameplay to reduce distractions.<br>Bug Fixes<br>📶 Optimized the quick recovery mechanism for blocked data network connections to improve network stability.<br>📞 Fixed an issue where some carriers allowed receiving calls but not making outgoing calls.<br>🔒 Resolved an issue causing overlapping of the Lock Screen display in certain scenarios.<br>📱 Fixed an issue where some apps could not use the Cloned Apps feature<br>properly<br>👾 Other general bug fixes.</details>|
+|2.5.6|Spacewar-U2.5-240612-2149|[EEA/GLOBAL](https://archive.org/download/nothing-phone-1-firmware/2.5.6/merged-qssi-Spacewar-otafull-20240612_214905.zip)|[EEA/GLOBAL from 2.5.5](https://archive.org/download/nothing-phone-1-firmware/2.5.6/54c1298c0fbeae5b9f2454762183beb074d883b5.zip)||<details><summary>changelog</summary>Nothing OS 2.5.6<br>New features<br>👈 Added a “Hide navigation bar” feature for more full-screen immersive experience. Accessed via Settings > System > Gestures > Navigation mode > Gesture navigation settings > Hide navigation bar.<br>✨ Optimised the interaction for editing widgets on the home screen. You can now long-press widgets to access that widget’s shortcuts menu.<br>💡 New swipe function in the Glyph interface for better setting the Glyph brightness.<br>🌄 Introduced support for Ultra HDR feature in Camera, supporting XDR display effect for photos.<br>Improvements<br>📞 Introduced a recovery mechanism for abnormal call states to improve call stability.<br>🔒 Ensure the screen stays off when the power key is pressed during an incoming call to enhance privacy and prevent accidental touches.<br>📡 Added support for sending and receiving SMS over 5G for certain carriers.<br>📶 Added VoWiFi support for certain carriers .<br>Bug Fixes<br>🔧 Fixed an issue causing recording problems in WhatsApp under specific paths.<br>☎️ Resolved the issue where dialling 111 in the UK redirected to the 999 emergency number in some scenarios.<br>🚗 Fixed a problem where the volume bar kept popping up when connected to car Bluetooth.</details>|
 |2.5.5|Spacewar-U2.5-240419-1617||[EEA/GLOBAL from 2.5.3A](https://archive.org/download/nothing-phone-1-firmware/2.5.5/1b6de06002f9cbb4e62a1ec4267e72910e705c78.zip)<br>[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.5/d464235c4b9920d93d662b21e9713632731a203a.zip)||
 |2.5.3A|Spacewar-U2.5-240317-2245|[EEA/GLOBAL](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/af8523121e2e73f564bb78ceb3074deec7222c6b.zip)|[EEA/GLOBAL from 2.5.3](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/176fffc72ad05488556821215d3e10ffc939ff35.zip)<br>[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.3A/158f65d4c44323ac9ea4c0c64e97b0a37d9aac74.zip)||
 |2.5.3|Spacewar-U2.5-240301-1852||[EEA/GLOBAL from 2.5.2 hotfix](https://archive.org/download/nothing-phone-1-firmware/2.5.3/993ef2c61a5d996015d7ff07f955cc8dbb6344c4.zip)||
@@ -210,15 +210,15 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Incremental OTA|Rollback|
 |-------|------------|---------------|--------|
-|ADP 15 BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip)<br>[Black / White / Milk / Special Edetion from ADP 15 BETA 1](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip)|[Black / White / Milk / Special Edition to 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip)|
+|ADP 15 BETA 2|Pacman_AP31.240426.022 release-keys|[Black / White / Milk from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240522_181858_20240625_124014.zip)<br>[Black / White / Milk from Pacman-U2.5-240530_1906](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip)<br>[Black / White / Milk from ADP 15 BETA 1](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240530_190614_20240625_124014.zip)|[Black / White / Milk to 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA2/ota_diff_20240625_124014_20240522_181858.zip)|
 |ADP 15 BETA 1|Pacman_AP31.240322.016 release keys|[Black / White / Milk from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240419_223516_20240502_121507.zip)|[Black / White / Milk to 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip)|
 
 ### Android 14
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.6|Pacman-U2.6-240701-2308||[Black / White / Milk / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/2.6/8351e1949122ca88c8149ebef62e986a1cc7b4d3.zip)|
-|2.5.6|Pacman-U2.5-240522-1818||[Black / White / Milk / Special Edition from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
+|2.6|Pacman-U2.6-240701-2308||[Black / White / Milk / Blue / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/2.6/8351e1949122ca88c8149ebef62e986a1cc7b4d3.zip)|
+|2.5.6|Pacman-U2.5-240522-1818||[Black / White / Milk / Blue / Special Edition from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
 |2.5.5B|Pacman-U2.5-240425-1549|||
 |2.5.5A|Pacman-U2.5-240419-2235||[Black / White / Milk from 2.5.5](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/0f96a78ccd851e6c91abbb7d64ad1fc2691617ea.zip)|
 |2.5.5|Pacman-U2.5-240410-1238||[Black / White / Milk from 2.5.4A](https://archive.org/download/nothing-phone-2a-firmware/2.5.5/cba47167162f5940362699d12bc16d4ef3f5beef.zip)|
