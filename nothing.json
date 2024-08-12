@@ -4,6 +4,7 @@
             "2.6": {
                 "name": "2.6",
                 "build_number": "Spacewar-U2.6-240705-1617",
+                "changelog": "What\u2019s new in this update<br>New features & experience improvements<br>\ud83d\uddbc\ufe0f Added 4 new wallpapers.<br>\ud83c\udf04 Added support for deleting wallpaper history in Wallpaper Studio.<br>\ud83d\udee1\ufe0f Updated security patch to July 2024<br>Game Mode enhancements<br>\ud83c\udfae Tap the left Game Sidebar for quick access to Game Dashboard during games.<br>\ud83d\udcf2 Incoming calls during games can now be displayed in a pop-up view.<br>\ud83d\udeab Added support to reject third-party app calls during gameplay.<br>\ud83d\udcde Support for one-tap callback after rejecting a regular call.<br>\ud83d\udd14 Optimised light notifications to show more information during games in landscape mode.<br>\ud83d\uded1 Support for blocking notifications during gameplay to reduce distractions.<br>Bug Fixes<br>\ud83d\udcf6 Optimized the quick recovery mechanism for blocked data network connections to improve network stability.<br>\ud83d\udcde Fixed an issue where some carriers allowed receiving calls but not making outgoing calls.<br>\ud83d\udd12 Resolved an issue causing overlapping of the Lock Screen display in certain scenarios.<br>\ud83d\udcf1 Fixed an issue where some apps could not use the Cloned Apps feature<br>properly<br>\ud83d\udc7e Other general bug fixes.",
                 "ota": [
                     {
                         "type": "incremental",
@@ -31,6 +32,7 @@
             "2.5.6": {
                 "name": "2.5.6",
                 "build_number": "Spacewar-U2.5-240612-2149",
+                "changelog": "Nothing OS 2.5.6<br>New features<br>\ud83d\udc48 Added a \u201cHide navigation bar\u201d feature for more full-screen immersive experience. Accessed via Settings > System > Gestures > Navigation mode > Gesture navigation settings > Hide navigation bar.<br>\u2728 Optimised the interaction for editing widgets on the home screen. You can now long-press widgets to access that widget\u2019s shortcuts menu.<br>\ud83d\udca1 New swipe function in the Glyph interface for better setting the Glyph brightness.<br>\ud83c\udf04 Introduced support for Ultra HDR feature in Camera, supporting XDR display effect for photos.<br>Improvements<br>\ud83d\udcde Introduced a recovery mechanism for abnormal call states to improve call stability.<br>\ud83d\udd12 Ensure the screen stays off when the power key is pressed during an incoming call to enhance privacy and prevent accidental touches.<br>\ud83d\udce1 Added support for sending and receiving SMS over 5G for certain carriers.<br>\ud83d\udcf6 Added VoWiFi support for certain carriers .<br>Bug Fixes<br>\ud83d\udd27 Fixed an issue causing recording problems in WhatsApp under specific paths.<br>\u260e\ufe0f Resolved the issue where dialling 111 in the UK redirected to the 999 emergency number in some scenarios.<br>\ud83d\ude97 Fixed a problem where the volume bar kept popping up when connected to car Bluetooth.",
                 "ota": [
                     {
                         "type": "full",
@@ -68,6 +70,7 @@
             "2.5.5": {
                 "name": "2.5.5",
                 "build_number": "Spacewar-U2.5-240419-1617",
+                "changelog": "Nothing OS 2.5.5<br>ChatGPT Integration<br>The following features are available with the latest ChatGPT version installed from the Play Store:<br>\ud83d\udcac New gesture option in the Nothing X app for starting a voice conversation with ChatGPT. Works via Nothing Ear and Nothing Ear (a). Coming soon to other Nothing audio products.<br>\ud83e\udd16 Added new ChatGPT widgets for fast and easy access from your home screen.<br>\ud83d\udccb Added a button on the screenshot and clipboard pop-up to directly paste content to a new conversation in ChatGPT.<br>New features<br>\ud83d\udd2e Added an option for the Nothing Icon Pack to be applied only to the Home Screen to improve accessibility in the App Drawer.<br>\u27a1\ufe0f You can now scroll through pages on the Home Screen while holding app icons for a more intuitive experience while organising icons.<br>\ud83d\udeab Added a custom option for enabling/disabling the QuickSetting swipe-down page on the lock screen interface. Accessed via \u201cSettings > Lock Screen and AOD > Quick Settings\u201d.<br>\ud83c\udf9b\ufe0f New options for customising icons within the status bar. Accessed via \u201cSettings > Display > Status bar\u201d.<br>\ud83d\ude80 Added RAM Booster feature. To set, head to Settings > System > RAM Booster.<br>Improvements<br>\ud83c\udf1f Integrated an AI-powered algorithm for smarter lighting adjustments for auto-brightness.<br>\ud83d\udd04 Reordered Quick Settings tiles for improved accessibility.<br>\ud83c\udf1f New animations for Quick Settings widgets to enhance engagement.<br>\u26a1 Optimised response speed when toggling Bluetooth in Quick Settings, for quicker interactions.<br>\ud83d\udd0a Enhanced the volume settings experience to make it more intuitive.<br>General fixes<br>\ud83d\udd17 Fixed an issue where Wi-Fi would automatically disconnect.<br>\ud83c\udfa7 Resolved a problem causing earbud volume to not sync with the phone\u2019s volume.<br>\ud83d\udcde Resolved an issue where audio would not switch to a connected watch during calls when also connected to an earbud.<br>\ud83d\uddbc\ufe0f Fixed an issue where screenshots did not display the frame or allow entry into the editor.<br>\ud83d\udcf1 Resolved a rare problem causing a lack of vibration feedback when swiping sideways to go back on the screen.",
                 "ota": [
                     {
                         "type": "incremental",
@@ -106,6 +109,7 @@
             "2.5.3A": {
                 "name": "2.5.3A",
                 "build_number": "Spacewar-U2.5-240317-2245",
+                "changelog": "General improvements<br>\ud83c\udf99\ufe0f New Recorder widget.<br>\ud83d\ude80 Better fluidity from optimised widgets and app-opening animations.<br>\ud83d\udd12 Enhanced lock screen animation effects for a smoother experience.<br>\ud83c\udf19 Improved the clock animation on the Always On Display (AOD) interface.<br>\ud83d\udee1\ufe0f Updated security patch for enhanced device protection.Bug Fixes<br>\ud83d\udd27 Resolved flickering issues when editing or displaying lock screen widgets in certain scenarios.<br>\u2709\ufe0f Fixed the problem where text messages failed to send in specific scenarios.<br>\ud83d\udd12 Resolved flickering issues during fingerprint unlocking on the AOD interface.<br>\ud83c\udfb6 Fixed the issue of blurry thumbnail display in the Media Player widget while playing Spotify.",
                 "ota": [
                     {
                         "type": "full",
@@ -154,6 +158,7 @@
             "2.5.3": {
                 "name": "2.5.3",
                 "build_number": "Spacewar-U2.5-240301-1852",
+                "changelog": "Nothing OS 2.5.3<br>General improvements<br>\ud83c\udf99\ufe0f New Recorder widget.<br>\ud83d\ude80 Better fluidity from optimised widgets and app-opening animations.<br>\ud83d\udd12 Enhanced lock screen animation effects for a smoother experience.<br>\ud83c\udf19 Improved the clock animation on the Always On Display (AOD) interface.<br>\ud83d\udee1\ufe0f Updated security patch for enhanced device protection.<br>Bug Fixes<br>\ud83d\udd27 Resolved flickering issues when editing or displaying lock screen widgets in certain scenarios.<br>\u2709\ufe0f Fixed the problem where text messages failed to send in specific scenarios.<br>\ud83d\udd12 Resolved flickering issues during fingerprint unlocking on the AOD interface.",
                 "ota": [
                     {
                         "type": "incremental",
@@ -181,6 +186,7 @@
             "2.5.2_hotfix": {
                 "name": "2.5.2 hotfix",
                 "build_number": "Spacewar-U2.5-240207-1031",
+                "changelog": "",
                 "ota": [
                     {
                         "type": "full",
@@ -229,6 +235,7 @@
             "2.5.2": {
                 "name": "2.5.2",
                 "build_number": "Spacewar-U2.5-240119-1910",
+                "changelog": "Nothing OS 2.5<br>This update transitions you to Nothing OS 2.5, powered by Android 14 - our most significant update since the launch of OS 2.0. Full of exciting new features and improvements to enhance your everyday experience. Here\u2019s what\u2019s in store:<br>Customisation<br>\u2728 Redesigned a joint Home Screen and Lock Screen customisation page and improved the edit wallpaper flow for a more comprehensive view of options.<br>\ud83c\udf0c New Atmosphere wallpaper effect: Transform your background photo into a dynamic wallpaper that brings motion to colours on your home screen. A seamless transition between your <br>lock and home screens<br>\ud83c\udfa8 Introduced solid colour wallpapers for a cleaner Home Screen appearance.<br>\u26aa Added a monochrome colour theme in the basic colour section.<br>Glyph Interface<br>\ud83c\udfb6 Get direct access to the Glyph Interface\u2019s Music Visualisation feature (some of you may have already discovered it).<br>\ud83c\udf1f Improved overall Glyph light playback effect when synchronising with your device\u2019s audio.<br>\ud83d\udcab Added a new Glyph animation for when NFC is being used.<br>\ud83d\udd04 Improved the experience of Flip to Glyph.<br>Gesture<br>\ud83d\udca1Customisable double-press power button to quickly access a chosen feature. Just head to Settings > System > Gestures.<br>\ud83e\udd16 More Lock Screen shortcut options like: Do Not Disturb, Mute, QR code scanner, video camera.<br>\ud83d\udcf8 Capture screenshots quickly with a three-finger swipe gesture.<br>\u270f\ufe0f New screenshot editor and menu, allowing for more advanced editing features and quick deletions.<br>\u2b05\ufe0f Refreshed the back gesture arrow visual to be more in line with Nothing\u2019s style.<br>Quick Settings<br>\ud83d\udd14 Added support for switching ring modes in Quick Settings.<br>\ud83d\udcf6 You can now directly set your network via Quick Settings without unlocking the device.<br>\u2699\ufe0f Updated Quick Settings layout and support to show more devices icons.<br>New Widgets<br>\ud83d\udeb6 Pedometer Widget: Track your daily steps directly from your home screen. Set goals and monitor your progress to stay motivated.<br>\ud83c\udfb5 Media Player Widget: Displays the currently playing song. Control your music easily while on-the-move.<br>\u23f3 Screen Time Widget: Monitor and manage your daily screen time to maintain a healthy digital lifestyle.<br>More improvements<br>\ud83c\udf25\ufe0f Optimised the experience of the Weather app and improved the notification of weather alerts.<br>\ud83d\udd14 Made it possible to set ringtone and notification sound volumes separately, with an updated volume control interface.<br>\ud83d\udcf8 Automatically excludes the preview of the previous screenshot when taking continuous screenshots.<br>\ud83d\udcf7 Improved the stability of the camera.<br>\ud83d\ude80 Enhanced the overall smoothness and responsiveness of the system for a more fluid user experience.<br>\ud83d\udc7e Enhanced system stability and improved battery life.",
                 "ota": [
                     {
                         "type": "incremental",
@@ -251,17 +258,6 @@
                         "post_version": "2.5.2",
                         "pre_version": "2.0.5",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.2/af7de84da8337982201cbd7da8cee51ddc9d0241.zip"
-                    },
-                    {
-                        "type": "rollback",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "variant": [],
-                        "post_version": "2.0.5",
-                        "pre_version": "2.5.2",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/ota_diff_20240106_223823_20231110_173157.zip"
                     }
                 ],
                 "boot": [
@@ -300,6 +296,17 @@
                         "post_version": "2.5.1_open_beta_2",
                         "pre_version": "2.5.1_open_beta_1",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/893848a68e13391107fd0790a6b95719146900ff.zip"
+                    },
+                    {
+                        "type": "rollback",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.0.5",
+                        "pre_version": "2.5.1_open_beta_2",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta2/ota_diff_20240106_223823_20231110_173157.zip"
                     }
                 ],
                 "boot": [
@@ -328,17 +335,6 @@
                         "post_version": "2.5.1_closed_beta_1_hotfix_2",
                         "pre_version": "2.5.1_closed_beta_1_hotfix",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/946762fa268bb0898509de8578814741542c5311.zip"
-                    },
-                    {
-                        "type": "rollback",
-                        "region": [
-                            "global",
-                            "eea"
-                        ],
-                        "variant": [],
-                        "post_version": "2.0.5",
-                        "pre_version": "2.5.1_closed_beta_1_hotfix_2",
-                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/ota_diff_20231215_225600_20231110_173157.zip"
                     }
                 ]
             },
@@ -356,6 +352,17 @@
                         "post_version": "2.5.1_open_beta_1",
                         "pre_version": "2.0.5",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/ota_diff_20231110_173157_20231215_225600.zip"
+                    },
+                    {
+                        "type": "rollback",
+                        "region": [
+                            "global",
+                            "eea"
+                        ],
+                        "variant": [],
+                        "post_version": "2.0.5",
+                        "pre_version": "2.5.1_open_beta_1",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.5.1/open%20beta1/ota_diff_20231215_225600_20231110_173157.zip"
                     }
                 ],
                 "boot": [

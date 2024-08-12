@@ -94,6 +94,13 @@ def convert_table_to_json(table):
                     if build_number not in json[model][version]:
                         json[model][version]["build_number"] = build_number
             
+            if "changelog" in keys:
+                if row < len(phoneTable["changelog"]):
+                    changelog = phoneTable["changelog"][row].split("</summary>")[1].split("</details>")[0]
+
+                    if "changelog" not in json[model][version]:
+                        json[model][version]["changelog"] = changelog
+
             # check if there is a key "full ota" in the table
 
             if "full ota" in keys:
@@ -267,7 +274,7 @@ def convert_table_to_json(table):
                             json[model][version]["boot"].append(data)
                         except:
                             pass
-    
+            
     return json
 
 def main():
