@@ -7,6 +7,16 @@
                 "changelog": "What\u2019s new in this update<br>New features & experience improvements<br>\ud83d\uddbc\ufe0f Added 4 new wallpapers.<br>\ud83c\udf04 Added support for deleting wallpaper history in Wallpaper Studio.<br>\ud83d\udee1\ufe0f Updated security patch to July 2024<br>Game Mode enhancements<br>\ud83c\udfae Tap the left Game Sidebar for quick access to Game Dashboard during games.<br>\ud83d\udcf2 Incoming calls during games can now be displayed in a pop-up view.<br>\ud83d\udeab Added support to reject third-party app calls during gameplay.<br>\ud83d\udcde Support for one-tap callback after rejecting a regular call.<br>\ud83d\udd14 Optimised light notifications to show more information during games in landscape mode.<br>\ud83d\uded1 Support for blocking notifications during gameplay to reduce distractions.<br>Bug Fixes<br>\ud83d\udcf6 Optimized the quick recovery mechanism for blocked data network connections to improve network stability.<br>\ud83d\udcde Fixed an issue where some carriers allowed receiving calls but not making outgoing calls.<br>\ud83d\udd12 Resolved an issue causing overlapping of the Lock Screen display in certain scenarios.<br>\ud83d\udcf1 Fixed an issue where some apps could not use the Cloned Apps feature<br>properly<br>\ud83d\udc7e Other general bug fixes.",
                 "ota": [
                     {
+                        "type": "full",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.6/merged-qssi-Spacewar-otafull-20240705_161759.zip"
+                    },
+                    {
                         "type": "incremental",
                         "region": [
                             "eea",
