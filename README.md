@@ -13,7 +13,7 @@ Here is a list of all the firmware files available for download:
 | Nothing Phone 2 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
 | Nothing Phone 2a | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
 | Nothing Phone 2a plus | ❌ | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
-| CMF Phone 1 | ✅ | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
+| CMF Phone 1 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
 
 ## Table of Contents
 -   [Nothing Phone 1](#nothing-phone-1)
@@ -39,6 +39,7 @@ Here is a list of all the firmware files available for download:
 -   [CMF Phone 1](#cmf-phone-1)
     -   [Android 14](#android-14-4)
     -   [Boot Firmware](#boot-firmware-3)
+    -   [Fastboot Firmware](#fastboot-firmware-3)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
 -   [Glyph Developer Kit](#glyph-developer-kit)
 -   [Nothing Offline Ota Update Tool](#nothing-offline-ota-update-tool)
@@ -267,6 +268,11 @@ Here is a list of all the firmware files available for download:
 |2.6 hotfix 3|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix3/2.6.HOTFIX3_Init_Boot.img)||
 |2.6 hotfix 2|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix2/2.6.HOTFIX2_Init_Boot.img)||
 |2.6 hotfix|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix/2.6.HOTFIX_Init_Boot.img)||
+
+### Fastboot Firmware
+
+> [!NOTE]  
+> For fastboot flashing check [spike0en fastboot flashing](https://github.com/spike0en/Tetris_Archive#fastboot-flashing).
 
 ## Kernel and device tree sources
 
