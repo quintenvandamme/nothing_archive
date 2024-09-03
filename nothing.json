@@ -2362,6 +2362,29 @@
     },
     {
         "cmf_phone_1": {
+            "2.6_hotfix_5": {
+                "name": "2.6 hotfix 5",
+                "build_number": "Tetris-U2.6-240828-2341",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix_5",
+                        "pre_version": "2.6_hotfix_4",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/6140b9ee7974e0c531694f18f972243a5c48be6b.zip"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/2.6.HOTFIX5_Init_Boot.img"
+                    }
+                ]
+            },
             "2.6_hotfix_4": {
                 "name": "2.6 hotfix 4",
                 "build_number": "Tetris-U2.6-240813-2046",
