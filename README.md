@@ -161,6 +161,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
+|2.6 hotfix|Pong-U2.6-240828-1751||[All regions from 2.6](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/429c8fba7521ddf3ada2faebd57ba5cd0ca67408.zip)|
 |2.6|Pong-U2.6-240628-0430||[All regions from 2.5.6](https://archive.org/download/nothing-phone-2-firmware/2.6/6fd26cf6ec1ab4520ab384caad5a6d79ded15ae8.zip)||
 |2.5.6|Pong-U2.5-240606-1801|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/b473172f5883eda33e38e2fd2be785f1a8f08fe2.zip)|[All regions from 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/2.5.6/5ea6aefb7bca17c9b477ec7ac17d6412c0f90f3b.zip)<br>[All regions from Pong-U2.5-240419-0138](https://archive.org/download/nothing-phone-2-firmware/2.5.6/4d850df66992c4b79ce4d714a27216518ca541e4.zip)||
 ||Pong-U2.5-240419-0138|||
@@ -218,6 +219,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.6 hotfix|Pacman-U2.6-240828-2341||[Black / White / Milk / Blue / Special Edition from 2.6](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/a36018db578fa81b74c8150812104e530fc75d0d.zip)|
 |2.6|Pacman-U2.6-240701-2308||[Black / White / Milk / Blue / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/2.6/8351e1949122ca88c8149ebef62e986a1cc7b4d3.zip)|
 |2.5.6|Pacman-U2.5-240522-1818||[Black / White / Milk / Blue / Special Edition from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
 |2.5.5B|Pacman-U2.5-240425-1549|||
