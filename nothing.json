@@ -1526,6 +1526,23 @@
                     }
                 ]
             },
+            "2.6_hotfix": {
+                "name": "2.6 hotfix",
+                "build_number": "Pong-U2.6-240828-1751",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix",
+                        "pre_version": "2.6",
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/429c8fba7521ddf3ada2faebd57ba5cd0ca67408.zip"
+                    }
+                ]
+            },
             "2.6": {
                 "name": "2.6",
                 "build_number": "Pong-U2.6-240628-0430",
@@ -1779,6 +1796,17 @@
                         "post_version": "2.5.1A",
                         "pre_version": "2.5.1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5.1A/88f8c09ad5275c83182cc441c1b6806619947832.zip"
+                    },
+                    {
+                        "type": "rollback",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.0.4",
+                        "pre_version": "2.5.1A",
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/ota_diff_20231102_120116_20231024_221453.zip"
                     }
                 ],
                 "boot": [
@@ -1835,9 +1863,9 @@
                             "global"
                         ],
                         "variant": [],
-                        "post_version": "2.0.4",
+                        "post_version": "2.0.3",
                         "pre_version": "2.5.1",
-                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/ota_diff_20231102_120116_20231024_221453.zip"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/ota_diff_20231007_210212_20230906_193329.zip"
                     }
                 ],
                 "boot": [
@@ -1875,17 +1903,6 @@
                         "post_version": "2.5_open_beta_2",
                         "pre_version": "2.5_open_beta_1",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%202/39e4ea7e0f69a0f202692660dc9ba794ceb8b58c.zip"
-                    },
-                    {
-                        "type": "rollback",
-                        "region": [
-                            "eea",
-                            "global"
-                        ],
-                        "variant": [],
-                        "post_version": "2.0.3",
-                        "pre_version": "2.5_open_beta_2",
-                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.5%20open%20beta%201/ota_diff_20231007_210212_20230906_193329.zip"
                     }
                 ]
             },
@@ -2162,6 +2179,26 @@
                         "post_version": "2.5.5A",
                         "pre_version": "ADP_15_BETA_1",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/Android%2015%20Developer%20Preview/BETA1/ota_diff_20240502_121507_20240507_174618.zip"
+                    }
+                ]
+            },
+            "2.6_hotfix": {
+                "name": "2.6 hotfix",
+                "build_number": "Pacman-U2.6-240828-2341",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [],
+                        "variant": [
+                            "black",
+                            "white",
+                            "milk",
+                            "blue",
+                            "specialedition"
+                        ],
+                        "post_version": "2.6_hotfix",
+                        "pre_version": "2.6",
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/a36018db578fa81b74c8150812104e530fc75d0d.zip"
                     }
                 ]
             },
