@@ -2411,9 +2411,38 @@
     },
     {
         "nothing_phone_2a_plus": {
+            "2.6_hotfix": {
+                "name": "2.6 hotfix",
+                "build_number": "PacmanPro-U2.6-240827-2057",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [],
+                        "variant": [
+                            "grey",
+                            "black"
+                        ],
+                        "post_version": "2.6_hotfix",
+                        "pre_version": "2.6",
+                        "url": "https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/bc1b90d11e1d1568afcf3f459b333ebb15c06638.zip"
+                    }
+                ]
+            },
             "2.6": {
                 "name": "2.6",
-                "build_number": "PacmanPro-U2.6-240723-1102"
+                "build_number": "PacmanPro-U2.6-240723-1102",
+                "ota": [
+                    {
+                        "type": "full",
+                        "region": [],
+                        "variant": [
+                            "grey",
+                            "black"
+                        ],
+                        "post_version": "2.6",
+                        "url": "https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/PacmanPro-otafull-20240723_110219.zip"
+                    }
+                ]
             }
         }
     },
