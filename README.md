@@ -12,7 +12,7 @@ Here is a list of all the firmware files available for download:
 | Nothing Phone 1 | ✅ | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
 | Nothing Phone 2 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
 | Nothing Phone 2a | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
-| Nothing Phone 2a plus | ❌ | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
+| Nothing Phone 2a plus | ✅ | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
 | CMF Phone 1 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
 
 ## Table of Contents
@@ -250,7 +250,8 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.6|PacmanPro-U2.6-240723-1102|||
+|2.6 hotfix|PacmanPro-U2.6-240827-2057||[Grey / Black from 2.6](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/bc1b90d11e1d1568afcf3f459b333ebb15c06638.zip)|
+|2.6|PacmanPro-U2.6-240723-1102|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/PacmanPro-otafull-20240723_110219.zip)||
 
 ## CMF Phone 1
 
