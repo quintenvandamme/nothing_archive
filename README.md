@@ -189,7 +189,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
-|2.6 hotfix|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/2.6.HOTFIX_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20/Magisk-Patched_2.6.HOTFIX_Boot.img)|
+|2.6 hotfix|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/2.6.HOTFIX_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/Magisk-Patched_2.6.HOTFIX_Boot.img)|
 |2.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6/2.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6/Magisk-Patched_2.6_Boot.img)|
 |2.5.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/2.5.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img)|
 |2.5.5|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/2.5.5_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.5/Magisk-Patched_2.5.5_Boot.img)|
@@ -234,7 +234,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
-|2.6 hotfix|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6%20/2.6.HOTFIX_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6%20/Magisk-Patched_2.6.HOTFIX_Init_Boot.img)|
+|2.6 hotfix|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/2.6.HOTFIX_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/Magisk-Patched_2.6.HOTFIX_Init_Boot.img)|
 |2.6|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6/2.6_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6/Magisk-Patched_2.6_Init_Boot.img)|
 |2.5.6|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/2.5.6_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/Magisk-Patched_2.5.6_Init_Boot.img)|
 |2.5.5A|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/2.5.5a_Init_Boot.img)|[Black / White / Milk](https://archive.org/download/nothing-phone-2a-firmware/2.5.5A/Magisk-Patched_2.5.5a_Init_Boot.img)|
