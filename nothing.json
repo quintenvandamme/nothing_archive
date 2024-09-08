@@ -1541,6 +1541,16 @@
                         "pre_version": "2.6",
                         "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/429c8fba7521ddf3ada2faebd57ba5cd0ca67408.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/2.6.HOTFIX_Boot.img"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20/Magisk-Patched_2.6.HOTFIX_Boot.img"
+                    }
                 ]
             },
             "2.6": {
@@ -2199,6 +2209,16 @@
                         "post_version": "2.6_hotfix",
                         "pre_version": "2.6",
                         "url": "https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/a36018db578fa81b74c8150812104e530fc75d0d.zip"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/2.6%20/2.6.HOTFIX_Init_Boot.img"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/2.6%20/Magisk-Patched_2.6.HOTFIX_Init_Boot.img"
                     }
                 ]
             },
