@@ -29,9 +29,9 @@ def get_tables_of_data(data):
     # If the last table reaches the end of the file without a break, add it
     if current_table:
         tables.append(current_table)
-    
+
     return tables
-   
+
 
 
 def parse_tabledata(data):
@@ -61,16 +61,16 @@ def parse_tabledata(data):
 
                 parsedTabel[list(parsedTabel.keys())[i]].append(cell)
 
-        
+
         parsedTables.append(parsedTabel)
-        
+
     return parsedTables
 
 def convert_table_to_json(table):
     json = {}
     model = table['model']
     json[model] = {}
-    
+
     for phoneTable in table['tables']:
         keys = list(phoneTable.keys())
 
@@ -82,7 +82,7 @@ def convert_table_to_json(table):
 
             if version not in json[model]:
                 json[model][version] = {}
-            
+
             # generate a clear version name
             if "name" not in keys:
                 json[model][version]["name"] = version.replace("_", " ")
@@ -93,10 +93,12 @@ def convert_table_to_json(table):
                     build_number = phoneTable["build number"][row]
                     if build_number not in json[model][version]:
                         json[model][version]["build_number"] = build_number
-            
+
             if "changelog" in keys:
                 if row < len(phoneTable["changelog"]):
-                    changelog = phoneTable["changelog"][row].split("</summary>")[1].split("</details>")[0]
+                    changelog = ''
+                    if "</summary>" in phoneTable["changelog"][row]:
+                        changelog = phoneTable["changelog"][row].split("</summary>")[1].split("</details>")[0]
 
                     if "changelog" not in json[model][version]:
                         json[model][version]["changelog"] = changelog
@@ -168,7 +170,7 @@ def convert_table_to_json(table):
                                 if region[0] == "allregions" or region[0] == "allregions":
                                     region[0] = "eea"
                                     region.append("global")
-                   
+
                                 for r in region:
                                     if r != "all" and r != "eea" and r != "global":
                                         variant.append(r)
@@ -192,7 +194,7 @@ def convert_table_to_json(table):
                                 json[model][version]["ota"].append(data)
                             except:
                                 pass
-            
+
             # check if there is a key "rollback" in the table
 
             if "rollback" in keys:
@@ -239,7 +241,7 @@ def convert_table_to_json(table):
 
             if "boot file (stock)" in keys:
                 if row < len(phoneTable["boot file (stock)"]):
-                    boot_file = phoneTable["boot file (stock)"][row]           
+                    boot_file = phoneTable["boot file (stock)"][row]
                     if boot_file not in json[model][version]:
                         try:
                             url = boot_file.split("](")[1].split(")")[0]
@@ -258,7 +260,7 @@ def convert_table_to_json(table):
 
             if "boot file (magisk patched)" in keys:
                 if row < len(phoneTable["boot file (magisk patched)"]):
-                    boot_file = phoneTable["boot file (magisk patched)"][row]           
+                    boot_file = phoneTable["boot file (magisk patched)"][row]
                     if boot_file not in json[model][version]:
                         try:
                             url = boot_file.split("](")[1].split(")")[0]
@@ -274,7 +276,7 @@ def convert_table_to_json(table):
                             json[model][version]["boot"].append(data)
                         except:
                             pass
-            
+
     return json
 
 def main():
@@ -309,8 +311,8 @@ def main():
         parsedJson.append(jsonData)
 
     write_file('nothing.json', json.dumps(parsedJson, indent=4))
-        
-                       
+
+
 
 if __name__ == '__main__':
     main()

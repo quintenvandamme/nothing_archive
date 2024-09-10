@@ -1,6 +1,24 @@
 [
     {
         "nothing_phone_1": {
+            "2.6_hotfix": {
+                "name": "2.6 hotfix",
+                "build_number": "Spacewar-U2.6-240904-1634",
+                "changelog": "",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix",
+                        "pre_version": "2.6",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/2.6%20hotfix/159a36df32499e2153475db11ef1f6b8775770f2.zip"
+                    }
+                ]
+            },
             "2.6": {
                 "name": "2.6",
                 "build_number": "Spacewar-U2.6-240705-1617",
