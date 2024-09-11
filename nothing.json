@@ -2222,7 +2222,7 @@
             },
             "2.6_hotfix": {
                 "name": "2.6 hotfix",
-                "build_number": "Pacman-U2.6-240828-2341",
+                "build_number": "Pacman-U2.6-240828-1906",
                 "ota": [
                     {
                         "type": "incremental",
