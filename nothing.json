@@ -4,7 +4,7 @@
             "2.6_hotfix": {
                 "name": "2.6 hotfix",
                 "build_number": "Spacewar-U2.6-240904-1634",
-                "changelog": "",
+                "changelog": "What\u2019s new in this update<br>New features<br>\ud83d\udc47 Swipe down incoming notifications to enter Pop-up view. For easy access to information without having to leave an app. Turn on via Settings > System > Pop-up view.<br>\ud83d\udd14 Enable vibration for third-party apps during calls. Turn on via Settings > Sound and vibration > Vibration.<br>\ud83d\udeb6 Battery and Pedometer Widgets can now be displayed on the lock screen and Always On Display.<br>Bug fixes and improvements<br>\ud83d\udcb3 Enhanced NFC stability for more reliable connections.<br>\u26a1\ufe0f Improved the speed of the Bluetooth tile toggle in Quick Settings.<br>\ud83c\udfa7 Ensured Bluetooth tile reflects correct earbud information.<br>\ud83d\udce8 Fixed an issue where certain carriers were unable to send multimedia messages and failed to register for VoWiFi.<br>\ud83d\udd08 Resolved an issue where the call ringing volume was too low when using the speaker.<br>\ud83d\udd26 Resolved an issue where the flashlight tile was missing in Quick Settings.<br>\ud83d\udd04 Resolved the problem causing some Cloned Apps to auto-rotate despite being disabled.<br>\ud83c\udfb5 Fixed an issue where the Media Player Widget couldn\u2019t play music when switching from guest to main user.",
                 "ota": [
                     {
                         "type": "incremental",
