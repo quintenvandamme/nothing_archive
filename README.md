@@ -273,7 +273,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
-|2.6 hotfix 6|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/2.6.HOTFIX6_Init_Boot.img)||
+|2.6 hotfix 6|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/2.6.HOTFIX6_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/Magisk-Patched_2.6.HOTFIX6_Init_Boot.img)|
 |2.6 hotfix 5|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/2.6.HOTFIX5_Init_Boot.img)||
 |2.6 hotfix 4|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/2.6.HOTFIX4_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/Magisk-Patched_2.6.HOTFIX4_Init_Boot.img)|
 |2.6 hotfix 3|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix3/2.6.HOTFIX3_Init_Boot.img)||
