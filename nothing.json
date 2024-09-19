@@ -2600,6 +2600,16 @@
                 "build_number": "Tetris-U2.6-240702-2200",
                 "ota": [
                     {
+                        "type": "full",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/ad9eb770dfbeb87d409c5d5c01cacecb7263ac81.zip"
+                    },
+                    {
                         "type": "incremental",
                         "region": [
                             "eea",
