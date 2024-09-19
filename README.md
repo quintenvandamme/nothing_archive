@@ -261,6 +261,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.6 hotfix 6|Tetris-U2.6-240910-1735||[All regions from 2.6 hotfix 5](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/9729ce5969d95288831199d0f285a13144b56f4e.zip)|
 |2.6 hotfix 5|Tetris-U2.6-240828-2341||[All regions from 2.6 hotfix 4](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/6140b9ee7974e0c531694f18f972243a5c48be6b.zip)|
 |2.6 hotfix 4|Tetris-U2.6-240813-2046||[All regions from 2.6 hotfix 3](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/397fb089fe692ccbda135dcc8434d90add1388a5.zip)
 |2.6 hotfix 3|Tetris-U2.6-240729-1047||[All regions from 2.6 hotfix 2](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix3/7c6b902a8168be0c3345b3b19d46c3ea0de92dfe.zip)|
@@ -272,6 +273,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|2.6 hotfix 6|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/2.6.HOTFIX6_Init_Boot.img)||
 |2.6 hotfix 5|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/2.6.HOTFIX5_Init_Boot.img)||
 |2.6 hotfix 4|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/2.6.HOTFIX4_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/Magisk-Patched_2.6.HOTFIX4_Init_Boot.img)|
 |2.6 hotfix 3|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix3/2.6.HOTFIX3_Init_Boot.img)||
