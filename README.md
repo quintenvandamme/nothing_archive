@@ -12,7 +12,7 @@ Here is a list of all the firmware files available for download:
 | Nothing Phone 1 | ✅ | ✅ | ✅ | ✅ | [torrent](https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent) |
 | Nothing Phone 2 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent) |
 | Nothing Phone 2a | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent) |
-| Nothing Phone 2a plus | ✅ | ❌ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
+| Nothing Phone 2a plus | ✅ | ✅ | ❌ | ❌ | [torrent](https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent) |
 | CMF Phone 1 | ✅ | ✅ | ✅ | ❌ | [torrent](https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent) |
 
 ## Table of Contents
@@ -36,9 +36,10 @@ Here is a list of all the firmware files available for download:
     -   [Fastboot Firmware](#fastboot-firmware-2)
 -   [Nothing Phone 2a plus](#nothing-phone-2a-plus)
     -   [Android 14](#android-14-3)
+    -   [Boot Firmware](#boot-firmware-3)
 -   [CMF Phone 1](#cmf-phone-1)
     -   [Android 14](#android-14-4)
-    -   [Boot Firmware](#boot-firmware-3)
+    -   [Boot Firmware](#boot-firmware-4)
     -   [Fastboot Firmware](#fastboot-firmware-3)
 -   [Kernel and device tree sources](#kernel-and-device-tree-sources)
 -   [Glyph Developer Kit](#glyph-developer-kit)
@@ -254,6 +255,13 @@ Here is a list of all the firmware files available for download:
 |-------|------------|--------|---------------|
 |2.6 hotfix|PacmanPro-U2.6-240827-2057||[Grey / Black from 2.6](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/bc1b90d11e1d1568afcf3f459b333ebb15c06638.zip)|
 |2.6|PacmanPro-U2.6-240723-1102|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/PacmanPro-otafull-20240723_110219.zip)||
+
+### Boot Firmware
+
+|Version|Boot file (Stock)|Boot file (Magisk Patched)|
+|-------|-----------------|--------------------------|
+|2.6 hotfix|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/2.6.HOTFIX_Init_Boot.img)||
+|2.6|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/2.6_Init_Boot.img)||
 
 ## CMF Phone 1
 
