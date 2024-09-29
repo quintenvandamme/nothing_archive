@@ -2454,6 +2454,12 @@
                         "pre_version": "2.6",
                         "url": "https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/bc1b90d11e1d1568afcf3f459b333ebb15c06638.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/2.6.HOTFIX_Init_Boot.img"
+                    }
                 ]
             },
             "2.6": {
@@ -2469,6 +2475,12 @@
                         ],
                         "post_version": "2.6",
                         "url": "https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/PacmanPro-otafull-20240723_110219.zip"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/2.6_Init_Boot.img"
                     }
                 ]
             }
