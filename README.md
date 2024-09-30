@@ -253,6 +253,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.6 hotfix 2|PacmanPro-U2.6-240924-2223||[Grey / Black from 2.6](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix2/b8d1f9e6b3de2f85bc2ca29632bb11b23686078f.zip)|
 |2.6 hotfix|PacmanPro-U2.6-240827-2057||[Grey / Black from 2.6](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/bc1b90d11e1d1568afcf3f459b333ebb15c06638.zip)|
 |2.6|PacmanPro-U2.6-240723-1102|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/PacmanPro-otafull-20240723_110219.zip)||
 
@@ -260,6 +261,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|2.6 hotfix 2|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix2/2.6.HOTFIX2_Init_Boot.img)||
 |2.6 hotfix|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6%20hotfix/2.6.HOTFIX_Init_Boot.img)||
 |2.6|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/2.6_Init_Boot.img)||
 
