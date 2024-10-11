@@ -30,6 +30,7 @@ Here is a list of all the firmware files available for download:
     -   [Boot Firmware](#boot-firmware-1)
     -   [Fastboot Firmware](#fastboot-firmware-1)
 -   [Nothing Phone 2a](#nothing-phone-2a)
+    -   [Android 15](#android-15)
     -   [Android 15 Developer Preview](#android-15-developer-preview-1)
     -   [Android 14](#android-14-2)
     -   [Boot Firmware](#boot-firmware-2)
@@ -212,6 +213,12 @@ Here is a list of all the firmware files available for download:
 
 ## Nothing Phone 2a
 
+### Android 15
+
+|Version|build number|Full OTA|Incremental OTA|Rollback|
+|-------|------------|--------|---------------|--------|
+|3.0 open beta 1|Pacman-V3.0-240923-2135||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://pixeldrain.com/u/E4biwTEZ)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://pixeldrain.com/u/TEEVxSgb)|
+
 ### Android 15 Developer Preview
 
 |Version|build number|Incremental OTA|Rollback|
@@ -309,12 +316,13 @@ The Glyph Developer Kit SDK can be found [here](https://github.com/Nothing-Devel
 
 ## Nothing Offline Ota Update Tool
 
-The Offline OTA updater app for the Nothing OS is used to update the phone to the latest version. These versions **should only be used to update to 2.5 open beta 1**. 2.5.2 and above come pre-installed with the new OTA updater app and support updating to beta versions and sideloading firmware.
+The Offline Beta OTA updater app for the Nothing OS is used to update the phone to the latest beta version. Note that the beta updater for nothing phone 1 and nothing phone 2 doesn't work anymore because the api servers have shut down.
 
-| Product | APK |
-|---------|-----|
-| Nothing Phone 1 |[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)|
-| Nothing Phone 2 |[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)|
+| Product | Update for | APK |
+|---------|------------|-----|
+| Nothing Phone 1 | 2.5 open beta |[NothingOfflineOtaUpdate-nothing-release_signed.apk](https://web.archive.org/web/20231220090757/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NothingOfflineOtaUpdate-nothing-release_signed.apk?v=1702994092)|
+| Nothing Phone 2 | 2.5 open beta |[NOS_Beta_Tool.apk](https://web.archive.org/web/20231012142231/https://cdn.shopify.com/s/files/1/0376/5420/0459/files/NOS_Beta_Tool.apk?v=1697012536)|
+| Nothing Phone 2a | 3.0 open beta |[NothingOfflineOtaUpdate-release-20240920_signed.apk](https://d2j3l8bo7dc01w.cloudfront.net/NothingOfflineOtaUpdate-release-20240920_signed.apk?Expires=1986610302&Signature=MffxPKnQILc4W8ZL7P0o2gjfGwcPKtD8x0DUF3BOEdxxm2vP3kfxbbcDrE7GKfqeQoYLTNBoWVpP5X5NcWPtfwvHRgjbSEAUPO9S-XnABg-VIxxLESrN9qlPlAsPtrep0r86pinEgTOYTqgTG7PlzAzYJnotc46N8WwEuRAubeF3JM1znB3P84ZCZFqKTRPAj2PZGeKNHecHd78l1KwZVRizTPlgvAEY7euw8RX35KlR85dY7P10McJH9eWqBCnL510nONSpFFDcFjHdXTcLSQNkElUY6selTx45kYnYp59En78Q~Fyn5~2at4aQzb6qBukeHh7S54ZuCYccWcegfA__&Key-Pair-Id=K1EOR8HYJKSWP1)|
 
 ## Sideload Firmware
 
