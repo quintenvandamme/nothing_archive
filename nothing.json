@@ -2136,6 +2136,40 @@
     },
     {
         "nothing_phone_2a": {
+            "3.0_open_beta_1": {
+                "name": "3.0 open beta 1",
+                "build_number": "Pacman-V3.0-240923-2135",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [],
+                        "variant": [
+                            "black",
+                            "white",
+                            "milk",
+                            "blue",
+                            "specialedition"
+                        ],
+                        "post_version": "3.0_open_beta_1",
+                        "pre_version": "2.6_hotfix",
+                        "url": "https://pixeldrain.com/u/E4biwTEZ"
+                    },
+                    {
+                        "type": "rollback",
+                        "region": [],
+                        "variant": [
+                            "black",
+                            "white",
+                            "milk",
+                            "blue",
+                            "specialedition"
+                        ],
+                        "post_version": "2.6hotfix",
+                        "pre_version": "3.0_open_beta_1",
+                        "url": "https://pixeldrain.com/u/TEEVxSgb"
+                    }
+                ]
+            },
             "ADP_15_BETA_2": {
                 "name": "ADP 15 BETA 2",
                 "build_number": "Pacman_AP31.240426.022 release-keys",
