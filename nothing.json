@@ -1554,6 +1554,23 @@
                     }
                 ]
             },
+            "2.6_hotfix_2": {
+                "name": "2.6 hotfix 2",
+                "build_number": "Pong-U2.6-241016-1700",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix_2",
+                        "pre_version": "2.6_hotfix",
+                        "url": "https://android.googleapis.com/packages/ota-api/package/b281c8062dcf2a584a524b433907cfeb514df51a.zip"
+                    }
+                ]
+            },
             "2.6_hotfix": {
                 "name": "2.6 hotfix",
                 "build_number": "Pong-U2.6-240828-1751",
