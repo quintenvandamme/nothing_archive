@@ -2562,6 +2562,23 @@
     },
     {
         "cmf_phone_1": {
+            "2.6_hotfix_7": {
+                "name": "2.6 hotfix 7",
+                "build_number": "Tetris-U2.6-241021-2030",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix_7",
+                        "pre_version": "2.6_hotfix_6",
+                        "url": "https://android.googleapis.com/packages/ota-api/package/c7ee5ac3622008faa41032a4fbf6b6b9767f6d20.zip"
+                    }
+                ]
+            },
             "2.6_hotfix_6": {
                 "name": "2.6 hotfix 6",
                 "build_number": "Tetris-U2.6-240910-1735",
