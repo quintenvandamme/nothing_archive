@@ -279,6 +279,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.6 hotfix 7|Tetris-U2.6-241021-2030||[All regions from 2.6 hotfix 6](https://android.googleapis.com/packages/ota-api/package/c7ee5ac3622008faa41032a4fbf6b6b9767f6d20.zip)|
 |2.6 hotfix 6|Tetris-U2.6-240910-1735||[All regions from 2.6 hotfix 5](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/9729ce5969d95288831199d0f285a13144b56f4e.zip)|
 |2.6 hotfix 5|Tetris-U2.6-240828-2341||[All regions from 2.6 hotfix 4](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/6140b9ee7974e0c531694f18f972243a5c48be6b.zip)|
 |2.6 hotfix 4|Tetris-U2.6-240813-2046||[All regions from 2.6 hotfix 3](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/397fb089fe692ccbda135dcc8434d90add1388a5.zip)
