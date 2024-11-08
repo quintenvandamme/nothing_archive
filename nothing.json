@@ -1478,7 +1478,7 @@
         "nothing_phone_2": {
             "3.0_open_beta_1": {
                 "name": "3.0 open beta 1",
-                "build_number": "Pacman-V3.0-241028-1925",
+                "build_number": "Pong-V3.0-241028-1925",
                 "ota": [
                     {
                         "type": "incremental",
