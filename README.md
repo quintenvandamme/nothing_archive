@@ -234,6 +234,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
+|2.6 hotfix 2|Pacman-U2.6-241021-2253||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://android.googleapis.com/packages/ota-api/package/5452dd9d6232cef1e3ba7562b5de822e291bea17.zip)|
 |2.6 hotfix|Pacman-U2.6-240828-1906||[Black / White / Milk / Blue / Special Edition from 2.6](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/a36018db578fa81b74c8150812104e530fc75d0d.zip)|
 |2.6|Pacman-U2.6-240701-2308||[Black / White / Milk / Blue / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/2.6/8351e1949122ca88c8149ebef62e986a1cc7b4d3.zip)|
 |2.5.6|Pacman-U2.5-240522-1818||[Black / White / Milk / Blue / Special Edition from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
