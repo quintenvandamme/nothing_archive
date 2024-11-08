@@ -1,6 +1,24 @@
 [
     {
         "nothing_phone_1": {
+            "2.6_hotfix_2": {
+                "name": "2.6 hotfix 2",
+                "build_number": "Spacewar-U2.6-241031-1818",
+                "changelog": "What\u2019s new in this update<br>General improvements and bug fixes<br>\ud83d\udcde Expanded support for video calling across more carriers.<br>\ud83d\udcf6 Fixed the issue where some devices couldn\u2019t connect to VoLTE.<br>\ud83d\udee1\ufe0f Updated security patch to November.<br>\ud83d\udd04 Fixed system lag when rapidly switching the network tile in Quick Settings.<br>\ud83c\udfa7 Resolved the issue of the Bluetooth tile not refreshing device status promptly.<br>\ud83d\udcf7 Fixed the issue where photos taken at 2.0x zoom or higher didn\u2019t display detail information.",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6_hotfix_2",
+                        "pre_version": "2.6_hotfix",
+                        "url": "https://android.googleapis.com/packages/ota-api/package/c479de02126d8b5d2044600cc2107a36000aa7a4.zip"
+                    }
+                ]
+            },
             "2.6_hotfix": {
                 "name": "2.6 hotfix",
                 "build_number": "Spacewar-U2.6-240904-1634",
