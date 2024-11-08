@@ -2271,6 +2271,26 @@
                     }
                 ]
             },
+            "2.6_hotfix_2": {
+                "name": "2.6 hotfix 2",
+                "build_number": "Pacman-U2.6-241021-2253",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [],
+                        "variant": [
+                            "black",
+                            "white",
+                            "milk",
+                            "blue",
+                            "specialedition"
+                        ],
+                        "post_version": "2.6_hotfix_2",
+                        "pre_version": "2.6_hotfix",
+                        "url": "https://android.googleapis.com/packages/ota-api/package/5452dd9d6232cef1e3ba7562b5de822e291bea17.zip"
+                    }
+                ]
+            },
             "2.6_hotfix": {
                 "name": "2.6 hotfix",
                 "build_number": "Pacman-U2.6-240828-1906",
