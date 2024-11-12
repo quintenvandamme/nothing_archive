@@ -230,7 +230,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|3.0 open beta 1|Pacman-V3.0-240923-2135||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://pixeldrain.com/u/E4biwTEZ)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://pixeldrain.com/u/TEEVxSgb)|
+|3.0 open beta 1|Pacman-V3.0-240923-2135||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://pixeldrain.com/u/E4biwTEZ)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://d2j3l8bo7dc01w.cloudfront.net/ota_diff_20240923_213518_20240828_190644.zip?Expires=1986610207&Signature=kliv62t~~3alOS4MuL5UAb5oEZoHZ79P~rqr7Egy0Rdmxe60RKV0m9YZoMvmN~EOgQH-4r3f39zM7CQ3zyMOSknSEZHgIzJUAJYMrl116HAZvvLRGP4nc5kL5Od8hYm92Z7-p1Jd6jH~PFkn8CmyV0GzYli-kUAGwybLQBuhlI6InTnJ4mrZVnJtvsqZsWO9y3VlTxjvkP-KaDfEtiUEBT31aCsppuEqnjr9njsu~QC4qwWO6hKGgzDVA0PgWHFcIJgzyC2a-K9KkIGE3rWN2Is9phi2RlWwaq-NsAnwrugJTQSinPFtOi2fK3Blb1M5WmCHStYQmgvEPXl5wYCiWw__&Key-Pair-Id=K1EOR8HYJKSWP1)|
 
 ### Android 15 Developer Preview
 
