@@ -1,0 +1,22 @@
+{
+    "name": "Nothing Archive (web)",
+    "short_name": "Nothing Archive",
+    "description": "This page contains firmware files for Nothing Phone 1, 2, 2a, 2a plus and CMF Phone 1. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#14151F",
+    "theme_color": "#14151F",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "img/logo/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logo/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

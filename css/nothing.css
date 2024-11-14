@@ -1,0 +1,360 @@
+/* Fonts */
+
+@font-face {
+    font-family: Ndot-55;
+    src: url(../fonts/Ndot-55.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NType82;
+    src: url(../fonts/NType82-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NType82-bold;
+    src: url(../fonts/NType82-Headline.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: NType82Mono;
+    src: url(../fonts/NType82Mono-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LetteraMonoLL Regular;
+    src: url(../fonts/LetteraMonoLL-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LetteraMonoLLCondLight Regular;
+    src: url(../fonts/LetteraMonoLLCondLight-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-ntype82 {
+    font-family: NType82, sans-serif !important;
+}
+
+.font-ntype82-bold {
+    font-family: NType82-bold, sans-serif !important;
+}
+
+.font-bold {
+    font-family: 'NType82-bold', 'Noto Sans Thai', 'NType82Mono' !important;
+}
+
+.font-ntype82-mono {
+    font-family: NType82Mono, monospace !important;
+}
+
+.font-lettera-mono {
+    font-family: LetteraMonoLL Regular, monospace !important;
+}
+
+.font-lettera-mono-cond-light {
+    font-family: LetteraMonoLLCondLight Regular, monospace !important;
+}
+
+.Ndot-55 {
+    font-family: Ndot-55, sans-serif !important;
+}
+
+/* colors */
+
+:root {
+    /* light mode */
+    --background: #EFEFEF;
+    --text: #000000;
+    --border: #C7C6CA;
+    --gray: var(--border); 
+    --header-background: #ffffff;
+    --theme-light: block;
+    --theme-dark: none;
+
+    /* dark mode */
+    @media (prefers-color-scheme: dark) {
+        --background: #14151F;
+        --text: #ffffff;
+        --border: #6c757d;
+        --gray: var(--border);
+        --header-background: #000000;
+        --theme-light: none;
+        --theme-dark: block;
+    }
+
+    --header-height: 52px;
+    --collapsible-radius: 2rem;
+    --collapsible-content-radius: 0.5rem;
+    --red: #d71921;
+
+    --mobile: none;
+    @media screen and (max-width: 600px) {
+        --mobile: block;
+    }
+}
+
+.dark-only {
+    display: var(--theme-dark);
+}
+
+.light-only {
+    display: var(--theme-light);
+}
+
+.mobile-only {
+    display: var(--mobile);
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--background);
+}
+
+a, p, h1, h2, h3, h4, h5, h6, button, .logo-text {
+    color: var(--text);
+}
+
+header, nav {
+    height: var(--header-height);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100vw;
+    z-index: 2;
+    background-color: var(--header-background);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+nav button {
+    white-space:nowrap;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    font-size: 1.125rem;
+    letter-spacing: .02em;
+    cursor: pointer;
+    height: 100%;
+    border-bottom: 1px solid transparent;
+}
+
+nav button:hover {
+    color: var(--red);
+    border-bottom: 1px solid var(--red);
+}
+
+.logo-text {
+    white-space:nowrap;
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+hr {
+    position: fixed;
+    top: calc(var(--header-height) - 1px);
+    left: 0;
+    width: 100vw;
+    border: 1px solid var(--border);
+    margin: 0;
+    z-index: 1;
+}
+
+main {
+    min-height: calc(100vh - var(--header-height) - 20px);
+    margin-top: var(--header-height);
+    padding: 20px;
+}
+
+.github-logo {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.github-logo-svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* collapsible */
+.collapsible {
+  background-color: var(--header-background);
+  color: var(--text);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: var(--collapsible-content-radius);
+  margin-top: var(--collapsible-content-radius);
+  border: 1px solid var(--header-background);
+}
+
+.collapsible:first-of-type {
+	border-top-left-radius: var(--collapsible-radius);
+    border-top-right-radius: var(--collapsible-radius);
+}
+
+.collapsible:last-of-type:not(.active) {
+	border-bottom-left-radius: var(--collapsible-radius);
+    border-bottom-right-radius: var(--collapsible-radius);
+}
+
+.active {
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;	
+}
+
+.collapsible:hover {
+  background-color: var(--background);
+  border: 1px solid var(--red);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: var(--header-background);
+  border-bottom-left-radius: var(--collapsible-content-radius);
+  border-bottom-right-radius: var(--collapsible-content-radius);
+}
+
+.content:last-of-type {
+	border-bottom-left-radius: var(--collapsible-radius);
+    border-bottom-right-radius: var(--collapsible-radius);
+}
+
+.content-header {
+    font-family: font-ntype82-bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.content-header p {
+    display: inline;
+    font-family: font-ntype82-mono;
+    font-size: 1rem;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    background: var(--red);
+    color: var(--background);
+    padding: 10px 20px;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-family: NType82-bold;
+    border: 1px solid var(--red);
+}
+
+.download-button:hover {
+    background: var(--background);
+    color: var(--red);
+}
+
+.menu-wrapper {
+    display: var(--mobile);
+    position: absolute;
+    margin-top: 8px;
+    margin-right: calc(100% - 60px);
+}
+
+/* small screens */
+@media screen and (max-width: 600px) {
+    :root {
+        --header-height: 400px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 5px;
+        height: fit-content;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+        margin-top: 18px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .github-logo {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: calc(100% - 40px);
+    }
+
+    .menu {
+        height: 40px;
+        border: none !important;
+    }
+    
+    .github-logo img {        
+        width: 30px;
+        height: 30px;
+    }
+
+    /* material you */
+    nav button:not(.menu) {
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: var(--collapsible-content-radius);
+        background-color: var(--background);
+        width: 80%;
+        border: 1px solid var(--background);
+    }
+
+    nav button:first-of-type {
+        border-top-left-radius: var(--collapsible-radius);
+        border-top-right-radius: var(--collapsible-radius);
+    }
+
+    nav button:last-of-type {
+        border-bottom-left-radius: var(--collapsible-radius);
+        border-bottom-right-radius: var(--collapsible-radius);
+    }
+    
+    nav button:hover {
+        border: 1px solid var(--red);
+        background-color: var(--header-background);
+    }
+}
