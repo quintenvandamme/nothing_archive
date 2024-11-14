@@ -270,6 +270,7 @@ main {
 
 .download-buttons {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
     margin-top: 20px;
