@@ -2715,7 +2715,17 @@
                         "variant": [],
                         "post_version": "2.6_hotfix_7",
                         "pre_version": "2.6_hotfix_6",
-                        "url": "https://android.googleapis.com/packages/ota-api/package/c7ee5ac3622008faa41032a4fbf6b6b9767f6d20.zip"
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EUfMXpqtod1Hk0dNFWkdepUBAgfucclxg632Vd2nWErfVg?e=K8iIbe"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EaxvqLutyHNGn1_fQSqyHogBmMTR-gStOqdS6KTbZ2yjmQ?e=FygPXF"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EXf3mSEsEERKo-9zgIVOsBsBq2MqukVDlOtZg0kw-QeBOA?e=sYVLE3"
                     }
                 ]
             },
