@@ -2219,6 +2219,50 @@
     },
     {
         "nothing_phone_2a": {
+            "3.0_open_beta_2": {
+                "name": "3.0 open beta 2",
+                "build_number": "Pacman-V3.0-241031-2105",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [],
+                        "variant": [
+                            "black",
+                            "white",
+                            "milk",
+                            "blue",
+                            "specialedition"
+                        ],
+                        "post_version": "3.0_open_beta_2",
+                        "pre_version": "3.0_open_beta_1",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EW6Wo9psxn1Fjku750agdC0Blj_iV11XSdEV3PsDsn9IMg?e=fvM9vP"
+                    },
+                    {
+                        "type": "rollback",
+                        "region": [],
+                        "variant": [
+                            "black",
+                            "white",
+                            "milk",
+                            "blue",
+                            "specialedition"
+                        ],
+                        "post_version": "2.6hotfix",
+                        "pre_version": "3.0_open_beta_2",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERAbSPyDalBGolB18RyotlUBC4bRdaDCQ1IpCNvVac9mYQ?e=hsHI0c"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ESQJx4H5oLRInw7eIrororQBayzEXWNWns8bmYFGc1ZAew?e=q18AbM"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EdTNi1EXbKBNkNksbfoD0XcBAKh8aRVBXLC7-sRzUc_Dyw?e=hunKcd"
+                    }
+                ]
+            },
             "3.0_open_beta_1": {
                 "name": "3.0 open beta 1",
                 "build_number": "Pacman-V3.0-240923-2135",
@@ -2235,7 +2279,7 @@
                         ],
                         "post_version": "3.0_open_beta_1",
                         "pre_version": "2.6_hotfix",
-                        "url": "https://1drv.ms/u/s!AgEojapKY5xGx1zZB8i6nLDLnDZR?e=nS9Qg0"
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EboqlPzOLeRHoxocAiywYeoBKW35e6yEo5xdQlD_Ew810w?e=414fay"
                     },
                     {
                         "type": "rollback",
@@ -2249,7 +2293,17 @@
                         ],
                         "post_version": "2.6hotfix",
                         "pre_version": "3.0_open_beta_1",
-                        "url": "https://d2j3l8bo7dc01w.cloudfront.net/ota_diff_20240923_213518_20240828_190644.zip?Expires=1986610207&Signature=kliv62t~~3alOS4MuL5UAb5oEZoHZ79P~rqr7Egy0Rdmxe60RKV0m9YZoMvmN~EOgQH-4r3f39zM7CQ3zyMOSknSEZHgIzJUAJYMrl116HAZvvLRGP4nc5kL5Od8hYm92Z7-p1Jd6jH~PFkn8CmyV0GzYli-kUAGwybLQBuhlI6InTnJ4mrZVnJtvsqZsWO9y3VlTxjvkP-KaDfEtiUEBT31aCsppuEqnjr9njsu~QC4qwWO6hKGgzDVA0PgWHFcIJgzyC2a-K9KkIGE3rWN2Is9phi2RlWwaq-NsAnwrugJTQSinPFtOi2fK3Blb1M5WmCHStYQmgvEPXl5wYCiWw__&Key-Pair-Id=K1EOR8HYJKSWP1"
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERVTGFHjZaBFsrcpRIBmQmYBPsstXGZkurMtzq4Lv3P5cw?e=4qnscp"
+                    }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERHb9JRY7DVDnctFnv5UEHUBzO1-x0u1OzRSCAnVem-NJg?e=NBEkhO"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EbV3IsbTYBBJgR-wsxDXA_4BX5Nf4SWcx4P6VZJgAsHqeA?e=I6Nzr4"
                     }
                 ]
             },
@@ -2353,7 +2407,7 @@
                         ],
                         "post_version": "2.6_hotfix_2",
                         "pre_version": "2.6_hotfix",
-                        "url": "https://android.googleapis.com/packages/ota-api/package/5452dd9d6232cef1e3ba7562b5de822e291bea17.zip"
+                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ETyYgom8DI5IkFsEEUjVk1IBISSdPH-ndtucyn9-no9U2g?e=VJQQOx"
                     }
                 ]
             },
