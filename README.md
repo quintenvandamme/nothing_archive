@@ -231,7 +231,8 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|3.0 open beta 1|Pacman-V3.0-240923-2135||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://1drv.ms/u/s!AgEojapKY5xGx1zZB8i6nLDLnDZR?e=nS9Qg0)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://d2j3l8bo7dc01w.cloudfront.net/ota_diff_20240923_213518_20240828_190644.zip?Expires=1986610207&Signature=kliv62t~~3alOS4MuL5UAb5oEZoHZ79P~rqr7Egy0Rdmxe60RKV0m9YZoMvmN~EOgQH-4r3f39zM7CQ3zyMOSknSEZHgIzJUAJYMrl116HAZvvLRGP4nc5kL5Od8hYm92Z7-p1Jd6jH~PFkn8CmyV0GzYli-kUAGwybLQBuhlI6InTnJ4mrZVnJtvsqZsWO9y3VlTxjvkP-KaDfEtiUEBT31aCsppuEqnjr9njsu~QC4qwWO6hKGgzDVA0PgWHFcIJgzyC2a-K9KkIGE3rWN2Is9phi2RlWwaq-NsAnwrugJTQSinPFtOi2fK3Blb1M5WmCHStYQmgvEPXl5wYCiWw__&Key-Pair-Id=K1EOR8HYJKSWP1)|
+|3.0 open beta 2|Pacman-V3.0-241031-2105||[Black / White / Milk / Blue / Special Edition from 3.0 open beta 1](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EW6Wo9psxn1Fjku750agdC0Blj_iV11XSdEV3PsDsn9IMg?e=fvM9vP)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERAbSPyDalBGolB18RyotlUBC4bRdaDCQ1IpCNvVac9mYQ?e=hsHI0c)|
+|3.0 open beta 1|Pacman-V3.0-240923-2135||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EboqlPzOLeRHoxocAiywYeoBKW35e6yEo5xdQlD_Ew810w?e=414fay)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERVTGFHjZaBFsrcpRIBmQmYBPsstXGZkurMtzq4Lv3P5cw?e=4qnscp)|
 
 ### Android 15 Developer Preview
 
@@ -244,7 +245,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.6 hotfix 2|Pacman-U2.6-241021-2253||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://android.googleapis.com/packages/ota-api/package/5452dd9d6232cef1e3ba7562b5de822e291bea17.zip)|
+|2.6 hotfix 2|Pacman-U2.6-241021-2253||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ETyYgom8DI5IkFsEEUjVk1IBISSdPH-ndtucyn9-no9U2g?e=VJQQOx)|
 |2.6 hotfix|Pacman-U2.6-240828-1906||[Black / White / Milk / Blue / Special Edition from 2.6](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/a36018db578fa81b74c8150812104e530fc75d0d.zip)|
 |2.6|Pacman-U2.6-240701-2308||[Black / White / Milk / Blue / Special Edition from 2.5.6](https://archive.org/download/nothing-phone-2a-firmware/2.6/8351e1949122ca88c8149ebef62e986a1cc7b4d3.zip)|
 |2.5.6|Pacman-U2.5-240522-1818||[Black / White / Milk / Blue / Special Edition from 2.5.5A](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/eb753e881f986f0807b7b8c0e34754145bb594e0.zip)|
@@ -259,6 +260,8 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|3.0 open beta 2|[Black / White / Milk / Special Edition](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ESQJx4H5oLRInw7eIrororQBayzEXWNWns8bmYFGc1ZAew?e=q18AbM)|[Black / White / Milk / Special Edition](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EdTNi1EXbKBNkNksbfoD0XcBAKh8aRVBXLC7-sRzUc_Dyw?e=hunKcd)|
+|3.0 open beta 1|[Black / White / Milk / Special Edition](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERHb9JRY7DVDnctFnv5UEHUBzO1-x0u1OzRSCAnVem-NJg?e=NBEkhO)|[Black / White / Milk / Special Edition](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EbV3IsbTYBBJgR-wsxDXA_4BX5Nf4SWcx4P6VZJgAsHqeA?e=I6Nzr4)|
 |2.6 hotfix|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/2.6.HOTFIX_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6%20hotfix/Magisk-Patched_2.6.HOTFIX_Init_Boot.img)|
 |2.6|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6/2.6_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.6/Magisk-Patched_2.6_Init_Boot.img)|
 |2.5.6|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/2.5.6_Init_Boot.img)|[Black / White / Milk / Special Edition](https://archive.org/download/nothing-phone-2a-firmware/2.5.6/Magisk-Patched_2.5.6_Init_Boot.img)|
