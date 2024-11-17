@@ -161,7 +161,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|3.0 open beta 1|Pong-V3.0-241028-1925||[All regions from 2.6 hotfix 3](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ETk18qlC90pCvxpoecoR7t0Bk7-ILtkOVJBjHyrwKqCP5Q?e=fIRbkA)|[All regions to 2.6 hotfix 3](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EZii1EsvYJJHjFoE8ipVWjgBBMtDOEkG30KpK6QbmN9o0A?e=ueMC8y)|
+|3.0 open beta 1|Pong-V3.0-241028-1925||[All regions from 2.6 hotfix 2](https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/ota_diff_20241016_170017_20241028_192505.zip)|[All regions to 2.6 hotfix 2](https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/ota_diff_20241028_192505_20241016_170017.zip)|
 
 ### Android 15 Developer Preview
 
@@ -174,7 +174,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|2.6 hotfix 2|Pong-U2.6-241016-1700||[All regions from 2.6 hotfix](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/Edi3QVO4UaJKhEt50Eb8TK0Bl0qhVLQHFhgWn7qWzg4ObA?e=2kAihC)||
+|2.6 hotfix 2|Pong-U2.6-241016-1700||[All regions from 2.6 hotfix](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix%202/b281c8062dcf2a584a524b433907cfeb514df51a.zip)||
 |2.6 hotfix|Pong-U2.6-240828-1751||[All regions from 2.6](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/429c8fba7521ddf3ada2faebd57ba5cd0ca67408.zip)|
 |2.6|Pong-U2.6-240628-0430||[All regions from 2.5.6](https://archive.org/download/nothing-phone-2-firmware/2.6/6fd26cf6ec1ab4520ab384caad5a6d79ded15ae8.zip)||
 |2.5.6|Pong-U2.5-240606-1801|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/b473172f5883eda33e38e2fd2be785f1a8f08fe2.zip)|[All regions from 2.5.5 hotfix](https://archive.org/download/nothing-phone-2-firmware/2.5.6/5ea6aefb7bca17c9b477ec7ac17d6412c0f90f3b.zip)<br>[All regions from Pong-U2.5-240419-0138](https://archive.org/download/nothing-phone-2-firmware/2.5.6/4d850df66992c4b79ce4d714a27216518ca541e4.zip)||
@@ -203,8 +203,8 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
-|3.0 open beta 1|[All regions](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EUE5dk6rwcNJl4IuEotHh90BUInA_ohaixkwGV7nzbIjCw?e=RzHx2D)|[All regions](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EZv_eTfiGZpFkcb_cw3bb84BpBDIu5CryYef-75GuXmAtw?e=ls4uqC)|
-|2.6 hotfix 2|[All regions](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ES2QhuUfhvBHreZTL61TVhQB20c5n54U9Cap2A8UnqrH_A?e=JJJ3mc)|[All regions](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERrdtxGr-SFEsbTsTWIF3_0B94gVpfwLzKpPBhelC1NsKA?e=SUybSc)|
+|3.0 open beta 1|[All regions](https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/3.0.OB1_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/Magisk-Patched_3.0.OB1_Boot.img)|
+|2.6 hotfix 2|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix%202/2.6.HOTFIX2_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix%202/Magisk-Patched_2.6.HOTFIX2_Boot.img)|
 |2.6 hotfix|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/2.6.HOTFIX_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix/Magisk-Patched_2.6.HOTFIX_Boot.img)|
 |2.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6/2.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.6/Magisk-Patched_2.6_Boot.img)|
 |2.5.6|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/2.5.6_Boot.img)|[All regions](https://archive.org/download/nothing-phone-2-firmware/2.5.6/Magisk-Patched_2.5.6_Boot.img)|
