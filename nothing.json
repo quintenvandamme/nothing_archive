@@ -1516,8 +1516,8 @@
                         ],
                         "variant": [],
                         "post_version": "3.0_open_beta_1",
-                        "pre_version": "2.6_hotfix_3",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ETk18qlC90pCvxpoecoR7t0Bk7-ILtkOVJBjHyrwKqCP5Q?e=fIRbkA"
+                        "pre_version": "2.6_hotfix_2",
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/ota_diff_20241016_170017_20241028_192505.zip"
                     },
                     {
                         "type": "rollback",
@@ -1526,19 +1526,19 @@
                             "global"
                         ],
                         "variant": [],
-                        "post_version": "2.6hotfix3",
+                        "post_version": "2.6hotfix2",
                         "pre_version": "3.0_open_beta_1",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EZii1EsvYJJHjFoE8ipVWjgBBMtDOEkG30KpK6QbmN9o0A?e=ueMC8y"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/ota_diff_20241028_192505_20241016_170017.zip"
                     }
                 ],
                 "boot": [
                     {
                         "type": "stock",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EUE5dk6rwcNJl4IuEotHh90BUInA_ohaixkwGV7nzbIjCw?e=RzHx2D"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/3.0.OB1_Boot.img"
                     },
                     {
                         "type": "magisk_patched",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EZv_eTfiGZpFkcb_cw3bb84BpBDIu5CryYef-75GuXmAtw?e=ls4uqC"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/3.0%20open%20beta%201/Magisk-Patched_3.0.OB1_Boot.img"
                     }
                 ]
             },
@@ -1633,17 +1633,17 @@
                         "variant": [],
                         "post_version": "2.6_hotfix_2",
                         "pre_version": "2.6_hotfix",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/Edi3QVO4UaJKhEt50Eb8TK0Bl0qhVLQHFhgWn7qWzg4ObA?e=2kAihC"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix%202/b281c8062dcf2a584a524b433907cfeb514df51a.zip"
                     }
                 ],
                 "boot": [
                     {
                         "type": "stock",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ES2QhuUfhvBHreZTL61TVhQB20c5n54U9Cap2A8UnqrH_A?e=JJJ3mc"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix%202/2.6.HOTFIX2_Boot.img"
                     },
                     {
                         "type": "magisk_patched",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/ERrdtxGr-SFEsbTsTWIF3_0B94gVpfwLzKpPBhelC1NsKA?e=SUybSc"
+                        "url": "https://archive.org/download/nothing-phone-2-firmware/2.6%20hotfix%202/Magisk-Patched_2.6.HOTFIX2_Boot.img"
                     }
                 ]
             },
