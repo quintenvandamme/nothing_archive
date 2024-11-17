@@ -229,7 +229,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|Rollback|
 |-------|------------|--------|---------------|--------|
-|3.0 open beta 2|Pacman-V3.0-241031-2105||[Black / White / Milk / Blue / Special Edition from 3.0 open beta 1](https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%202/ota_diff_20240923_213518_241031_2105.zip)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%201/ota_diff_20240923_213518_20240828_190644.zip)|
+|3.0 open beta 2|Pacman-V3.0-241031-2105||[Black / White / Milk / Blue / Special Edition from 3.0 open beta 1](https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%202/ota_diff_20240923_213518_241031_210515.zip)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix 2](https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%202/ota_diff_20241031_210515_20241021_225330.zip)|
 |3.0 open beta 1|Pacman-V3.0-240923-2135||[Black / White / Milk / Blue / Special Edition from 2.6 hotfix](https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%201/ota_diff_20240828_190644_20240923_213518.zip)|[Black / White / Milk / Blue / Special Edition to 2.6 hotfix](https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%201/ota_diff_20240923_213518_20240828_190644.zip)|
 
 ### Android 15 Developer Preview
