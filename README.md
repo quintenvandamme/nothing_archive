@@ -294,7 +294,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|2.6 hotfix 7|Tetris-U2.6-241021-2030||[All regions from 2.6 hotfix 6](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EUfMXpqtod1Hk0dNFWkdepUBAgfucclxg632Vd2nWErfVg?e=K8iIbe)|
+|2.6 hotfix 7|Tetris-U2.6-241021-2030||[All regions from 2.6 hotfix 6](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/c7ee5ac3622008faa41032a4fbf6b6b9767f6d20.zip)|
 |2.6 hotfix 6|Tetris-U2.6-240910-1735||[All regions from 2.6 hotfix 5](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/9729ce5969d95288831199d0f285a13144b56f4e.zip)|
 |2.6 hotfix 5|Tetris-U2.6-240828-2341||[All regions from 2.6 hotfix 4](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/6140b9ee7974e0c531694f18f972243a5c48be6b.zip)|
 |2.6 hotfix 4|Tetris-U2.6-240813-2046||[All regions from 2.6 hotfix 3](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/397fb089fe692ccbda135dcc8434d90add1388a5.zip)
@@ -307,7 +307,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
-|2.6 hotfix 7|[All regions](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EaxvqLutyHNGn1_fQSqyHogBmMTR-gStOqdS6KTbZ2yjmQ?e=FygPXF)|[All regions](https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EXf3mSEsEERKo-9zgIVOsBsBq2MqukVDlOtZg0kw-QeBOA?e=sYVLE3)|
+|2.6 hotfix 7|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/2.6.HOTFIX7_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/Magisk-Patched_2.6.HOTFIX7_Init_Boot.img)|
 |2.6 hotfix 6|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/2.6.HOTFIX6_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/Magisk-Patched_2.6.HOTFIX6_Init_Boot.img)|
 |2.6 hotfix 5|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/2.6.HOTFIX5_Init_Boot.img)||
 |2.6 hotfix 4|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/2.6.HOTFIX4_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix4/Magisk-Patched_2.6.HOTFIX4_Init_Boot.img)|
