@@ -2725,17 +2725,17 @@
                         "variant": [],
                         "post_version": "2.6_hotfix_7",
                         "pre_version": "2.6_hotfix_6",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EUfMXpqtod1Hk0dNFWkdepUBAgfucclxg632Vd2nWErfVg?e=K8iIbe"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/c7ee5ac3622008faa41032a4fbf6b6b9767f6d20.zip"
                     }
                 ],
                 "boot": [
                     {
                         "type": "stock",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EaxvqLutyHNGn1_fQSqyHogBmMTR-gStOqdS6KTbZ2yjmQ?e=FygPXF"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/2.6.HOTFIX7_Init_Boot.img"
                     },
                     {
                         "type": "magisk_patched",
-                        "url": "https://hogent-my.sharepoint.com/:u:/g/personal/quinten_vandamme_student_hogent_be/EXf3mSEsEERKo-9zgIVOsBsBq2MqukVDlOtZg0kw-QeBOA?e=sYVLE3"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/Magisk-Patched_2.6.HOTFIX7_Init_Boot.img"
                     }
                 ]
             },
