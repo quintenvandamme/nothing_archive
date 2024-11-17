@@ -2245,7 +2245,7 @@
                         ],
                         "post_version": "3.0_open_beta_2",
                         "pre_version": "3.0_open_beta_1",
-                        "url": "https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%202/ota_diff_20240923_213518_241031_2105.zip"
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%202/ota_diff_20240923_213518_241031_210515.zip"
                     },
                     {
                         "type": "rollback",
@@ -2257,9 +2257,9 @@
                             "blue",
                             "specialedition"
                         ],
-                        "post_version": "2.6hotfix",
+                        "post_version": "2.6hotfix2",
                         "pre_version": "3.0_open_beta_2",
-                        "url": "https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%201/ota_diff_20240923_213518_20240828_190644.zip"
+                        "url": "https://archive.org/download/nothing-phone-2a-firmware/3.0%20open%20beta%202/ota_diff_20241031_210515_20241021_225330.zip"
                     }
                 ],
                 "boot": [
