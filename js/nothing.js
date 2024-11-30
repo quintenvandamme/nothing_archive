@@ -21,15 +21,19 @@ function getName(name) {
     let body = document.body;
     let nav = document.getElementsByTagName("nav")[0];
     let showDefault = "";
+    let phoneInfoJson = await fetchJsonData("phone_info.json");
 
-    for (const item of items) {
-        for (const key in item) {
+    for (let i = 0; i < items.length; i++) {
+        for (const key in items[i]) {
             let name = key;
             let buttonName = getName(name);
 
             if (showDefault === "") {
                 showDefault = name;
             }
+
+            // get the phone info json of the model
+            let phoneInfoJsonOfModel = phoneInfoJson[i][name];
 
             // Add nav buttons
             let button = document.createElement("button");
@@ -41,7 +45,7 @@ function getName(name) {
             // create main elements
             let main = document.createElement("main");
             main.setAttribute("data-name", name);
-            createMain(main, item[key]);
+            createMain(main, items[i][key], phoneInfoJsonOfModel, name);
             body.appendChild(main);
         }
     }
@@ -83,7 +87,107 @@ function createGithubLogo(nav) {
     nav.appendChild(a2);
 }
 
-function createMain(main, json) {
+function createMain(main, json, phoneInfoJson, phoneName) {
+    let phoneBanner = document.createElement("div");
+    phoneBanner.classList.add("phone-banner");
+
+    /*
+            "phone_name": "Nothing Phone (1)",
+            "phone_icon_path": "img/phones/nothing_phone_1.svg",
+            "processor": "Qualcomm Snapdragon 778G+",
+            "ram": "8GB/12GB",
+            "storage": "128GB/256GB",
+            "factory_android": "Android 12",
+            "last_supported_android": "Android 15"
+    */
+
+    let phoneSVG = document.createElement("img");
+    phoneSVG.src = phoneInfoJson.phone_icon_path;
+    phoneSVG.alt = phoneName;
+    phoneSVG.classList.add("phone-svg");
+
+    let phoneInfo = document.createElement("div");
+    phoneInfo.classList.add("phone-info");
+
+    let phoneInfoElements = document.createElement("div");
+    phoneInfoElements.classList.add("phone-info-elements");
+    let phoneInfoValues = document.createElement("div");
+    phoneInfoValues.classList.add("phone-info-values");
+
+    let phoneNameElement = document.createElement("p");
+    phoneNameElement.classList.add("phone-info-element");
+    phoneNameElement.innerHTML = "Phone name:";
+    let phoneNameValue = document.createElement("p");
+    phoneNameValue.classList.add("phone-info-value");
+    phoneNameValue.innerHTML = phoneInfoJson.phone_name;
+
+    phoneInfoElements.appendChild(phoneNameElement);
+    phoneInfoValues.appendChild(phoneNameValue);
+
+    let processor = document.createElement("p");
+    processor.classList.add("phone-info-element");
+    processor.innerHTML = "Processor:";
+    let processorValue = document.createElement("p");
+    processorValue.classList.add("phone-info-value");
+    processorValue.innerHTML = phoneInfoJson.processor;
+
+    phoneInfoElements.appendChild(processor);
+    phoneInfoValues.appendChild(processorValue);
+
+    let ram = document.createElement("p");
+    ram.classList.add("phone-info-element");
+    ram.innerHTML = "RAM:";
+    let ramValue = document.createElement("p");
+    ramValue.classList.add("phone-info-value");
+    ramValue.innerHTML = phoneInfoJson.ram;
+
+    phoneInfoElements.appendChild(ram);
+    phoneInfoValues.appendChild(ramValue);
+
+    let storage = document.createElement("p");
+    storage.classList.add("phone-info-element");
+    storage.innerHTML = "Storage:";
+    let storageValue = document.createElement("p");
+    storageValue.classList.add("phone-info-value");
+    storageValue.innerHTML = phoneInfoJson.storage;
+    
+    phoneInfoElements.appendChild(storage);
+    phoneInfoValues.appendChild(storageValue);
+
+    let factoryAndroid = document.createElement("p");
+    factoryAndroid.classList.add("phone-info-element");
+    factoryAndroid.innerHTML = "Factory Android:";
+    let factoryAndroidValue = document.createElement("p");
+    factoryAndroidValue.classList.add("phone-info-value");
+    factoryAndroidValue.innerHTML = phoneInfoJson.factory_android;
+
+    phoneInfoElements.appendChild(factoryAndroid);
+    phoneInfoValues.appendChild(factoryAndroidValue);
+
+    let lastSupportedAndroid = document.createElement("p");
+    lastSupportedAndroid.classList.add("phone-info-element");
+    lastSupportedAndroid.innerHTML = "Last Supported Android:";
+    let lastSupportedAndroidValue = document.createElement("p");
+    lastSupportedAndroidValue.classList.add("phone-info-value");
+    lastSupportedAndroidValue.innerHTML = phoneInfoJson.last_supported_android;
+
+    phoneInfoElements.appendChild(lastSupportedAndroid);
+    phoneInfoValues.appendChild(lastSupportedAndroidValue);
+
+    let torrentButton = document.createElement("a");
+    torrentButton.href = phoneInfoJson.torrent_url;
+    torrentButton.classList.add("download-button");
+    torrentButton.innerHTML = "Torrent";
+
+    
+    phoneInfo.appendChild(phoneInfoElements);
+    phoneInfo.appendChild(phoneInfoValues);
+    
+    phoneBanner.appendChild(phoneSVG);
+    phoneBanner.appendChild(phoneInfo);
+    phoneBanner.appendChild(torrentButton);
+    main.appendChild(phoneBanner);
+
     for (const key in json) {
         let item = json[key];
         let name = item.name;

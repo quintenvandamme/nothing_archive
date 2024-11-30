@@ -80,6 +80,10 @@
     --header-background: #ffffff;
     --theme-light: block;
     --theme-dark: none;
+    
+    .phone-svg {
+        filter: invert(1);
+    }
 
     /* dark mode */
     @media (prefers-color-scheme: dark) {
@@ -90,6 +94,10 @@
         --header-background: #000000;
         --theme-light: none;
         --theme-dark: block;
+
+        .phone-svg {
+            filter: invert(0);
+        }
     }
 
     --header-height: 52px;
@@ -101,6 +109,7 @@
     @media screen and (max-width: 600px) {
         --mobile: block;
     }
+
 }
 
 .dark-only {
@@ -299,6 +308,47 @@ main {
     margin-right: calc(100% - 60px);
 }
 
+/* phone banner */
+.phone-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--header-background);
+    padding: 20px;
+    border-radius: var(--collapsible-radius);
+}
+
+.phone-banner .download-button {
+    height: fit-content;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.phone-svg {
+    max-width: 200px;
+    height: auto;
+}
+
+.phone-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.phone-info-element, .phone-info-value {
+    font-family: NType82;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.phone-info-value:first-of-type {
+    font-family: Ndot-55;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* small screens */
 @media screen and (max-width: 600px) {
     :root {
@@ -357,5 +407,16 @@ main {
     nav button:hover {
         border: 1px solid var(--red);
         background-color: var(--header-background);
+    }
+
+    .phone-banner {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .phone-svg {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
     }
 }

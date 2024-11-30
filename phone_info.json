@@ -1,0 +1,64 @@
+[
+    {
+        "nothing_phone_1": {
+            "phone_name": "Nothing Phone (1)",
+            "phone_icon_path": "img/phones/nothing_phone_1.svg",
+            "processor": "Qualcomm Snapdragon 778G+",
+            "ram": "8GB/12GB",
+            "storage": "128GB/256GB",
+            "factory_android": "Android 12",
+            "last_supported_android": "Android 15",
+            "torrent_url": "https://archive.org/download/nothing-phone-1-firmware/nothing-phone-1-firmware_archive.torrent"
+        }
+    },
+    {
+        "nothing_phone_2": {
+            "phone_name": "Nothing Phone (2)",
+            "phone_icon_path": "img/phones/nothing_phone_2.svg",
+            "processor": "Qualcomm Snapdragon 8+ Gen1",
+            "ram": "8GB/12GB",
+            "storage": "128GB/256GB/512GB",
+            "factory_android": "Android 13",
+            "last_supported_android": "Android 16",
+            "torrent_url": "https://archive.org/download/nothing-phone-2-firmware/nothing-phone-2-firmware_archive.torrent"
+        }
+    },
+    {
+        "nothing_phone_2a": {
+            "phone_name": "Nothing Phone (2a)",
+            "phone_icon_path": "img/phones/nothing_phone_2a.svg",
+            "processor": "MediaTek Dimensity 7200 Pro",
+            "ram": "8GB/12GB",
+            "storage": "128GB/256GB",
+            "factory_android": "Android 14",
+            "last_supported_android": "Android 17",
+            "torrent_url": "https://archive.org/download/nothing-phone-2a-firmware/nothing-phone-2a-firmware_archive.torrent"
+        }
+    },
+    {
+        "nothing_phone_2a_plus": {
+            "phone_name": "Nothing Phone (2a) plus",
+            "phone_icon_path": "img/phones/nothing_phone_2a_plus.svg",
+            "processor": "Mediatek Dimensity 7350 Pro",
+            "ram": "8GB/12GB",
+            "storage": "256GB",
+            "factory_android": "Android 14",
+            "last_supported_android": "Android 17",
+            "torrent_url": "https://archive.org/download/nothing-phone-2a-plus-firmware/nothing-phone-2a-plus-firmware_archive.torrent"
+
+        }
+    },
+    {
+        "cmf_phone_1": {
+            "phone_name": "CMF Phone 1",
+            "phone_icon_path": "img/phones/cmf_phone_1.svg",
+            "processor": "Mediatek Dimensity 7300",
+            "ram": "6GB/8GB",
+            "storage": "128GB/256GB",
+            "factory_android": "Android 14",
+            "last_supported_android": "Android 16",
+            "torrent_url": "https://archive.org/download/cmf-phone-1-firmware/cmf-phone-1-firmware_archive.torrent"
+        }
+    }
+
+]
