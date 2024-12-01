@@ -383,6 +383,7 @@ This project is made possible thanks to the following sources:
 - [reindex-ot](https://reindex-ot.github.io/)
 - [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3) for use of their screenshots.
 - [CMF by Nothing](https://cmf.tech/cdn/shop/files/Android_5fd59bbe-2e8c-48aa-b9ce-f66b664f038c_1920x.png?v=1720164813) for their ndot android logo.
+- [Nothing Community](https://nothing.community/) for their phone icons.
 
 And people:
 - [spike0en](https://github.com/spike0en)
