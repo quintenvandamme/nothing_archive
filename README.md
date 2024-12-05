@@ -2,9 +2,38 @@
   <img align="Left" height="130" alt="MIT License" src="img/nothing_archive_logo.png" />
 </a>
 
-# Nothing Archive
-This repository contains firmware files for Nothing Phone 1, 2, 2a, 2a plus and CMF Phone 1. And also boot and fastboot files. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes. The files themself are stored on archive.org. Boot and fastboot files are sourced from reindex-ot.github.io.
+# Nothing OTA Updates Index
 
+This repository indexes OTA update files for the Nothing Phone 1, 2, 2a, 2a Plus, and CMF Phone 1. It also includes Magisk-patched boot images and fastboot files for specific models. These resources have been sourced from the platforms listed below and are mirrored on [archive.org](https://archive.org) for archival purposes.
+
+## Credits
+This project is made possible for the following sources:
+- [Nothing Phone (1) Repo on XDA](https://xdaforums.com/t/nothing-phone-1-rom-ota-nothing-os-repo-of-nothing-os.4464039/)  
+  OTA update links and Magisk-patched boot images for Nothing Phone 1.
+- [Spacewar_Archive (Paused)](https://github.com/spike0en/Spacewar_Archive)  
+  OTA update links and stock OTA images for Nothing Phone 1.
+- [Pong_Archive](https://github.com/spike0en/Pong_Archive) and [Nothing_Archive](https://github.com/arter97/nothing_archive)  
+  OTA update links and stock OTA images for Nothing Phone 2.
+- [Pacman_Archive (Paused)](https://github.com/spike0en/Pacman_Archive)  
+  OTA links and stock OTA images for Nothing Phone 2a and 2a Plus.
+- [Tetris_Archive (Paused)](https://github.com/spike0en/Tetris_Archive)  
+  OTA update links and stock OTA images for CMF Phone 1.
+- [reindex-ot (Paused)](https://reindex-ot.github.io/)  
+  Magisk-patched boot images.
+- [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3)  
+  Screenshots used in this repository.
+- [CMF by Nothing](https://cmf.tech/cdn/shop/files/Android_5fd59bbe-2e8c-48aa-b9ce-f66b664f038c_1920x.png?v=1720164813)  
+  For the ndot Android logo.
+- [Nothing Community](https://nothing.community/)  
+  Phone icons used in this repository.
+
+## Special Thanks
+- [anotherm1m](https://github.com/lukeskyd)  
+- [spike0en](https://github.com/spike0en)  
+- [Re*Index. (ot_inc)](https://github.com/reindex-ot)  
+- [arter97](https://github.com/arter97)
+
+## Downloads
 Here is a list of all the firmware files available for download:
 
 | Product | OTA | BOOT | Fastboot | Changelog | Torrent |
@@ -374,21 +403,6 @@ Here are the steps to sideload firmware on Nothing devices:
 6. Tap the “Update” button.
 
 <img src="img/2.5/ota_app_select.png" height="700" />
-
-## Credits
-This project is made possible thanks to the following sources:
-- [Nothing Phone (1) Repo on XDA](https://xdaforums.com/t/nothing-phone-1-rom-ota-nothing-os-repo-of-nothing-os.4464039/)
-- [Nothing Phone (1) update tracker on XDA](https://www.xda-developers.com/nothing-os-update-tracker/)
-- [Nothing Phone (2) Firmware Repo on XDA](https://xdaforums.com/t/nothing-phone-2-official-ota-zip-full-incremental.4604803/)
-- [Nothing Phone (2a) Firmware Repo on XDA](https://xdaforums.com/t/pacman-archive-stock-ota-images-full-ota-update-packages.4660853/)
-- [reindex-ot](https://reindex-ot.github.io/)
-- [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3) for use of their screenshots.
-- [CMF by Nothing](https://cmf.tech/cdn/shop/files/Android_5fd59bbe-2e8c-48aa-b9ce-f66b664f038c_1920x.png?v=1720164813) for their ndot android logo.
-- [Nothing Community](https://nothing.community/) for their phone icons.
-
-And people:
-- [spike0en](https://github.com/spike0en)
-- [Re*Index. (ot_inc)](https://github.com/reindex-ot)
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) for details.
