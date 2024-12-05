@@ -357,7 +357,7 @@ Here is a list of all the firmware files available for download:
 | Nothing Phone 1 |[kernel](https://github.com/NothingOSS/android_kernel_msm-5.4_nothing_sm7325)|[device tree](https://github.com/NothingOSS/android_kernel_devicetree_nothing_sm7325)|||
 | Nothing Phone 2 |[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)|[kernel/device tree](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475)||
 | Nothing Phone 2a |[kernel](https://github.com/NothingOSS/android_kernel_5.15_nothing_mt6886)||[kernel modules](https://github.com/NothingOSS/android_kernel_modules_nothing_mt6886)||
-| CMF Phone 1 |[kernel](https://github.com/NothingOSS/android_kernel_6.1_nothing_mt6878)||[kernel modules](https://github.com/NothingOSS/android_kernel_modules_nothing_mt6878)|[device modules](https://github.com/NothingOSS/android_kernel_device_modules_6.1_nothing_mt6878)|
+| CMF Phone 1 |[kernel](https://github.com/NothingOSS/android_kernel_6.1_nothing_mt6878)|[device tree](https://github.com/HackySoftOfficial/twrp_device_nothing_Tetris)|[kernel modules](https://github.com/NothingOSS/android_kernel_modules_nothing_mt6878)|[device modules](https://github.com/NothingOSS/android_kernel_device_modules_6.1_nothing_mt6878)|
 
 ## Glyph Developer Kit
 The Glyph Developer Kit SDK can be found [here](https://github.com/Nothing-Developer-Programme/Glyph-Developer-Kit)
