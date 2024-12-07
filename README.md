@@ -2,7 +2,7 @@
   <img align="Left" height="130" alt="MIT License" src="img/nothing_archive_logo.png" />
 </a>
 
-# Nothing OTA Updates Index
+# Nothing Archive
 
 This repository indexes OTA update files for the Nothing Phone 1, 2, 2a, 2a Plus, and CMF Phone 1. It also includes Magisk-patched boot images and fastboot files for specific models. These resources have been sourced from the platforms listed below and are mirrored on [archive.org](https://archive.org) for archival purposes.
 
