@@ -10,15 +10,15 @@ This repository indexes OTA update files for the Nothing Phone 1, 2, 2a, 2a Plus
 This project is made possible for the following sources:
 - [Nothing Phone (1) Repo on XDA](https://xdaforums.com/t/nothing-phone-1-rom-ota-nothing-os-repo-of-nothing-os.4464039/)  
   OTA update links and Magisk-patched boot images for Nothing Phone 1.
-- [Spacewar_Archive (Paused)](https://github.com/spike0en/Spacewar_Archive)  
+- [Spacewar_Archive](https://github.com/spike0en/Spacewar_Archive)  
   OTA update links and stock OTA images for Nothing Phone 1.
 - [Pong_Archive](https://github.com/spike0en/Pong_Archive) and [Nothing_Archive](https://github.com/arter97/nothing_archive)  
   OTA update links and stock OTA images for Nothing Phone 2.
-- [Pacman_Archive (Paused)](https://github.com/spike0en/Pacman_Archive)  
+- [Pacman_Archive](https://github.com/spike0en/Pacman_Archive)  
   OTA links and stock OTA images for Nothing Phone 2a and 2a Plus.
-- [Tetris_Archive (Paused)](https://github.com/spike0en/Tetris_Archive)  
+- [Tetris_Archive](https://github.com/spike0en/Tetris_Archive)  
   OTA update links and stock OTA images for CMF Phone 1.
-- [reindex-ot (Paused)](https://reindex-ot.github.io/)  
+- [reindex-ot](https://reindex-ot.github.io/)  
   Magisk-patched boot images.
 - [nothing community A14 DP Beta 3](https://nothing.community/d/1426-android-14-developer-preview-program-beta-3)  
   Screenshots used in this repository.
@@ -31,7 +31,6 @@ This project is made possible for the following sources:
 - [anotherm1m](https://github.com/lukeskyd)  
 - [spike0en](https://github.com/spike0en)  
 - [Re*Index. (ot_inc)](https://github.com/reindex-ot)  
-- [arter97](https://github.com/arter97)
 
 ## Downloads
 Here is a list of all the firmware files available for download:
