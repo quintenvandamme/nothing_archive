@@ -4,7 +4,7 @@
 
 # Nothing Archive
 
-This repository indexes OTA update files for the Nothing Phone 1, 2, 2a, 2a Plus, and CMF Phone 1. It also includes Magisk-patched boot images and fastboot files for specific models. These resources have been sourced from the platforms listed below and are mirrored on [archive.org](https://archive.org) for archival purposes.
+This repository contains firmware files for Nothing Phone 1, 2, 2a, 2a plus and CMF Phone 1. The firmware files are sourced from the official OTA servers and are mirrored here for archival purposes.
 
 ## Downloads
 Here is a list of all the firmware files available for download:
