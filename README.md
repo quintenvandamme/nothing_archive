@@ -42,6 +42,7 @@ Here is a list of all the firmware files available for download:
     -   [Android 14](#android-14-3)
     -   [Boot Firmware](#boot-firmware-3)
 -   [CMF Phone 1](#cmf-phone-1)
+    -   [Android 15](#android-15-2)
     -   [Android 14](#android-14-4)
     -   [Boot Firmware](#boot-firmware-4)
     -   [Fastboot Firmware](#fastboot-firmware-3)
@@ -292,6 +293,12 @@ Here is a list of all the firmware files available for download:
 |2.6|[Grey / Black](https://archive.org/download/nothing-phone-2a-plus-firmware/2.6/2.6_Init_Boot.img)||
 
 ## CMF Phone 1
+
+### Android 15
+
+|Version|build number|Full OTA|Incremental OTA|
+|-------|------------|--------|---------------|
+|3.0 open beta 1|Tetris-V3.0-241205-0050||[All regions from 2.6 hotfix 7](https://archive.org/download/cmf-phone-1-firmware/ota_diff_20241021_203041_20241205_005022.zip)|
 
 ### Android 14
 
