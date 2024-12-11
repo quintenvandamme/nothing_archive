@@ -317,6 +317,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
+|3.0 open beta 1|[All regions](https://archive.org/download/cmf-phone-1-firmware/3.0.OB1_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/Magisk-Patched_3.0.OB1_Init_Boot.img)|
 |2.6 hotfix 7|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/2.6.HOTFIX7_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/Magisk-Patched_2.6.HOTFIX7_Init_Boot.img)|
 |2.6 hotfix 6|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/2.6.HOTFIX6_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/Magisk-Patched_2.6.HOTFIX6_Init_Boot.img)|
 |2.6 hotfix 5|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/2.6.HOTFIX5_Init_Boot.img)||
@@ -391,7 +392,7 @@ This project is made possible for the following sources:
   OTA update links and Magisk-patched boot images for Nothing Phone 1.
 - [Spacewar_Archive](https://github.com/spike0en/Spacewar_Archive)  
   OTA update links and stock OTA images for Nothing Phone 1.
-- [Pong_Archive](https://github.com/spike0en/Pong_Archive) and [Nothing_Archive](https://github.com/arter97/nothing_archive)  
+- [Pong_Archive](https://github.com/spike0en/Pong_Archive)
   OTA update links and stock OTA images for Nothing Phone 2.
 - [Pacman_Archive](https://github.com/spike0en/Pacman_Archive)  
   OTA links and stock OTA images for Nothing Phone 2a and 2a Plus.
@@ -409,7 +410,8 @@ This project is made possible for the following sources:
 ### people
 - [anotherm1m](https://github.com/lukeskyd)  
 - [spike0en](https://github.com/spike0en)  
-- [Re*Index. (ot_inc)](https://github.com/reindex-ot) 
+- [Re*Index. (ot_inc)](https://github.com/reindex-ot)
+- [donmega](https://github.com/donmega) for providing boot images
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) for details.
