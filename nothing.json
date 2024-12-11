@@ -2737,6 +2737,16 @@
                         "pre_version": "2.6_hotfix_7",
                         "url": "https://archive.org/download/cmf-phone-1-firmware/ota_diff_20241021_203041_20241205_005022.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/3.0.OB1_Init_Boot.img"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/Magisk-Patched_3.0.OB1_Init_Boot.img"
+                    }
                 ]
             },
             "2.6_hotfix_7": {
