@@ -2745,17 +2745,17 @@
                         "variant": [],
                         "post_version": "3.0_open_beta_1",
                         "pre_version": "2.6_hotfix_7",
-                        "url": "https://archive.org/download/cmf-phone-1-firmware/ota_diff_20241021_203041_20241205_005022.zip"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/3.0%20open%20beta%201/ota_diff_20241021_203041_20241205_005022.zip"
                     }
                 ],
                 "boot": [
                     {
                         "type": "stock",
-                        "url": "https://archive.org/download/cmf-phone-1-firmware/3.0.OB1_Init_Boot.img"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/3.0%20open%20beta%201/3.0.OB1_Init_Boot.img"
                     },
                     {
                         "type": "magisk_patched",
-                        "url": "https://archive.org/download/cmf-phone-1-firmware/Magisk-Patched_3.0.OB1_Init_Boot.img"
+                        "url": "https://archive.org/download/cmf-phone-1-firmware/3.0%20open%20beta%201/Magisk-Patched_3.0.OB1_Init_Boot.img"
                     }
                 ]
             },
