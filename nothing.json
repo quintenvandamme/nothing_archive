@@ -1,6 +1,35 @@
 [
     {
         "nothing_phone_1": {
+            "3.0_open_beta_1": {
+                "name": "3.0 open beta 1",
+                "build_number": "Spacewar-V3.0-241211-0926",
+                "changelog": "Shared Widgets<br>\ud83d\udd2e Use widgets to link up with friends and family. See another person\u2019s widgets displayed on your home screen and interact with each other through reactions. A new way to stay connected.<br>Lock screen<br>\ud83d\udd12 New lock screen customisation page. Access by long-pressing the lock screen or via the Customisation page.<br>\ud83d\udd70\ufe0f Upgraded clock faces. Choose your favourite style.<br>\ud83d\uddbc\ufe0fExpanded widget space, allowing you to place more widgets on your lock screen.<br>Smart Drawer<br>\ud83e\udd16Added AI-powered Smart Drawer feature to automatically categorise your apps into folders. For better organisation and easy access.<br>\ud83d\udcccFor ultimate convenience, you can pin your favourite apps to the top of the app drawer. No scrolling required.<br>Quick Settings<br>\ud83e\udde9Reconsidered Quick Settings design with an optimised editing experience.<br>\ud83d\uddbc\ufe0f Enhanced widget library design.<br>\ud83c\udfa8Updated visuals in Settings including better Network & Internet and Bluetooth options.<br>Camera improvements<br>\ud83d\udcf7 Faster camera launch speed under the Camera Widget.<br>\ud83d\uddbc\ufe0f Reduced HDR scene processing time.<br>\u23f2\ufe0f Smoothened user interface after countdown photos<br>\ud83d\udd0d Improved zoom slider display.<br>Enhanced pop-up view<br>\ud83d\udcf1 Movable pop-up view for cleaner and more productive multi-tasking.<br>\ud83d\udcd0 Easily resize the pop-up view by dragging the bottom corners.<br>\ud83d\udccd Pin the pop-up view on the screen edge for quick access.<br>\ud83d\udd14View information without leaving your current app. Simply swipe down on incoming notifications to enter the pop-up view. Enable via Settings > System > Pop-up view.<br>Other improvements<br>\ud83e\udd16AI-powered selection and prioritisation of your frequently used apps, keeping them at your fingertips for a more efficient experience<br>\ud83d\uddc3\ufe0f Added support for auto-archive function to automatically free up storage space without removing apps or data from your device.<br>\ud83d\udda5\ufe0f Partial screen sharing for more efficient and secure screen recording. Record just an app window rather than the entire screen.<br>\ud83d\ude80 Updated setup wizard to version 3.0 for the smoothest introduction to Nothing OS.<br>\u2b05\ufe0f Enabled predictive back animations for apps that have opted in.<br>\ud83d\udc46New fingerprint animation with signature dot matrix styling.<br>\ud83d\udd0bNew charging animation with signature dot matrix styling.",
+                "ota": [
+                    {
+                        "type": "incremental",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "3.0_open_beta_1",
+                        "pre_version": "2.6_hotfix_2",
+                        "url": "https://archive.org/download/nothing-phone-1-firmwakladkladre/3.0%20open%20beta%201/ota_diff_20241031_181822_20241211_092656.zip"
+                    },
+                    {
+                        "type": "rollback",
+                        "region": [
+                            "eea",
+                            "global"
+                        ],
+                        "variant": [],
+                        "post_version": "2.6hotfix2",
+                        "pre_version": "3.0_open_beta_1",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/3.0%20open%20beta%201/ota_diff_20241211_092656_20241031_181822.zip"
+                    }
+                ]
+            },
             "2.6_hotfix_2": {
                 "name": "2.6 hotfix 2",
                 "build_number": "Spacewar-U2.6-241031-1818",
