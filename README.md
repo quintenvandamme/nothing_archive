@@ -298,7 +298,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|build number|Full OTA|Incremental OTA|
 |-------|------------|--------|---------------|
-|3.0 open beta 1|Tetris-V3.0-241205-0050||[All regions from 2.6 hotfix 7](https://archive.org/download/cmf-phone-1-firmware/ota_diff_20241021_203041_20241205_005022.zip)|
+|3.0 open beta 1|Tetris-V3.0-241205-0050||[All regions from 2.6 hotfix 7](https://archive.org/download/cmf-phone-1-firmware/3.0%20open%20beta%201/ota_diff_20241021_203041_20241205_005022.zip)|
 
 ### Android 14
 
@@ -317,7 +317,7 @@ Here is a list of all the firmware files available for download:
 
 |Version|Boot file (Stock)|Boot file (Magisk Patched)|
 |-------|-----------------|--------------------------|
-|3.0 open beta 1|[All regions](https://archive.org/download/cmf-phone-1-firmware/3.0.OB1_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/Magisk-Patched_3.0.OB1_Init_Boot.img)|
+|3.0 open beta 1|[All regions](https://archive.org/download/cmf-phone-1-firmware/3.0%20open%20beta%201/3.0.OB1_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/3.0%20open%20beta%201/Magisk-Patched_3.0.OB1_Init_Boot.img)|
 |2.6 hotfix 7|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/2.6.HOTFIX7_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix7/Magisk-Patched_2.6.HOTFIX7_Init_Boot.img)|
 |2.6 hotfix 6|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/2.6.HOTFIX6_Init_Boot.img)|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix6/Magisk-Patched_2.6.HOTFIX6_Init_Boot.img)|
 |2.6 hotfix 5|[All regions](https://archive.org/download/cmf-phone-1-firmware/2.6%20hotfix5/2.6.HOTFIX5_Init_Boot.img)||
