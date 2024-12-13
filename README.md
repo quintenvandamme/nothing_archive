@@ -19,6 +19,7 @@ Here is a list of all the firmware files available for download:
 
 ## Table of Contents
 -   [Nothing Phone 1](#nothing-phone-1)
+    -   [Android 15](#android-15)
     -   [Android 14](#android-14)
     -   [Android 14 Developer Preview](#android-14-developer-preview)
     -   [Android 13](#android-13)
@@ -26,14 +27,14 @@ Here is a list of all the firmware files available for download:
     -   [Boot Firmware](#boot-firmware)
     -   [Fastboot Firmware](#fastboot-firmware)
 -   [Nothing Phone 2](#nothing-phone-2)
-    -   [Android 15](#android-15)
+    -   [Android 15](#android-15-1)
     -   [Android 15 Developer Preview](#android-15-developer-preview)
     -   [Android 14](#android-14-1)
     -   [Android 13](#android-13-1)
     -   [Boot Firmware](#boot-firmware-1)
     -   [Fastboot Firmware](#fastboot-firmware-1)
 -   [Nothing Phone 2a](#nothing-phone-2a)
-    -   [Android 15](#android-15-1)
+    -   [Android 15](#android-15-2)
     -   [Android 15 Developer Preview](#android-15-developer-preview-1)
     -   [Android 14](#android-14-2)
     -   [Boot Firmware](#boot-firmware-2)
@@ -42,7 +43,7 @@ Here is a list of all the firmware files available for download:
     -   [Android 14](#android-14-3)
     -   [Boot Firmware](#boot-firmware-3)
 -   [CMF Phone 1](#cmf-phone-1)
-    -   [Android 15](#android-15-2)
+    -   [Android 15](#android-15-3)
     -   [Android 14](#android-14-4)
     -   [Boot Firmware](#boot-firmware-4)
     -   [Fastboot Firmware](#fastboot-firmware-3)
@@ -54,6 +55,12 @@ Here is a list of all the firmware files available for download:
 -  [License](#license)
 
 ## Nothing Phone 1
+
+### Android 15
+
+|Version|build number|Full OTA|Incremental OTA|Rollback|Changelog|
+|-------|------------|--------|---------------|--------|---------|
+|3.0 open beta 1|Spacewar-V3.0-241211-0926||[EEA/GLOBAL from 2.6 hotfix 2](https://archive.org/download/nothing-phone-1-firmwakladkladre/3.0%20open%20beta%201/ota_diff_20241031_181822_20241211_092656.zip)|[EEA/GLOBAL to 2.6 hotfix 2](https://archive.org/download/nothing-phone-1-firmware/3.0%20open%20beta%201/ota_diff_20241211_092656_20241031_181822.zip)|<details><summary>changelog</summary>Shared Widgets<br>🔮 Use widgets to link up with friends and family. See another person’s widgets displayed on your home screen and interact with each other through reactions. A new way to stay connected.<br>Lock screen<br>🔒 New lock screen customisation page. Access by long-pressing the lock screen or via the Customisation page.<br>🕰️ Upgraded clock faces. Choose your favourite style.<br>🖼️Expanded widget space, allowing you to place more widgets on your lock screen.<br>Smart Drawer<br>🤖Added AI-powered Smart Drawer feature to automatically categorise your apps into folders. For better organisation and easy access.<br>📌For ultimate convenience, you can pin your favourite apps to the top of the app drawer. No scrolling required.<br>Quick Settings<br>🧩Reconsidered Quick Settings design with an optimised editing experience.<br>🖼️ Enhanced widget library design.<br>🎨Updated visuals in Settings including better Network & Internet and Bluetooth options.<br>Camera improvements<br>📷 Faster camera launch speed under the Camera Widget.<br>🖼️ Reduced HDR scene processing time.<br>⏲️ Smoothened user interface after countdown photos<br>🔍 Improved zoom slider display.<br>Enhanced pop-up view<br>📱 Movable pop-up view for cleaner and more productive multi-tasking.<br>📐 Easily resize the pop-up view by dragging the bottom corners.<br>📍 Pin the pop-up view on the screen edge for quick access.<br>🔔View information without leaving your current app. Simply swipe down on incoming notifications to enter the pop-up view. Enable via Settings > System > Pop-up view.<br>Other improvements<br>🤖AI-powered selection and prioritisation of your frequently used apps, keeping them at your fingertips for a more efficient experience<br>🗃️ Added support for auto-archive function to automatically free up storage space without removing apps or data from your device.<br>🖥️ Partial screen sharing for more efficient and secure screen recording. Record just an app window rather than the entire screen.<br>🚀 Updated setup wizard to version 3.0 for the smoothest introduction to Nothing OS.<br>⬅️ Enabled predictive back animations for apps that have opted in.<br>👆New fingerprint animation with signature dot matrix styling.<br>🔋New charging animation with signature dot matrix styling.</details>|
 
 ### Android 14
 
