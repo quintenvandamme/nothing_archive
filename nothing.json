@@ -28,6 +28,16 @@
                         "pre_version": "3.0_open_beta_1",
                         "url": "https://archive.org/download/nothing-phone-1-firmware/3.0%20open%20beta%201/ota_diff_20241211_092656_20241031_181822.zip"
                     }
+                ],
+                "boot": [
+                    {
+                        "type": "stock",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/3.0%20open%20beta%201/3.0.OB1_Boot.img"
+                    },
+                    {
+                        "type": "magisk_patched",
+                        "url": "https://archive.org/download/nothing-phone-1-firmware/3.0%20open%20beta%201/Magisk-Patched_3.0.OB1_Boot.img"
+                    }
                 ]
             },
             "2.6_hotfix_2": {
